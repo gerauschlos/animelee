@@ -1,0 +1,447 @@
+{
+    "0": {
+        "name": "Sword Rain.",
+        "Ap": 10,
+        "hits": 2,
+        "cd": 0,
+        "crit_chance": 1.00,
+        "miss_chane": 0.00,
+        "description": "Altair uses the Holopsicon to launch swords at her opponent."
+        },
+    "1": {
+        "name": "The Thirteenth movement of the Cosmos; Outline Origin.",
+        "Ap": 0,
+        "hits": 0,
+        "cd": 2,
+        "crit_chance": 0,
+        "miss_chance": 0.00,
+        "description": "The holopsicon removes all buffs and passives from the opponent, returning them to their original state."
+         },
+    "2": {
+        "name": "The Fourteenth Movement of Cosmos: The Vicissitudes of Fortune",
+        "Ap": 5,
+        "hits": 5,
+        "cd": 3,
+        "crit_chance": 1.25,
+        "miss_chance": 0.15,
+        "description": ""
+        },
+    "3": {
+        "name": "Lance of the cosmos, Holopsicon",
+        "Ap": 15,
+        "hits": 2,
+        "cd": 0,
+        "crit_chance": 1.10,
+        "miss_chance": 0.15,
+        "description": ""
+        },
+    "4": {
+        "name": "Gravity Well",
+        "Ap": 10,
+        "hits": 1,
+        "cd": 2,
+        "crit_chance": 1.25,
+        "miss_chance": 0.00,
+        "description": ""        
+        },
+    "5": {
+        "name": "The sixysixth movement of the cosmons; Existence Change.",
+        "Ap": 20,
+        "hits": 2,
+        "cd": 3,
+        "crit_chance": 1.30,
+        "miss_chance": 0.00,
+        "description": "Channeling the power of the Holopsicon, sirius absorbs the target, dealing heavy dammage."  
+        },
+    "6": {
+        "name": "Heavenly Sword Smash",
+        "Ap": 5,
+        "hits": 2,
+        "cd": 1,
+        "crit_chance": 1.15,
+        "miss_chance": 0.10,
+        "description": "A solid dual swing from the mighty sword!"
+        },
+    "7": {
+        "name": "Heavy Bunker Hit",
+        "Ap": 10,
+        "hits": 1,
+        "cd": 3,
+        "crit_chance": 1.50,
+        "miss_chance": 0.50,
+        "description": "A heavy blow from above delivered with expert fatility."
+        },
+    "8": {
+        "name": "EXCALIBUR",
+        "Ap": 20,
+        "hits": 1,
+        "cd": 3,
+        "crit_chance": 1.50,
+        "miss_chance": 0.25,
+        "description": "The King of Knights unsheathes her holy sword and unleashes the fabled noble phantasm excalibur!"
+        },
+    "9": {
+        "name": "Cheshire Bells",
+        "Ap": 10,
+        "hits": 1,
+        "cd": 0,
+        "crit_chance": 1.25,
+        "miss_chance": 0.00,
+        "desciption": "The chiming of a trickster."
+        },
+    "10": {
+        "name": "Hangakuu!",
+        "Ap": 5,
+        "hits": 4,
+        "cd": 2,
+        "crit_chance": 1.15,
+        "miss_chance": 0.30,
+        "description": "A stolen curse from history, hangaku is a fierce and loyal spirit."
+        },
+    "11": {
+        "name": "The Infinite Desception of Words",
+        "Ap": 15,
+        "hits": 2,
+        "cd": 3,
+        "crit_chance": 1.25,
+        "miss_chance": 0.30,
+        "description": "Uso no Uso, Sore wa Kururi to, Uragaeru~"
+        },
+    "12": {
+        "name": "Tactical Supply knife",
+        "Ap": 5,
+        "hits": 1,
+        "cd": 1,
+        "crit_chance": 1.15,
+        "miss_chance": 0.00,
+        "description": "A standard military grade NERV knife swing."
+        },
+    "13": {
+        "name": "High impact pelett riffle",
+        "Ap": 5,
+        "hits": 3,
+        "cd": 1,
+        "crit_chance": 1.00,
+        "miss_chance": 0.00,
+        "description": "A sweep of high caliber rounds shot by the evangelion." 
+        },
+    "14": {
+        "name": "Roar of the Angel",
+        "Ap": 25,
+        "hits": 1,
+        "cd": 3,
+        "crit_chance": 1.50,
+        "miss_chance": 0.00,
+        "description": "The eva unleashes its true nature, releasing all of its savage might on the oponnent."
+        },
+    "15": {
+        "name": "Advanced A.T Drones",
+        "Ap": 5,
+        "hits": 3,
+        "cd": 1,
+        "crit_chance": 1.15,
+        "miss_chance": 0.40,
+        "description": "Advanced A.T field carrying projectiles that launch at the Units oponnent."
+        },
+    "16": {
+        "name": "A.T Compress sequence",
+        "Ap": 10,
+        "hits": 1,
+        "cd": 2,
+        "crit_chance": 1.50,
+        "miss_chance": 0.30,
+        "description": "Unit 13 Harnesses a powerful A.T field to crush its oponnent."
+        },
+    "17": {
+        "name": "Spears of Longinus",
+        "Ap": 12,
+        "hits": 2,
+        "cd": 3,
+        "crit_chance": 1.25,
+        "miss_chance": 0.00,
+        "description": "Unit 13 Takes hold of the acient spears, unleashing their power."
+        },
+    "18": {
+        "name": "Imperial strike",
+        "Ap": 10,
+        "hits": 1,
+        "cd": 1,
+        "crit_chance": 1.45,
+        "miss_chance": 0.00,
+        "description": "A sturdy stab from the son of rome."
+        },
+    "19": {
+        "name": "Conquest",
+        "Ap": 5,
+        "hits": 2,
+        "cd": 2,
+        "crit_chance": 1.15,
+        "miss_chance": 0.00,
+        "description": "The nature of an emporer, the will to topple!"
+        },
+    "20": {
+        "name": "Aeustus Domus Aurea",
+        "Ap": 25,
+        "hits": 1,
+        "cd": 3,
+        "crit_chance": 1.00,
+        "miss_chance": 0.00,
+        "description": "The magnus opus of its emporoer, this golden theatre stands as a Holy sanctuary to the fine arts."
+        },
+    "21": {
+        "name": "Volley of forks",
+        "Ap": 3,
+        "hits": 5,
+        "cd": 1,
+        "crit_chance": 1.50,
+        "miss_chance": 0.50,
+        "description": "Sebation launches an array of silverware at the oponnent with deadly accuracy, ouch."
+        },
+    "22": {
+        "name": "Game of darkness",
+        "Ap": 15,
+        "hits": 1,
+        "cd": 2,
+        "crit_chance": 1.75,
+        "miss_chance": 0.00,
+        "description": "In a game with a demon, the outcome is inevitable."
+        },
+    "23": {
+        "name": "",
+        "Ap": "",
+        "hits": "",
+        "cd": 3,
+        "crit_chance": 1.50,
+        "miss_chance": 0.10,
+        "description": ""
+        },
+    "24": {
+        "name": "Single sword strike",
+        "Ap": 7,
+        "hits": 1,
+        "cd": 1,
+        "crit_chance": 1.25,
+        "miss_chance": 0.00,
+        "description": "A single sword of her mighty Katana."
+        },
+    "25": {
+        "name": "Sweeping sword slash",
+        "Ap": 5,
+        "hits": 5,
+        "cd": 2,
+        "crit_chance": 1.50,
+        "miss_chance": 0.50,
+        "description": "2B flings her sword around her, mowing down anything in its path."
+        },
+    "26": {
+        "name": "Pod Laser Beam",
+        "Ap": 10,
+        "hits": 2,
+        "cd": 3,
+        "crit_chance": 1.25,
+        "miss_chance": 0.10,
+        "description": "2B's Pod launches a massive laser beam at the oponnent."
+        },
+    "27": {
+        "name": "Demon claw",
+        "Ap": 3,
+        "hits": 3,
+        "cd": 1,
+        "crit_chance": 1.50,
+        "miss_chance": 0.25,
+        "description": "Claws hard as steel slash at the oponnent."
+        },
+    "28": {
+        "name": "Demon Pummeling",
+        "Ap": 10,
+        "hits": 1,
+        "cd": 2,
+        "crit_chance": 1.25,
+        "miss_chance": 0.00,
+        "description": "With her Demonic strength, Nezuko lands a powerful hit!"
+        },
+    "29": {
+        "name": "Verocity",
+        "Ap": 5,
+        "hits": 5,
+        "cd": 3,
+        "crit_chance": 1.50,
+        "miss_chance": 0.10,
+        "description": "Nezuko unleashes her true Demon side, leveling the oponent with pure savagery."
+        },
+    "30": {
+        "name": "",
+        "Ap": "",
+        "hits": "",
+        "cd": "",
+        "crit_chance": "",
+        "miss_chance": "",
+        "description": ""
+        },
+    "31": {
+        "name": "Loves apetite",
+        "Ap": 8,
+        "hits": 2,
+        "cd": 2,
+        "crit_chance": 1.50,
+        "miss_chance": 0.00,
+        "description": ""
+        },
+    "32": {
+        "name": "Searing Flames of Undying Passion",
+        "Ap": 7,
+        "hits": 4,
+        "cd": 3,
+        "crit_chance": 1.30,
+        "miss_chance": 0.25,
+        "description": "Albedo releases the primal force of her desire, wreaking havoc on any unfortunate enough to fall prey."
+        },
+    "33": {
+        "name": "Grasp Heart",
+        "Ap": 10,
+        "hits": 2,
+        "cd": 1,
+        "crit_chance": 1.10,
+        "miss_chance": 0.40,
+        "description": "A powerful spell that crushes the heart of weaker beings, less affective against stronger oponnents."
+        },
+    "34": {
+        "name": "Touch of Underneath",
+        "Ap": 15,
+        "hits": 1,
+        "cd": 2,
+        "crit_chance": 1.00,
+        "miss_chance": 0.00,
+        "description": "A single negative energy touch extended from the wizard kings sorceries."
+        },
+    "35": {
+        "name": "Ia Shub-Niggurath",
+        "Ap": 10,
+        "hits": 4,
+        "cd": 4,
+        "crit_chance": 1.20,
+        "miss_chance": 0.25,
+        "description": "A super tier magic spell that renders all weaker beings dead, using their lives as a sacrifice to an eldritch god of fertility."
+        },
+    "36": {
+        "name": "Draconic Beat-Down",
+        "Ap": 5,
+        "hits": 2,
+        "cd": 1,
+        "crit_chance": 1.50,
+        "miss_chance": 0.00,
+        "description": "A scaley smack down of epic proportions!"
+        },
+    "37": {
+        "name": "Fist of fire",
+        "Ap": 10,
+        "hits": 1,
+        "cd": 2,
+        "crit_chance": 1.40,
+        "miss_chance": 0.00,
+        "description": "Milim harnesses the power of her incredible magical aura to shred the oponnent!"
+        },
+    "38": {
+        "name": "Dragon Nova!",
+        "Ap": 10,
+        "hits": 5,
+        "cd": 4,
+        "crit_chance": 1.50,
+        "miss_chance": 0.50,
+        "description": "The ultimate form of the strike magic gravity collapse, this attack rains black holes like meteors on the oponnent."
+        },
+    "39": {
+        "name": "Spinning ariel strike",
+        "Ap": 5,
+        "hits": 2,
+        "cd": 1,
+        "crit_chance": 1.25,
+        "miss_chance": 0.00,
+        "description": "A swift double bladed assault."
+        },
+    "40": {
+        "name": "Recurring blade sweep",
+        "Ap": 2,
+        "hits": 10,
+        "cd": "2",
+        "crit_chance": 1.50,
+        "miss_chance": 0.25,
+        "description": "A rapid flurry of calculated slashes."
+        },
+    "41": {
+        "name": "Finishing Neck Gash!",
+        "Ap": 20,
+        "hits": 1,
+        "cd": 3,
+        "crit_chance": 1.75,
+        "miss_chance": 0.00,
+        "description": "A finishing move if there ever was one, this slash takes out the weak spot of the enemy with frigthening precision."
+        },
+    "42": {
+        "name": "inhuman Strike",
+        "Ap": 8,
+        "hits": 1,
+        "cd": 1,
+        "crit_chance": 1.00,
+        "miss_chance": 0.00,
+        "description": "A hit delievered with inhuman strength!"
+        },
+    "43": {
+        "name": "Hell's Rain",
+        "Ap": 5,
+        "hits": 2,
+        "cd": 2,
+        "crit_chance": 1.15,
+        "miss_chance": 0.00,
+        "description": "Fire rains from a foreboding sky, searing its target to bits"
+        },
+    "44": {
+        "name": "Roar, Crosier!",
+        "Ap": 25,
+        "hits": 1,
+        "cd": 3,
+        "crit_chance": 1.25,
+        "miss_chance": 0.00,
+        "description": "Lupisregina's mighty scepter rears forth to cause untold devastation."
+        },
+    "45": {
+        "name": "Piercing drill",
+        "Ap": 2,
+        "hits": 5,
+        "cd": 1,
+        "crit_cahance": 1.25,
+        "miss_chance": 0.25,
+        "description": "A poweful drill hit!"
+        },
+    "46": {
+        "name": "Visor Blade",
+        "Ap": 5,
+        "hits": 2,
+        "cd": 2,
+        "crit_chance": 1.25,
+        "miss_chance": 0.25,
+        "description": "A hearty double blow from Lagaan's Visor"
+        },
+    "47": {
+        "name": "The Drill the will Pierce the Heavens!",
+        "Ap": 10,
+        "hits": 3,
+        "cd": 3,
+        "crit_chance": 1.50,
+        "miss_chance": 1.25,
+        "description": "A barrage of attacks whos might will pierce the heavens themselves!"
+        },
+    "48": {
+        "name": "Simple kick",
+        "Ap": 8,
+        "hits": 1,
+        "cd": 1,
+        "crit_chance": 1.15,
+        "miss_chance": 0.00,
+        "description": "A well deserved kick"
+        },
+    "49": {
+        "name": ""
+
+    }
+    }

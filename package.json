@@ -1,0 +1,19 @@
+{
+  "name": "Animelee",
+  "version": "1.0.0",
+  "description": "An Anime themed rpg!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kawaisoup",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite-pool": "^0.2.2",
+    "discord.js": "^11.5.1",
+    "enmap": "^5.1.2",
+    "mongodb": "^3.3.2",
+    "sqlite3": "^4.1.0"
+  }
+}

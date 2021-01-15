@@ -1,0 +1,112 @@
+{
+    "books": [
+        {
+            "name": "World Guide",
+            "description": "A general guide to the setting of Animelee!",
+            "pages": [ 
+            {
+                "img": "https://i.imgur.com/ep2J1uS.png",
+                "title": "Pg.1",
+                "text": "Despite it being unknown how its inhabitants arrived in the world of Animelee, the world appears to be naturally uninhabited, with vast deserts and oceans spawning its length. Despite this fact there appear a vast amount of built structures in the world, some even showing signs of having been lived it seemingly until the momment before being discovered. This has led many to believe that the structures were either preserved in some way or fabricated. Either option is done by means unknown."
+            },
+            {
+                "img": "https://i.imgur.com/ujSEK7Y.jpg",
+                "title": "Pg.2",
+                "text": "Another object of interest in this world is, us. There is alot of literature in this wolrd, upon closer inspection it seems as though written by descendants of people like us, who randomly appeared here in the world. Although none have ever been seen to the best of our knowledge here at the reaserch outpost. The lack of life other than us is peculiar."
+            },
+            {
+                "img": "https://i.imgur.com/PWzEdLf.png",
+                "title": "Pg.3",
+                "text": "It has infact come to my attention i have not logged anything about my own magnificent self! And despite the snickerings of my lab assistan upon the writing of these words ill go ahead and explain. We are a small band of researchers, we were investigating dissapearences near a certain ocean island when we awoke one night to find ourselves here, if you are reading this your experience is likely similar. Without any way to return we have devoted ourselves to studying this world, and leaving traces for those to follow."
+            },
+            {
+                "img": "https://i.imgur.com/nglMMr7.png",
+                "title": "Pg.4",
+                "text": "Today we saw something absolutely marvelous! Two human beings, at least.. i think! Flying in the air shooting what seemed to be swords and magic, clashing blows in the air, all while two puppet masters of whatever kind oversaw their combat! Wed never seen anything like it, a scene straight out of the very books weve occupied ourselves with studying!"
+            },
+            {
+                "img": "https://i.imgur.com/oNwQGPg.png",
+                "title": "Pg.5",
+                "text": "Without much hardship whatsoever, we seem to have managed to summon super natural... uh, humans? Monsters? Spirits? Ah! besides the point! We summoned them to our side, they seem to have a natural antagonistic behavior towards each other even they dont seem to understand, as if meant to fight. We have also determined multiple of the same person can be summoned by different people, although they seem to get along even less than they do with those of different kind."
+            },
+            {
+                "img": "https://i.imgur.com/o13ue7I.png",
+                "title": "Pg.6",
+                "text": "I may have, well, lost myself some in my general excitment over our discoveries. In the spirit of finishing off this guide with relevant information in mind, it seems to us that for anyone seeking to return to their own reality, the key lies in ending some negative energy anomaly weve spotted towards the center of what weve appropriately dubbed the badlands, however there is an abnormal amount of monsters and demons spawning in that area."
+            }
+        ]
+        },
+        {
+            "name": "Necronomicon",
+            "description": "Your one stop shop for all enemy information gathered!",
+            "pages": [
+                {
+                    "img": "https://i.imgur.com/U5mDrZp.gif",
+                    "title": "Lesser Phantom",
+                    "text": "This is the seemingly most common enemy, we have dubbed it the Lesser Phantom. From what we can gather they are the souls of the dead, risen via unsavory means for purposes yet uknown. From dialogue we've managed to over hear, it seems once their purpose is accomplished they will be allowed to rest in peace forever more. Most commonly found in large quantities, or with a much larger and stronger enemy."
+                },
+                {
+                    "img": "https://i.imgur.com/U5mDrZp.gif",
+                    "title": "Lesser Phantom pt 2.",
+                    "text": "Strength wise they seem to be generally weak, easily taken out by our summoned companions. They do however seem to give each other trouble, skirmishes have been observed between multiple Lesser Phantoms for uknown reasons, although once we made our pressance known they chose instead to focus on us."
+                },
+                {
+                    "img": "https://i.imgur.com/jXK7RXk.gif",
+                    "title": "Greater Phantom",
+                    "text": "A more dangerous version of the Lesser phantom, seemingly more evil in nature as its appearence suggests. It seems as if the master they serve is able to free them from their imprisonment in the underworld, where they  suffer eternal torture for their deeds in life. Seem to posses greater pyrokenetic abilities, and the ability to interact with the physical world without magic, something the Lesser Phantom lacks. "
+                },
+                {
+                    "img": "https://i.imgur.com/pHwQw9P.gif",
+                    "title": "NightMare",
+                    "text": "What appears to be the spirit of a horse, likewise brought through from the world of the underworld to serve the evil at work, it seems as though these creatures have enough power to wander the world on their own, however they have a tendancy to attack any living animal life they manage to sight, including humans so watch out. They are stronger in both magic and physical skill than the Phantoms, although due to their lack of intelligence seem not to be able to truly match up, often seeing themselves captured."
+                },
+                {
+                    "img": "https://i.imgur.com/71Pm8fj.gif",
+                    "title": "Umbreal Demon; Terror of the Abyss",
+                    "text": "The big boss if you will, this is a strong magical creature of uknown origin, given it has the ability to talk we have managed to accertain its name but only that. It has the power to summon minions of all the creatures mention before it. Aswell as commanding intense magical power. Should be avoided at all costs, even our heroic companions are unable to withstand its hellfire for long. We have seen more than 1, although given we never managed to talk to the second sighting whether or not they all share the same name is unknown."
+                },
+                {
+                    "img": "https://i.imgur.com/y1E0SaK.jpg",
+                    "title": "Unknown",
+                    "text": "I was unsure where to leave this information, however i felt it must be adressed. During the sighting of the 2nd Umbral Demon, a mysterious humanoid figure, shaded black with red glowing tint appeared and slayed it easily, we are unsure what this creature is, but even from the range we were safely positoned it spotted us and almost killed us from the range, a few of the scouting team was wounded, if not for our companions we may have well died. It caried a large spear like object, the nature of which is unclear. If spotted.. pray for mercy, and run like hell. "
+                }
+                ]
+            },
+            {
+                "name": "Necronomicon 2",
+                "description": "Enemy information continued!",
+                "pages": [
+                {
+                    "img": "https://i.imgur.com/BTwFIMk.gif",
+                    "title": "Spirit Skull",
+                    "text": "A human sull now taken as the home for a spirit, its aura makes it very easy to spot compared to other monsters, and they tend to be found roaming around on their own instead of in groups like the rest of the enemies we have found in this world. They are easily broken but have surprisingly heavy hits to deal."
+                },
+                {
+                    "img": "https://i.imgur.com/E8eC4Pv.gif",
+                    "title": "Skeleton Lancer",
+                    "text": "A straightforward yet loyal skeleton warrior, slow but very deadly at close to medium ranges. Making it a perfect guard for structures and treasures. But generally great servants in general. From what we've gathered they are made of human remains, now puppeted around by a wandering spirit."
+                },
+                {
+                    "img": "https://i.imgur.com/0NY0rkX.gif",
+                    "title": "Fallen Hero, Castle Lord",
+                    "text": "As far as can be discerned, this is the fate all 'heroes' from this world when the shadow that now looms over it first appeared, mindless husks of warriors left to attack any who pass."
+                },
+                {
+                    "img": "https://i.imgur.com/h4A38k0.gif",
+                    "title": "Skeleton Archer",
+                    "text": "A similar case the lancer i would wager, albeit better for long range and precision defense from enemies, if you can get it at close range its easy enough to take out however, making it less of a threat than the lancer."
+                },
+                {
+                    "img": "https://i.imgur.com/cRX0LpO.gif",
+                    "title": "Skeleton Tank",
+                    "text": "A very dangerous foe compared to the other skeletal warriors, this monster towers above them in both height and power. A shield to take long ranges and the strength to pummel close range attacks. I recommend avoiding this monster unless you have a plan."
+                },
+                {
+                    "img": "https://i.imgur.com/l20d8pS.gif",
+                    "title": "Nightmare Slime",
+                    "text": "It may not be the most threatening monster, but it is one of the most interesting for the trained eye. These small slimes are actually made of an infernal soup of almost solidified souls. On our expeditions we have been able to watch them form, like the world itself is drooling out spirits that eventually pool into madness and become these monsters."
+                }
+                ]
+                }
+            ]
+        }

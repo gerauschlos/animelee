@@ -1,0 +1,186 @@
+{
+    "levels": [
+        {
+            "name": "Level 0",
+            "next": 1
+        },
+        {
+            "name": "Level 1",
+            "next": 5
+        },
+        {
+            "name": "Level 2",
+            "next": 10
+        },
+        {
+            "name": "Level 3",
+            "next": 20
+        },
+        {
+            "name": "Level 4",
+            "next": 35
+        },
+        {
+            "name": "Level 5",
+            "next": 50
+        },
+        {
+            "name": "Level 6",
+            "next": 80
+        },
+        {
+            "name": "Level 7",
+            "next": 125
+        },
+        {
+            "name": "Level 8",
+            "next": 170
+        },
+        {
+            "name": "Level 9",
+            "next": 250
+        },
+        {
+            "name": "Level 10",
+            "next": 300
+        },
+        {
+            "name": "Level 11",
+            "next": 370
+        },
+        {
+            "name": "Level 12",
+            "next": 450
+        },
+        {
+            "name": "Level 13",
+            "next": 550
+        },
+        {
+            "name": "Level 14",
+            "next": 670
+        },
+        {
+            "name": "Level 15",
+            "next": 800
+        },
+        {
+            "name": "Level 16",
+            "next": 1000
+        },
+        {
+            "name": "Level 17",
+            "next": 1200
+        },
+        {
+            "name": "Level 18",
+            "next": 1800
+        },
+        {
+            "name": "Level 19",
+            "next": 2500
+        },
+        {
+            "name": "Level 20",
+            "next": 3500
+        },
+        {
+            "name": "Level 21",
+            "next": 4700
+        },
+        {
+            "name": "Level 22",
+            "next": 5500
+        },
+        {
+            "name": "Level 23",
+            "next": 6700
+        },
+        {
+            "name": "Level 24",
+            "next": 7000
+        },
+        {
+            "name": "Level 25",
+            "next": 7500
+        },
+        {
+            "name": "Level 26",
+            "next": 8000
+        },
+        {
+            "name": "Level 27",
+            "next": 9000
+        },
+        {
+            "name": "Level 28",
+            "next": 10000
+        },
+        {
+            "name": "Level 29",
+            "next": 15000
+        },
+        {
+            "name": "Level 30",
+            "next": 20000
+        },
+        {
+            "name": "Level 31",
+            "next": 25000
+        },
+        {
+            "name": "Level 32",
+            "next": 35000
+        },
+        {
+            "name": "Level 33",
+            "next": 45000
+        },
+        {
+            "name": "Level 34",
+            "next": 50000
+        },
+        {
+            "name": "Level 35",
+            "next": 80000
+        }
+    ],
+    "rares": [
+        {
+            "name": "Shadow",
+            "description": "Characters summoned from the shadow rarity are aptly named, as they are shadows of their former selves.",
+            "min": 0.6,
+            "max": 0.85,
+            "color": "#292929",
+            "img": "https://i.imgur.com/xkBcECk.gif",
+            "emote": "682724871352221714"
+        },
+        {
+            "name": "Phantom",
+            "description": "Resembling the phantoms found between worlds, incomplete copies yet highly accurate to form.",
+            "min": 0.8,
+            "max": 0.95,
+            "color": "#420000",
+            "img": "https://i.imgur.com/EsM58wX.gif",
+           "emote": "682724871737835581"
+        },
+        {
+            "name": "Reflection",
+            "description": "Named because they are the closest reflections to the true strength of the character.",
+            "min": 0.9,
+            "max": 1.2,
+            "color": "#7575cc",
+            "img": "https://i.imgur.com/wlaOVHv.gif",
+            "emote": "682724871343440044"
+        },
+        {
+            "name": "Glitch",
+            "description": "Not much is known of these, they are exceedingly more powerful than they should be, and exceedingly rare.",
+            "min": 1.2,
+            "max": 1.5,
+            "color": "#55ff55",
+            "img": "https://i.imgur.com/77ZicIS.gif",
+            "emote": "682724871913865223"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "npcs": [
+        {
+            "name": "Baron Eisflen",
+            "title": "Illustrious Shopkeeper",
+            "img": "https://i.imgur.com/a17ul4F.gif",
+            "lines": "Oh, welcome back adventurer. Incase you didnt know before, i do have something of a shop set up in a small town not far from here, if you find me there ill be glad to sell even more than what i offer you in !store.",
+            "line": "What can i do for ya?",
+            "dialogue": [
+                {
+                    "line1": "Ah, you again is it? Ive been selling you items since you showed up here so dont you dare have forgotten me!",
+                    "line2": "Well in any case this is my permanent shop, filled with much more goodies than the traveling one has."
+                },
+                {
+                    "line1": "You know, among us merchants there exists an old legend, of a treasure hidden somewhere in the Crator-Born Valley...",
+                    "line2": "Ah! Well, its probably nothing but, you may want to have a good look around the crater-born valley, it seems something was left nehind.."
+                },
+                {
+                    "line1": "Ah! I see you got the old treasure, to think it truly existed. Ya wouldnt mind handing a certain shopkeep a fee for pointing ya in that direction would ya?",
+                    "line2": "Forgive me dear.. ah! forgive me i didnt see you there, what can i do for ya."
+                }
+            ]
+        },
+        {
+            "name": "Miko of Valir",
+            "title": "Shrine Maiden",
+            "img": "",
+            "lines": "Ah.. adventurer, how merciful of the fates to guide you to me in this precarious situation. Should you allow it, there lies a village not far from here i wish to return to, please.. wont you guide me there?",
+            "line": "Hm, what a righteous manner about you, wont you pray with me?",
+            "dialogue": [
+                {
+                    "line1": "Oh heroic traveler, I never did express my gratitude. Here i have found a home, however i cannot allow you into the temple proper.",
+                    "line2": "Its just simple remodeling, please abstain from heading past the ritual statues... I hope you understand."
+                },
+                {
+                    "line1": "So you return triumphant? .. As expected of a great hero.",
+                    "line2": "Perhaps you have discovered an item or some such with emotional or spiritual meaning? If so the shrine can be a great place to meditate on it."
+                }
+            ]
+        }
+    ]
+}

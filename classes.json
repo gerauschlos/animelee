@@ -1,0 +1,68 @@
+{
+	"classes": [
+		{
+			"name": "Melee",
+			"description": "Encompassing characters that revolve around short ranged, weapon combat.",
+			"damage": [1,5],
+			"resist": [1],
+			"emote": "709125247504351263",
+			"img": "https://i.imgur.com/gNMHxLD.png"
+		},
+		{
+			"name": "Ranged",
+			"description": "Encompassing characters that revolve around long ranged combat, including bows, guns, etc.",
+			"damage": [2,5],
+			"resist": [2],
+			"emote": "709124776030896148",
+			"img": "https://i.imgur.com/gYcLnVf.png"
+		},
+		{
+			"name": "Magus",
+			"description": "Encompassing characters that revolve around the use of magic, specifically arcane.",
+			"damage": [0,5],
+			"resist": [0],
+			"emote": "709124251906605117",
+			"img": "https://i.imgur.com/LlZU22I.png"
+		},
+		{
+			"name": "Tank",
+			"description": "Encompassing tankier characters revolving around shield or durability.",
+			"damage": [],
+			"resist": [0,1,2,3],
+			"emote": "709123923584745493",
+			"img": "https://i.imgur.com/JGHWP3a.png"
+		},
+		{
+			"name": "Divine",
+			"description": "Betowed upon characters of heavenly, holy, or divine powers or origin.",
+			"damage": [6,5],
+			"resist": [],
+			"emote": "709124501836660836",
+			"img": "https://i.imgur.com/xO5ZvgE.png"
+		},
+		{
+			"name": "Mortal",
+			"description": "Describing more normal characters, hand-to-hand combat included.",
+			"damage": [0,1,2,3,4,5,6],
+			"resist": [],
+			"emote": "709125069728645130",
+			"img": "https://i.imgur.com/tWhn5w8.png"
+		},
+		{
+			"name": "Demonic",
+			"description": "Featuring characters of unholy power or origin, monsterous.",
+			"damage": [4,5],
+			"resist": [],
+			"emote": "709125488135897159",
+			"img": "https://i.imgur.com/sG7jD68.png"
+		},
+		{
+			"name": "Monster",
+			"description": "Inhuman beasts, Enemies of unknown or animalistic origin.",
+			"damage": [6,5,4],
+			"resist": [0,1,2,3],
+			"emote": "716324095599444010",
+			"img": "https://i.imgur.com/uIs3gcE.png"
+		}
+	]
+}

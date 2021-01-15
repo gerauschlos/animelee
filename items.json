@@ -1,0 +1,442 @@
+{
+        "items": [
+            {
+                "name": "Kawaisoup Plushie",
+                "description": "A plushie of Kawaisoup! The scientifically proven most huggable soup there is!",
+                "type": "Collectable",
+                "price": 100000,
+                "capacity": 1
+            },
+            {
+                "name": "Kawaisoup Body Pillow",
+                "description": "A body pillow of Kawaisoup! ....Ya creep.",
+                "type": "Collectable",
+                "price": 200000,
+                "capacity": 1
+            },
+            {
+                "name": "Revive Pearl",
+                "description": "A shimmering remanent of powers long past, if in your inventory at the time of death will revive your character to full health without reseting the enemy monster's health!",
+                "type": "automatic",
+                "price": 3000,
+                "capacity": 3
+            },
+            {
+                "name": "Health Potion S",
+                "description": "A potion that restores a portion of a characters health during battle without having to exit or die.",
+                "type": "Consumable",
+                "price": 300,
+                "capacity": 5
+            },
+            {
+                "name": "Shard Remnant",
+                "description": "A shard that can be absorbed by your character to increase its exp.",
+                "type": "Consumable",
+                "price": 200,
+                "capacity": 500
+            },
+            {
+                "name": "Team hp replenish potion",
+                "description": "A potion that heals 30 hp on all dmged characters",
+                "type": "Consumable",
+                "price": 1500,
+                "capacity": 2
+            },
+            {
+                "name": "Drop of Void",
+                "description": "☠︎□︎⧫︎♒︎♓︎■︎♑︎ ♋︎⬥︎♋︎♓︎⧫︎⬧︎ ⍓︎□︎◆︎ ♌︎◆︎⧫︎ ⧫︎♒︎♏︎ ♎︎♋︎❒︎🙵📪︎ ⬥︎♏︎ ♋︎❒︎♏︎ ⍓︎□︎◆︎❒︎ ♌︎♏︎♑︎♓︎■︎■︎♓︎■︎♑︎📬︎",
+                "type": "♒︎♏︎ ♎︎♋︎",
+                "price": "N/A",
+                "capacity": 500
+            },
+            {
+                "name": "Underground Dungeon Key",
+                "description": "A key used to access a dungeon in the Town Underground.",
+                "type": "Consumable",
+                "price": 10000,
+                "capacity": 3
+            },
+            {
+                "name": "Desert Dungeon Key",
+                "description": "A key used to access a dungeon in the scorching Dessert.",
+                "type": "Consumable",
+                "price": 15000,
+                "capacity": 3
+            },
+            {
+                "name": "Soaring Dungeon Key",
+                "description": "A key used to access a dungeon in the Flying City.",
+                "type": "Consumable",
+                "price": 20000,
+                "capacity": 3
+            },
+            {
+                "name": "Crystal Tomb Key",
+                "description": "Unknown.",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 1
+            },
+            {
+                "name": "Padoru Plushie",
+                "description": "Exclusive 2019 christmas merchandise!",
+                "type": "Collectable",
+                "price": "N/A",
+                "capacity": 1
+            },
+            {
+                "name": "Champion's crystal",
+                "description": "An item that allows for the changing of guild images to custom.",
+                "type": "Consumable",
+                "price": 5000,
+                "capacity": 1
+            },
+            {
+                "name": "Rock-Encrusted Coin",
+                "description": "A coin almost fossilized in nature, hinting to a long life underground...",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 500
+            },
+            {
+                "name": "Broken Excalibur Fragment",
+                "description": "A piece of the broken blade Excalibur Morgan, may allow for a link through its reflective surface.",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 1
+            },
+            {
+                "name": "Warm spotted egg",
+                "description": "A small, marble sized egg warm to the touch. Something resembling a heartbeat can be felt on the inside..",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 1
+            },
+            {
+                "name": "Cradle of Greed",
+                "description": "A powerful item capable of granting a single deepest desire of its user, belonging to the world of Made in Abyss but found on alter.",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 1
+            },
+            {
+                "name": "Thought Cradle",
+                "description": "34YUQGW570F87S5409EM8484Q73=AW3V=-RECS=E4EVAZHDFUH",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 500
+            },
+            {
+                "name": "Meteorite Fragment",
+                "description": "A piece of a meteorite that fell through the ozone layer.",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 1
+            },
+            {
+                "name": "Rayquaza Pet Voucher",
+                "description": "Voucher",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 1
+            },
+            {
+                "name": "Event Character Voucher",
+                "description": "Use for a free event character of garanteed glitch rarity.",
+                "type": "Consumable",
+                "price": "N/A",
+                "capacity": 10
+            }
+        ],
+        "events": [
+            {
+                "name": "Candies",
+                "capacity": 500
+            },
+            {
+                "name": "Gifts",
+                "capacity": 1000
+            }
+        ],
+        "passives": [
+            {
+                "name": "LifeSteal",
+                "from": [7,26],
+                "description": "Restores 2 HP for every 10 hp dealt to the enemy.",
+                "id": 0
+            },
+            {
+                "name": "Sacrifice",
+                "from": [1],
+                "description": "A character equipped with this item will damage themselves with attacks by 20 hp, but deal 20% more damage.",
+                "id": 1
+            },
+            {
+                "name": "Berserk Rage",
+                "from": [4],
+                "description": "If the character drops below 100 Hp, remaining defenses are halved and attack/mattack is doubled.",
+                "id": 2
+            },
+            {
+                "name": "Opening Rage",
+                "from": [10],
+                "description": "If the character has more than 200 Hp left, defenses are halved and attack/mattack is doubled.",
+                "id": 3
+            },
+            {
+                "name": "Cosmic Balance",
+                "from": [0,30],
+                "description": "Nullifies all other passive items on the enemy, and character.",
+                "id": 4
+            },
+            {
+                "name": "Thief",
+                "from": [23,32],
+                "description": "Takes the enemy passive effect and applies it to your character.",
+                "id": 5
+            },
+            {
+                "name": "Time Stop",
+                "from": [24,18],
+                "description": "With every hit landed, you have a 10% chance to skip an enemy turn.",
+                "id": 6
+            },
+            {
+                "name": "Iron Will",
+                "from": [8],
+                "description": "If a hit lands that would kill you, 50% chance to survive on 1 hp.",
+                "id": 7
+            },
+            {
+                "name": "Holy Blessing",
+                "from": [25],
+                "description": "After each turn, recover 15 HP.",
+                "id": 8
+            },
+            {
+                "name": "Even Field",
+                "from": [16],
+                "description": "If character stats total less than 400 (original), attack/mattack boosted by 50%.",
+                "id": 9
+            },
+            {
+                "name": "Reflection",
+                "from": [27],
+                "description": "For every the enemy takes 25% of all damage dealt to you.",
+                "id": 10
+            },
+            {
+                "name": "Moxie",
+                "from": [31,14],
+                "description": "After every sucessful hit, attack/mattack is boosted by 20% and defenses are lowered by 25%.",
+                "id": 11
+            },
+            {
+                "name": "Invisibility",
+                "from": [17],
+                "description": "Increases the enemy miss chance by 30%.",
+                "id": 12
+            },
+            {
+                "name": "Longing",
+                "from": [6],
+                "description": "Every turn, boosts 1 random stat by 25%, but decreases one by 25%",
+                "id": 13
+            },
+            {
+                "name": "Quick Draw",
+                "from": [20],
+                "description": "Lowers the ultimate cooldown of the character 1 time.",
+                "id": 14
+            },
+            {
+                "name": "King's Charisma",
+                "from": [2],
+                "description": "Boosts defenses by 20%.",
+                "id": 15
+            },
+            {
+                "name": "Damage Absorption",
+                "from": [5],
+                "description": "If damage is taken, 25% chance to reduce by half.",
+                "id": 16
+            },
+            {
+                "name": "Offensive Force",
+                "from": [11],
+                "description": "Boosts attack/mattack by 20%.",
+                "id": 17
+            },
+            {
+                "name": "Quickening",
+                "from": [28,13],
+                "description": "Boosts speed by 20%, Lowers attack/mattack by 10%.",
+                "id": 18
+            },
+            {
+                "name": "Luck",
+                "from": [3,22],
+                "description": "Increases critical hit rate, decreases miss rate.",
+                "id": 19
+            },
+            {
+                "name": "Reincarnation",
+                "from": [12],
+                "description": "(For 3v3 || IF a character is killed, the next one chosen will have 30 bonus Hp.)",
+                "id": 20
+            },
+            {
+                "name": "Piercing Strikes",
+                "from": [29,15],
+                "description": "Per attack, 50% chance to half the enemy's defenses for damage calculation.",
+                "id": 21
+            }
+        ],
+        "plants": [
+            {
+                "name": "Purifying Mushrooms",
+                "description": "A kind of mushroom found deep underground, evolution has led it to suck toxic gas from the air and expell a pleasant scent.",
+                "emote": "🍄",
+                "location": 1
+            },
+            {
+                "name": "Charred Cactus",
+                "description": "A resilient cactus, able to survive even the strongest flames, legends say if held it will impart fire-resistance.",
+                "emote": "🌵",
+                "location": 5
+            },
+            {
+                "name": "Gentle Shrubbery",
+                "description": "A plain looking bush, however its soft-sumple leaves have a soothing effect.",
+                "emote": "🌳",
+                "location": 0
+            },
+            {
+                "name": "Transient Bamboo",
+                "description": "A plant that grows near sacred shrines and rivers, the transient bamboo is said to bring luck and fortune.",
+                "emote": "🎍",
+                "location": "N/A"
+            },
+            {
+                "name": "Wilting Rose",
+                "description": "A single rose, found in the twilight.",
+                "emote": "🥀",
+                "location": 11
+            },
+            {
+                "name": "Fallen Cherry Blossom",
+                "description": "A single sakura flower, its petals falling off, its aura exudes that of a higher realm..",
+                "emote": "🌸",
+                "location": "N/A"
+            },
+            {
+                "name": "Rising Palm",
+                "description": "A tall palm from lands far to the south, the milk of its coconuts is said to inspire courage in the drinker.",
+                "emote": "🌴",
+                "location": 3
+            },
+            {
+                "name": "Sunken Lily",
+                "description": "A lily said to boost resistance against curses, this flower was unfortunately lost to the depths.",
+                "emote": "🌺",
+                "location": 4
+            },
+            {
+                "name": "Bleeding Maple Tree",
+                "description": "A tree found near the flaming ground, its leaves are said to protect from fire.",
+                "emote": "🍁",
+                "location": 8
+            },
+            {
+                "name": "Soaring Dandelion",
+                "description": "A flower lost to its heavenly dreams, the soaring dandelion is said to guard from the reach of death.",
+                "emote": "🌼",
+                "location": 7
+            },
+            {
+                "name": "Unholy Petunia",
+                "description": "A flower left behind in the wake of the unholy spire, its true intent remains unknown.",
+                "emote": "🌷",
+                "location": 2
+            },
+            {
+                "name": "Crystal Harbinger",
+                "description": "A rock-like formation that inexplicably found its way into the shape of a flower.",
+                "emote": "🌻",
+                "location": 9
+            }
+        ],
+        "catalysts": [
+            {
+                "name": "Tommy-gun Violin",
+                "description": "A gun used as a violin to trigger the holopsicon, holding sentimental value to the character Altair."
+            },
+            {
+                "name": "Holopsicon Lance",
+                "description": "A powerful lance with ties to the cosmos, holding sentimental value to the character Sirius"
+            },
+            {
+                "name": "Scabbard Caliburn",
+                "description": "The sheath of excalibur, Caliburn offers healing properties. Holding sentimental value to the character Artoria"
+            },
+            {
+                "name": "Bell Chain",
+                "description": "Ringing bells that signal the arival of mischief, holding sentimental value to the character Magane"
+            },
+            {
+                "name": "Seed of Adam",
+                "description": "A part left over from the white giant that fell with the white moon. Holding powerful value to the character Eva 01"
+            },
+            {
+                "name": "Spear of Longinus",
+                "description": "Two original weapons used to seal away lilith of the black moon. Holding powerful value to the character of Eva 13"
+            },
+            {
+                "name": "Bloody Dagger",
+                "description": "The blade used to bring the mad emporer to his end, holding sentimental value to the character of Nero"
+            },
+            {
+                "name": "Worn Eyepatch",
+                "description": "Symbol of a young master with whom a vow was made. Holding sentimental value to the character Sebastion"
+            },
+            {
+                "name": "Stained Blindfold",
+                "description": "Belonging to a partner.. no, family. Holding sentimental value to the character 2B"
+            },
+            {
+                "name": "Burned Basket Piece",
+                "description": "The once home of a cute basket demon. Holding sentimental value to the character Nezuko"
+            },
+            {
+                "name": "Ring of Ainz Ooal Gown",
+                "description": "A guild ring allowing for passage through the great tomb. Holding sentimental value to the character Albedo"
+            },
+            {
+                "name": "Broken Snake Figure-head",
+                "description": "A broken off golden snake-head, holding in its mouth a dim cracked jewel. Holding Sentimental value to the character Ainz"
+            },
+            {
+                "name": "Empty Honey Pot",
+                "description": "A symbol of a budding friendship. Holding sentimental value to the character Milim Nava"
+            },
+            {
+                "name": "Tattered Scarf",
+                "description": "A first gift, a first love, endless loyalty. Holding Sentimental value to the character Mikasa"
+            },
+            {
+                "name": "Tattered combat maid outfit",
+                "description": "A powerful outfit meant to fit only those who will defend the great tomb of Nazarick"
+            },
+            {
+                "name": "Drill-bit Necklase",
+                "description": "A drill that will someday pierce the heavens"
+            },
+            {
+                "name": "Zero King Mask",
+                "description": "A king must be willing to lead on the frontlines"
+            },
+            {
+                "name": ""
+            }
+        ]
+}

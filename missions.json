@@ -1,0 +1,124 @@
+{
+    "daily": [
+        {
+            "name": "Complete 10 expeditions",
+            "gold": 2500,
+            "shards": 5,
+            "glimmer": 0
+        },
+        {
+            "name": "Defeat 50 Enemies",
+            "gold": 5000,
+            "shards": 10,
+            "glimmer": 1
+        },
+        {
+            "name": "Buy 3 !store items",
+            "gold": 2000,
+            "shards": 5,
+            "glimmer": 0
+        },
+        {
+            "name": "Defeat the wanted enemy",
+            "gold": 10000,
+            "shards": 150,
+            "glimmer": 1
+        },
+        {
+            "name": "Complete 1 guild raid",
+            "gold": 5000,
+            "shards": 100,
+            "glimmer": 0
+        },
+        {
+            "name": "Complete 1 dungeon",
+            "gold": 1500,
+            "shards": 30,
+            "glimmer": 1
+        },
+        {
+            "name": "Enter The Unholy Spire 1 time",
+            "gold": 500,
+            "shards": 15,
+            "glimmer": 0
+        },
+        {
+            "name": "Preform any spawn 1 time.",
+            "gold": 5000,
+            "shards": 15,
+            "glimmer": 1
+        },
+        {
+            "name": "Pray at the town shrine 1 time.",
+            "gold": 5000,
+            "shards": 10,
+            "glimmer": 0
+        },
+        {
+            "name": "Acquire any material 1 time.",
+            "gold": 2500,
+            "shards": 10,
+            "glimmer": 0
+        },
+        {
+            "name": "Preform a town mining operation 1 time.",
+            "gold": 3000,
+            "shards": 5,
+            "glimmmer": 0
+        },
+        {
+            "name": "Encounter the wanderer 1 time.",
+            "gold": 4000,
+            "shards": 10,
+            "glimmer": 0
+        },
+        {
+            "name": "Defeat 1 player in pvp.",
+            "gold": 5000,
+            "shards": 20,
+            "glimmer": 1
+        },
+        {
+            "name": "Defeat a chat-spawned enemy 1 time.",
+            "gold": 3000,
+            "shards": 10,
+            "glimmer": 0
+        },
+        {
+            "name": "Level up a character 1 time.",
+            "gold": 2500,
+            "shards": 5,
+            "glimmer": 0
+        },
+        {
+            "name": "Reinforce a character 1 time.",
+            "gold": 5000,
+            "shards": 40,
+            "glimmer": 1
+        },
+        {
+            "name": "Encounter a plant 1 time.",
+            "gold": 2500,
+            "shards": 10,
+            "glimmer": 0
+        },
+        {
+            "name": "Attack an enemy with a pet 1 time.",
+            "gold": 1500,
+            "shards": 10,
+            "glimmer": 0
+        },
+        {
+            "name": "Trade characters with another player 1 time.",
+            "gold": 1000,
+            "shards": 10,
+            "glimmer": 0
+        },
+        {
+            "name": "Pay any currency in any amount to another player 1 time.",
+            "gold": 1500,
+            "shards": 15,
+            "glimmer": 0
+        }
+    ]
+}

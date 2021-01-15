@@ -1,0 +1,95 @@
+{
+    "spawns": [
+        {
+            "name": "None",
+            "description": "Check back soon to see if there is a new event spawn!",
+            "pool": ["none"],
+            "duration": "*Until next event spawn*",
+            "image": "",
+            "featured": "",
+            "cost": "uwu pwease dont bwuy me senpai nyaaa~"
+
+        },
+        {
+            "name": "Hero Spawn",
+            "description": "A spawn featuring only hero characters, protagonists, the good guys!",
+            "pool": [2,4,6,8,9,13,15,17,20,21,27,36,37,38,40,46],
+            "duration": "1 Week",
+            "image": "https://i.imgur.com/QCNBpbj.gif",
+            "featured": [13,36,38,40],
+            "cost": 800
+        },
+        {
+            "name": "Villain Spawn",
+            "description": "A spawn featuring only villain characters, antagonists, the bad guys!",
+            "pool": [0,3,7,10,11,14,16, 23, 24, 45],
+            "duration": "1 Week",
+            "image": "https://i.imgur.com/CPbW3iF.gif",
+            "featured": [45,11,30,24,23],
+            "cost": 800
+        },
+        {
+            "name": "Magical Spawn",
+            "description": "A spawn featuring only magic based characters!",
+            "pool": [7,10,11,12,14,18,21,25],
+            "duration": "1 Week",
+            "image": "https://i.imgur.com/RJ0r64d.gif",
+            "featured": [25,11],
+            "cost": 800
+        },
+        {
+            "name": "Mech Spawn",
+            "description": "A spawn featuring just the mechanical characters!",
+            "pool": [4,5,8,15],
+            "duration": "3 Days",
+            "image": "https://i.imgur.com/CtkJIbm.gif",
+            "featured": [5],
+            "cost": 800
+        },
+        {
+            "name": "Waifu Spawn",
+            "description": "Pick up all your favorite waifus!",
+            "pool": [2,8,9,10,12,17,21,30],
+            "duration": "5 days",
+            "image": "https://i.imgur.com/RJ0r64d.gif",
+            "featured": [30],
+            "cost": 800
+        },
+        {
+            "name": "Husbando Spawn",
+            "description": "Featuring only husbandos!",
+            "pool": [7,11,16,24,27],
+            "duration": "3 Days",
+            "image": "https://i.imgur.com/QCNBpbj.gif",
+            "featured": [24,27],
+            "cost": 800
+        },
+        {
+            "name": "Shonen Spawn",
+            "description": "A spawn featuring characters from shonen Anime!",
+            "pool": [9,13,20,46,23,24,27,37,41,53,54],
+            "duration": "5 days",
+            "image": "https://i.imgur.com/3GqPqs3.gif",
+            "featured": [13,54,24,53,41],
+            "cost": 800
+        },
+        {
+            "name": "Tank Spawn",
+            "description": "A spawn featuring only Tank Characters!",
+            "pool": [2,32,19,55,56,49],
+            "duration": "5 days",
+            "image": "https://i.imgur.com/cui8DUS.gif",
+            "featured": [56,55,49],
+            "cost": 1000
+        },
+        {
+            "name": "Rising Sun Spawn",
+            "description": "A spawn featuring characters to better fight against the vampire reign.",
+            "pool": [59,60,61,2,25,39,36,42,26],
+            "duration": "7 Days",
+            "image": "https://i.imgur.com/wqNl4zk.gif",
+            "featured": [59,60,61,25],
+            "cost": 1250
+        }
+    ]
+}

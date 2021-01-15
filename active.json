@@ -1,0 +1,166 @@
+{
+    "active": [
+        {
+        "spawns": 9,
+        "pet1": 14,
+        "pet2": 15,
+        "raid": [],
+        "wpet1": 17,
+        "wpet2": 2,
+        "wmat1": "diamonds",
+        "wmat2": "tridents",
+        "wkey1": 8,
+        "wkey2": 7,
+        "event": 1
+        }
+    ],
+    "ladder": [
+        {
+            "name": 0,
+            "reward": 5
+        },
+        {
+            "name": 1,
+            "reward": 5
+        },
+        {
+            "name": 2,
+            "reward": 10
+        },
+        {
+            "name": 3,
+            "reward": 10
+        },
+        {
+            "name": 4,
+            "reward": 15
+        },
+        {
+            "name": 5,
+            "reward": 15
+        },
+        {
+            "name": 6,
+            "reward": 20
+        },
+        {
+            "name": 7,
+            "reward": 20
+        },
+        {
+            "name": 8,
+            "reward": 30
+        },
+        {
+            "name": 9,
+            "reward": 40
+        },
+        {
+            "name": 10,
+            "reward": 50
+        }
+    ],
+    "status": [
+        {
+            "name": "Bleed",
+            "id": 0,
+            "description": "Damages enemy for 15% of maximum hp per turn.",
+            "values": [5,10,15]
+        },
+        {
+            "name": "Burn",
+            "id": 1,
+            "description": "Deals 10% maximum hp upon end of duration.",
+            "values": [5,8,10]
+        },
+        {
+            "name": "Bind",
+            "id": 2,
+            "description": "Disables 1 of the 2 basic abilities on the enemy at random.",
+            "values": [1,2]
+        },
+        {
+            "name": "Poison",
+            "id": 3,
+            "description": "Damages enemy for 25% of damage dealt each time they attack.",
+            "values": [10,20,25]
+        },
+        {
+            "name": "Blind",
+            "id": 4,
+            "description": "Increases graze chances on enemy by maximum of 15% while active.",
+            "values": [5,10,15]
+        },
+        {
+            "name": "Shock",
+            "id": 5,
+            "description": "Increases damage dealt on opponent by maximum 15% until duration",
+            "values": [5,10,15]
+        },
+        {
+            "name": "Miasma",
+            "id": 6,
+            "description": "Damages maximum of 15% hp whenever an attack is used.",
+            "values": [5,10,15]
+        },
+        {
+            "name": "Blackout",
+            "id": 7,
+            "description": "Prevents the use of ultimate moves for maximum of 3 turns.",
+            "values": [1,2,3]
+        },
+        {
+            "name": "Cripple",
+            "id": 8,
+            "description": "Decreases damage of enemy by maximum of 15% if physical while active.",
+            "values": [5,10,15]
+        },
+        {
+            "name": "Seal",
+            "id": 9,
+            "description": "Descreases damage of enemy by maximum of 15% if magical while active.",
+            "values": [5,10,15]
+        },
+        {
+            "name": "Regeneration",
+            "id": 10,
+            "description": "Heals 5% of Maximum hp per turn.",
+            "values": [2,3,5]
+        },
+        {
+            "name": "Lifesteal",
+            "id": 11,
+            "description": "Heals 10% of damage dealt that turn.",
+            "values": [5,8,10]
+        },
+        {
+            "name": "Purify",
+            "id": 12,
+            "description": "Removes any ailments afflicting the character.",
+            "values": []
+        }
+    ],
+    "aura": [
+        {
+            "name": "Aura of Despair",
+            "id": 0,
+            "duration": 5,
+            "description": "While active, Characters are unable to build ultimate charge.",
+            "img": "https://i.imgur.com/jT4XWv2.gif"
+        },
+        {
+            "name": "Aura of Restrict",
+            "id": 1,
+            "duration": 5,
+            "description": "While active, you are unable to change characters until death.",
+            "img": "https://i.imgur.com/ObaDZYz.gif"
+        },
+        {
+            "name": "Aura of Death",
+            "id": 2,
+            "duration": 3,
+            "description": "The chosen character will die if duration reaches 0. Remove by changing characters.",
+            "img": "https://i.imgur.com/pqem3sd.gif"
+        }
+    ]
+}

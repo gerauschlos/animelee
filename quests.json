@@ -1,0 +1,2352 @@
+{
+    "quests": [
+        {
+            "name": "A mysterious world",
+            "description": "With your new partner by your side, you attempt to explore this barren new world. You notice a small village, and despite the unease it gives you, shelter and food are necessities.",
+            "objective": "Investigate the Town.",
+            "img": "https://i.imgur.com/ilmkehR.png",
+            "waves": [
+                {
+                    "enemy": 0
+                },
+                {
+                    "enemy": 1
+                },
+                {
+                    "enemy": 5
+                }
+            ],
+            "storyend": "You discover the houses are empty, but spot a castle with lights on in  the distance.",
+            "rewards": {
+
+                    "gold": 100,
+                    "shards": 15,
+                    "glimmer": 1
+            }},
+            {
+                "name": "The abandoned Castle",
+                "description": "You trudge on to the castle entrance, and find the door is coated in an ominous glow. The gates opening infront of you.",
+                "objective": "Make your way into the Castle.",
+                "img": "https://i.imgur.com/zwghUc7.gif",
+                "waves": [
+                    {
+                        "enemy": 5
+                    },
+                    {
+                        "enemy": 5
+                    },
+                    {
+                        "enemy": 2
+                    }
+                ],
+                "storyend": "Instantly upon entering you realize youve made a mistake! A hoard of monsters awaits you!",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 15,
+                    "glimmer": 2
+                }
+            },
+            {
+                "name": "The opposition",
+                "description": "Confronted the monster hoard you run through the floor, taking on who you can and looking for a way out.",
+                "objective": "Fight through the castle's residents.",
+                "img": "https://i.imgur.com/uSMIfnp.png",
+                "waves": [
+                    {
+                        "enemy": 4
+                    },
+                    {
+                        "enemy": 2
+                    },
+                    {
+                        "enemy": 2
+                    }
+                ],
+                "storyend": "After fighting through the castle monsters you reach a massive, looming staircase.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Resting Death",
+                "description": "You start up the staircase, encountering another band of monsters on the steps!",
+                "objective": "Make your way up the staircase to the main room",
+                "img": "https://i.imgur.com/gnnGMqq.png",
+                "waves": [
+                    {
+                        "enemy": 4
+                    },
+                    {
+                        "enemy": 4
+                    },
+                    {
+                        "enemy": 5
+                    }
+                ],
+                "storyend": "After clearing the wave, you arrive at the higher levels.",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "The castle's Lord",
+                "description": "You findd a huge door blocks you way, with what can be assumed to be the lord of the castle.",
+                "objective": "Defeat the Fallen hero and his minions",
+                "img": "https://i.imgur.com/0NY0rkX.gif",
+                "waves": [
+                    {
+                        "enemy": 5
+                    },
+                    {
+                        "enemy": 5
+                    },
+                    {
+                        "enemy": 6
+                    }
+                ],
+                "storyend": "With the castle lord defeated, you search the castle for food and drink.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 10,
+                    "glimmer": 5
+                }
+            },
+            {
+                "name": "Incoming Opposition",
+                "description": "As you are preparing to set out on your next expedition you hear armored men approaching the castle!",
+                "objective": "Defeat the Holy Order knights who believe you to be a demonic summoner!",
+                "img": "https://i.imgur.com/SPnfzCc.gif",
+                "waves": [
+                    {
+                        "enemy": 11
+                    },
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 12
+                    }
+                ],
+                "storyend": "The holy knights flee in terror, they will not forget this.",
+                "rewards": {
+                    "gold": 200,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Unwanted Attention",
+                "description": "Your encounter with the Holy Knights has caused enemies around the town to be drawn to you, prepare for battle!",
+                "objective": "Survive the approaching monsters!",
+                "img": "https://i.imgur.com/RqGb0kz.png",
+                "waves": [
+                    {
+                        "enemy": 9
+                    },
+                    {
+                        "enemy": 9
+                    },
+                    {
+                        "enemy": 10
+                    }
+                ],
+                "storyend": "You hear the heavy steps of armor and horses.",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Holy Assault",
+                "description": "In an effort to snuff out the Monster pressance, and you along with it. The holy knights have sent their strongest division.",
+                "objective": "Defeat the elite Holy Knight squadron.",
+                "img": "https://i.imgur.com/RqGb0kz.png",
+                "waves": [
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 13
+                    }
+                ],
+                "storyend": "You defeat the angel, but the shockwave of its death flings you into a massive pit in the town.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Into the Depths",
+                "description": "You find yourself barely concious at the bottom of a large pit leading under the town. You are immediately attacked by monsters.",
+                "objective": "Fight through the enemies lurking underneath the city.",
+                "img": "https://i.imgur.com/uc1IHQt.gif",
+                "waves": [
+                    {
+                        "enemy": 9
+                    },
+                    {
+                        "enemy": 10
+                    },
+                    {
+                        "enemy": 14
+                    }
+                ],
+                "storyend": "You inspect the hole you have fallen in",
+                "rewards": {
+                    "gold": 200,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Further to the Deep",
+                "description": "You realize there is no way back up the pit you fell down, your only chance being to continue through the underground.",
+                "objective": "Fight through the enemies lurking underneath the city.",
+                "img": "https://i.imgur.com/uc1IHQt.gif",
+                "waves": [
+                    {
+                        "enemy": 9
+                    },
+                    {
+                        "enemy": 10
+                    },
+                    {
+                        "enemy": 15
+                    }
+                ],
+                "storyend": "After defeating the king of the underneath you head towards the exit.",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Final Encounter",
+                "description": "Before climbing across the mound of bones standing before you and the exit a massive creature bursts from them, blocking your path!",
+                "objective": "Defeat the Skeletal dragon and its minions.",
+                "img": "https://i.imgur.com/uc1IHQt.gif",
+                "waves": [
+                    {
+                        "enemy": 5
+                    },
+                    {
+                        "enemy": 5
+                    },
+                    {
+                        "enemy": 16
+                    }
+                ],
+                "storyend": "You cross the now falling apart dragon, climbing up the ladder to the exit.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "The unholy spire",
+                "description": "After rising from the underground you find yourself in an odd place, a massive crater, with edges tall as mountains. However it is obvious the crater is not natural. At the center of the crater is a massive spire.",
+                "objective": "Investigate the massive Spire.",
+                "img": "https://i.imgur.com/3QFpL1R.gif",
+                "waves": [
+                    {
+                        "enemy": 23
+                    },
+                    {
+                        "enemy": 17
+                    },
+                    {
+                        "enemy": 18
+                    }
+
+                ],
+                "storyend": "You notice a shallow glow from the higher levels.",
+                "rewards": {
+                    "gold": 200,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Advancing floors",
+                "description": "You continue up the spire, in hopes something at the top will help you escape from this crater.",
+                "objective": "Rise up the spire floors.",
+                "img": "https://i.imgur.com/3QFpL1R.gif",
+                "waves": [
+                    {
+                        "enemy": 17 
+                    },
+                    {
+                        "enemy": 20
+                    },
+                    {
+                        "enemy": 20
+                    }
+                ],
+                "storyend": "You find a locked door, reminding you of the one back at the castle.",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Locked floor",
+                "description": "You breifly consider returning to the lower floors before realizing you have a partner conviniently good at knocking things down.",
+                "objective": "Defeat the monsters hiding behind the door.",
+                "img": "https://i.imgur.com/3QFpL1R.gif",
+                "waves": [
+                    {
+                        "enemy": 19
+                    },
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 22
+                    }
+                ],
+                "storyend": "After rummaging through the room you discover a map detailing how to escape the crater into the mountains.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Into the Mountains",
+                "description": "After recovering your strength you head out following the map.",
+                "objective": "Trek through the mountain path.",
+                "img": "https://i.imgur.com/nglMMr7.png",
+                "waves": [
+                    {
+                        "enemy": 23
+                    },
+                    {
+                        "enemy": 23
+                    },
+                    {
+                        "enemy": 10
+                    }
+                ],
+                "storyend": "After defeating the monsters, you notice on something of a clearing.",
+                "rewards": {
+                    "gold": 200,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Into the valley of Undeath",
+                "description": "You stumble upon great plains full of the undead.",
+                "objective": "Sneak through the valley",
+                "img": "https://i.imgur.com/o13ue7I.png",
+                "waves": [
+                    {
+                        "enemy": 8
+                    },
+                    {
+                        "enemy": 8
+                    },
+                    {
+                        "enemy": 14
+                    }
+                ],
+                "storyend": "You hear something of a sound, something large...",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Hidden Foe",
+                "description": "You have unknowingly interrupted an ancient enemy resting in the valley!",
+                "objective": "Defeat the valley Knight",
+                "img": "https://i.imgur.com/gAe5tO1.gif",
+                "waves": [
+                    {
+                        "enemy": 23
+                    },
+                    {
+                        "enemy": 23
+                    },
+                    {
+                        "enemy": 24
+                    }
+                ],
+                "storyend": "You discover a glowing pendant on the body of the knight, deciding to take it incase it might have some use.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "A mysterious Clearing",
+                "description": "You stumble upon an impossible structure, sneaking in through a door at its bottom level to investigate inside.",
+                "objective": "Search the Barely Standing castle.",
+                "img": "https://i.imgur.com/QfDzThV.jpg",
+                "waves": [
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 21
+                    }
+                ],
+                "storyend": "You notice the structure contains a multitude of rooms and installations, all occupied by holy knights!",
+                "rewards": {
+                    "gold": 200,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Unusual find",
+                "description": "You start to realize the structure has a library, and that it may hold the secret to your return.",
+                "objective": "Fight your way to the library in search of a way back home.",
+                "img": "https://i.imgur.com/QfDzThV.jpg",
+                "waves": [
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 19
+                    }
+                ],
+                "storyend": "You find the library, however the holy knights are wise to your presence.",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The experiment",
+                "description": "You encounter the culmination of the facilities research; the nightmare golem. Defeat it and make your way to the library.",
+                "objective": "Defeat the Nightmare Golem",
+                "img": "https://i.imgur.com/l5IzDVz.gif",
+                "waves": [
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 25
+                    }
+                ],
+                "storyend": "You manage to enter the library, and find a book detailing an ancient ritual said to summon heroes from other worlds deep undersea.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Ocean Expedition",
+                "description": "After sneaking out of the holy knights research facility, you journey down undersea caves in search of the ancient summoning ritual!",
+                "objective": "Investigate the undersea caves under the library.",
+                "img": "https://i.imgur.com/uc1IHQt.gif",
+                "waves": [
+                    {
+                        "enemy": 17
+                    },
+                    {
+                        "enemy": 17
+                    },
+                    {
+                        "enemy": 18
+                    }
+                ],
+                "storyend": "You become lost in the caves from the struggle.",
+                "rewards": {
+                    "gold": 200,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Sunken City",
+                "description": "After wandering aimlessly for hours the pendant you've been carrying with you glows a blue light, illuminating an anicent language guiding you down a dark road.",
+                "objective": "Procceed down the caverns to the Ancient City",
+                "img": "https://i.imgur.com/7OKdNUl.png",
+                "waves": [
+                    {
+                        "enemy": 14
+                    },
+                    {
+                        "enemy": 14
+                    },
+                    {
+                        "enemy": 10
+                    }
+                ],
+                "storyend": "You spot a clearing down the damp path.",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Trial",
+                "description": "You finally arrive at the sunken Temple site, however a guardian blocks your way. Defeat 3 enemies to prove your worth!",
+                "objective": "Clear the following waves",
+                "img": "https://i.imgur.com/LpCeOB7.gif",
+                "waves": [
+                    {
+                        "enemy": 26
+                    },
+                    {
+                        "enemy": 26
+                    },
+                    {
+                        "enemy": 22
+                    }
+                ],
+                "storyend": "The sunken guardian is impressed by your power, it has deemed you worthy of judging itself!",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Trial pt. 2",
+                "description": "Defeat the sunken guardian and prove yourself worthy of its knowledge.",
+                "objective": "Defeat the Sunken Guardian",
+                "img": "https://i.imgur.com/xbeYgjJ.gif",
+                "waves": [
+                    {
+                        "enemy": 22
+                    },
+                    {
+                        "enemy": 22
+                    },
+                    {
+                        "enemy": 27
+                    }
+                ],
+                "storyend": "The guardian allows you to pass, and as you aproach the ritual site the pendant around your neck begins to glow and writhe with energy.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "An Unwanted interuption",
+                "description": "Just as you begin to preform the ritual you are attacked by the heavy forces of the Holy Knights seeking to stop you and take the ritual for themselves!",
+                "objective": "Defeat the holy knights.",
+                "img": "https://i.imgur.com/IGsk4Iq.png",
+                "waves": [
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 13
+                    }
+                ],
+                "storyend": "You find yourself somewhat tired, however an entire army of knights remain.",
+                "rewards": {
+                    "gold": 200,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The hard choices",
+                "description": "The holy knights have realized the pendant you are guarding is triggering the ritual, and have decided to try and claim it with all their might!",
+                "objective": "Defend the ritual site.",
+                "img": "https://i.imgur.com/IGsk4Iq.png",
+                "waves": [
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 25
+                    }
+                ],
+                "storyend": "You notice the remaining knights have stopped attacking",
+                "rewards": {
+                    "gold": 250,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "An Undefeated Threat",
+                "description": "Just as victory seems yours, the mass of knights part for a priest in white. Using his holy chains he forces down the guardian.",
+                "objective": "Defeat the Arch-Bishop.",
+                "img": "https://i.imgur.com/1991vU8.gif",
+                "waves": [
+                    {
+                        "enemy": 25
+                    },
+                    {
+                        "enemy": 25
+                    },
+                    {
+                        "enemy": 28
+                    }
+                ],
+                "storyend": "You defeat the archbishop, but in your weakened state the enemy forces overwhelm you. You see the arch-bishop heal himself easily, and before you are dragged off to be imprisoned he takes the pendant.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "The devils handshake",
+                "description": "The Arch-Bishop invites you to see the futility of your resistance, and perhaps.. offer you a deal.",
+                "objective": "Defeat the Arch-Bishop.",
+                "img": "https://i.imgur.com/1991vU8.gif",
+                "waves": [
+                    {
+                        "enemy": 28
+                    },
+                    {
+                        "enemy": 28
+                    },
+                    {
+                        "enemy": 28
+                    }
+                ],
+                "storyend": "With the Arch-Bishop already healed again, you decide to accept his deal: Gather all the ancient pendants, and he will send you home.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Scorched Earth",
+                "description": "Set out in search of the pendant of Eternal Flame, rummored to be in the great deserts.",
+                "objective": "Search for the Eternal Flame.",
+                "img": "https://i.imgur.com/9wboP5V.png",
+                "waves": [
+                    {
+                        "enemy": 29
+                    },
+                    {
+                        "enemy": 29
+                    },
+                    {
+                        "enemy": 31
+                    }
+                ],
+                "storyend": "After confronting the feathered warrior, you follow its trail to ancient ruins.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Ominous Tomb",
+                "description": "You stumble upon a somewhat simple looking tomb, but something tells you theres more to it than meets the eye.",
+                "objective": "Investigate the Tomb.",
+                "img": "https://i.imgur.com/5sVy1uP.gif",
+                "waves": [
+                    {
+                        "enemy": 30
+                    },
+                    {
+                        "enemy": 30
+                    },
+                    {
+                        "enemy": 31
+                    }
+                ],
+                "storyend": "You notice some imps retreating through a hidden entrance in the ruins, and follow close behind.",
+                "rewards": {
+                    "gold": 350,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The labyrinth",
+                "description": "You follow down a path of stairs until reaching a massive underground labyrinth.",
+                "objective": "Delve into the Labyrinth.",
+                "img": "https://i.imgur.com/5sVy1uP.gif",
+                "waves": [
+                    {
+                        "enemy": 31
+                    },
+                    {
+                        "enemy": 31
+                    },
+                    {
+                        "enemy": 32
+                    }
+                ],
+                "storyend": "You follow through dead end to dead end.",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Trick",
+                "description": "You follow every path you can, and realize that the labyrinth has no true exit. So you decide to make your own.",
+                "objective": "Fight through the labyrinth.",
+                "img": "https://i.imgur.com/5sVy1uP.gif",
+                "waves": [
+                    {
+                        "enemy": 32
+                    },
+                    {
+                        "enemy": 32
+                    },
+                    {
+                        "enemy": 33
+                    }
+                ],
+                "storyend": "The Eternal Flame has taken notice of you.",
+                "rewards": {
+                    "gold": 450,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Trial by Fire",
+                "description": "The Eternal flame has taken note of your efforts, defeat the champion of the labyrinth and claim its pendant.",
+                "objective": "Procure the Pendant of Eternal Flame.",
+                "img": "https://i.imgur.com/kfwFtSr.gif",
+                "waves": [
+                    {
+                        "enemy": 33
+                    },
+                    {
+                        "enemy": 33
+                    },
+                    {
+                        "enemy": 34
+                    }
+                ],
+                "storyend": "As the Minotaur falls, the Pendant of Eternal flame falls into your hands, along with a tattered map pointing you towards Gaia.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "In search of Earth",
+                "description": "You carry on your search to the lush forests of gaia, in hopes of finding the Pendant of Unending Earth.",
+                "objective": "Investigate the Forests of Gaia.",
+                "img": "https://i.imgur.com/Sw0K893.gif",
+                "waves": [
+                    {
+                        "enemy": 9
+                    },
+                    {
+                        "enemy": 9
+                    },
+                    {
+                        "enemy": 14
+                    }
+                ],
+                "storyend": "You notice something.. wrong...",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Undeath Plague",
+                "description": "AS you venture into the rotting forrest you come to realize the once mythical stronghold of Gaia has fallen to the Cult of Undeath",
+                "objective": "Find the Pendant before the Cult.",
+                "img": "https://i.imgur.com/wAVcjtf.png",
+                "waves": [
+                    {
+                        "enemy": 14
+                    },
+                    {
+                        "enemy": 10
+                    },
+                    {
+                        "enemy": 35
+                    }
+                ],
+                "storyend": "You notice the door to what can be assumed as the pendants tomb is rotted, and fallen.",
+                "rewards": {
+                    "gold": 350,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Corruption",
+                "description": "The insides of the tomb have long fallen to the curse of Undeath, however you treck on to find the pendant.",
+                "objective": "Investigate the Tomb.",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 17
+                    },
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 16
+                    }
+                ],
+                "storyend": "As the dragon falls you find the restingplace of the pendant, now missing.",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Suffocating Trial",
+                "description": "AS you prepare to declare the pendant a lost cause, the Guardian of the tomb rises.. as undead",
+                "objective": "Defeat the Undead Guardian.",
+                "img": "https://i.imgur.com/Xfa91wT.gif",
+                "waves": [
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 36
+                    }
+                ],
+                "storyend": "AS the guardian falls, a shell of its former self, you realize the obstacle this cult will pose towards returning to your world...",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Advanced scouting",
+                "description": "Head out to the den of the cult of Undeath to try and discover their intentions",
+                "objective": "Spy on the Cult",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 35
+                    }
+                ],
+                "storyend": "With the advanced guard silenced, you sneak into the valley.",
+                "rewards": {
+                    "gold": 300,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Stealth Mission",
+                "description": "You and the 2 scouts assigned to your side venture into the den of the cultists.",
+                "objective": "Sneak inside.",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 19
+                    }
+                ],
+                "storyend": "The air gets heavy with miasma, and you find it hard to draw breath...",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Intrusion",
+                "description": "Heading towards the miasma you find yourself fallen down a trap, and have stumbled into the middle of a malicious experiment.",
+                "objective": "Escape the Cult",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 38
+                    }
+                ],
+                "storyend": "After slaying the priest you run down the winding halls, horrors being heard behind you...",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Unholy Light",
+                "description": "As you near the exit, the hold of monsters blocks your path.",
+                "objective": "Fight your way Out.",
+                "img": "https://i.imgur.com/McEoDa3.gif",
+                "waves": [
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 39
+                    }
+                ],
+                "storyend": "As you run through, you spot what seems to be a robed giant, shrouded in darkness and chained to the ground...",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Assignment",
+                "description": "After barely escaping with your life the arch bishop tells you to return to the cultist's den undercover.",
+                "objective": "Return undercover to the den.",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 10
+                    },
+                    {
+                        "enemy": 10
+                    },
+                    {
+                        "enemy": 9
+                    }
+                ],
+                "storyend": "AS you return to the den, you prepare to steal the clothes off a cultist.",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Infiltration",
+                "description": "As the cultists approach, you prepare to ambush them from above.",
+                "objective": "Ambush the cultists.",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 17
+                    },
+                    {
+                        "enemy": 17
+                    },
+                    {
+                        "enemy": 35
+                    }
+                ],
+                "storyend": "After stealing the clothes from the cultist, you proceed inside",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Innitiation",
+                "description": "You enter the den as a new recruit, and are guided to a secret city for the undead for your innitiation.",
+                "objective": "Infiltrate the Cult.",
+                "img": "https://i.imgur.com/ilmkehR.png",
+                "waves": [
+                    {
+                        "enemy": 8
+                    },
+                    {
+                        "enemy": 8
+                    },
+                    {
+                        "enemy": 10
+                    }
+                ],
+                "storyend": "After making your way to the city, you are show the site of your trial.",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Trial of Undeath",
+                "description": "Prove yourself worthy of being a member of the cult by facing some of the experiments.",
+                "objective": "Pass the Trial",
+                "img": "https://i.imgur.com/ilmkehR.png",
+                "waves": [
+                    {
+                        "enemy": 40
+                    },
+                    {
+                        "enemy": 40
+                    },
+                    {
+                        "enemy": 39
+                    }
+                ],
+                "storyend": "The cult grandmaster is impressed by your preformance, welcome To the cult of undeath.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Job",
+                "description": "Your first task has already been handed down to you, take out a holy golem that has gone wild.",
+                "objective": "Please the Grandmaster to rise the Ranks.",
+                "img": "https://i.imgur.com/ilmkehR.png",
+                "waves": [
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 25
+                    }
+                ],
+                "storyend": "Once again pleased, the grandmaster hands down another task.",
+                "rewards": {
+                    "gold": 400,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Test",
+                "description": "To test your worth to the cult, you are asked with bringing in an angel of the church, alive.",
+                "objective": "Capture an Angel.",
+                "img": "https://i.imgur.com/ek1igCb.gif",
+                "waves": [
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 21
+                    },
+                    {
+                        "enemy": 13
+                    }
+                ],
+                "storyend": "AS you bring the angel back to the cult, you learn you are to participate in the ritual to come.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "A Brush with Death",
+                "description": "In the ritual chamber, a robed, looming figure throws a coat of dark onto the angel. It begins to change.",
+                "objective": "Wear down the Angel.",
+                "img": "https://i.imgur.com/ek1igCb.gif",
+                "waves": [
+                    {
+                        "enemy": 13
+                    },
+                    {
+                        "enemy": 13
+                    },
+                    {
+                        "enemy": 21
+                    }
+                ],
+                "storyend": "The angel writhes, falling to the dark magic. Beginning to bloat and errupt with corruption.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Out of Control",
+                "description": "AS the sudden abomination loses control, you are left to defeat it.",
+                "objective": "Bring down the abomination.",
+                "img": "https://i.imgur.com/SibBQlj.gif",
+                "waves": [
+                    {
+                        "enemy": 41
+                    },
+                    {
+                        "enemy": 41
+                    },
+                    {
+                        "enemy": 41
+                    }
+                ],
+                "storyend": "As the monster falls the cult chains and drags it away, a pleased grandmaster grants you a promotion.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "The Great Raid",
+                "description": "The overseer recruits you to participate in the great raid against the flying city, in search of the pendant of the Winds.",
+                "objective": "Begin the Assault against the Flying City.",
+                "img": "https://i.imgur.com/QP8XMY4.gif",
+                "waves": [
+                    {
+                        "enemy": 44
+                    },
+                    {
+                        "enemy": 44
+                    },
+                    {
+                        "enemy": 45
+                    }
+                ],
+                "storyend": "Along with the small army of cultists, you proceed up the staircase to the heavens.",
+                "rewards": {
+                    "gold": 500,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Into the Skies",
+                "description": "You discover the ancient resting place of the pendant of the winds, the flying ruins.",
+                "objective": "Search for the Pendant",
+                "img": "https://i.imgur.com/QP8XMY4.gif",
+                "waves": [
+                    {
+                        "enemy": 45
+                    },
+                    {
+                        "enemy": 45
+                    },
+                    {
+                        "enemy": 46
+                    }
+                ],
+                "storyend": "The city turns restless...",
+                "rewards": {
+                    "gold": 600,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The Raid goes On",
+                "description": "Navigate the city towards the tomb of the pendant.",
+                "objective": "Continue onwards",
+                "img": "https://i.imgur.com/QP8XMY4.gif",
+                "waves": [
+                    {
+                        "enemy": 46
+                    },
+                    {
+                        "enemy": 46
+                    },
+                    {
+                        "enemy": 47
+                    }
+                ],
+                "storyend": "You want the guardian stagger, but he isnt out of the fight yet.",
+                "rewards": {
+                    "gold": 600,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "A Guardians Might",
+                "description": "The unyielding guardian stands proud, you and the cult continue your assault.",
+                "objective": "Bring down the Guardian",
+                "img": "https://i.imgur.com/QP8XMY4.gif",
+                "waves": [
+                    {
+                        "enemy": 47
+                    },
+                    {
+                        "enemy": 48
+                    },
+                    {
+                        "enemy": 48
+                    }
+                ],
+                "storyend": "The guardian still stands, however the cultists have a secret weapon.. The reaper emerges, and begins to corrupt the guardian just as it did with gaia.",
+                "rewards": {
+                    "gold": 700,
+                    "shards": 10,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Corruption",
+                "description": "The tired guardian falls to the reapers corruption, become an undead version of itself.",
+                "objective": "Take down the mindless guardian",
+                "img": "https://i.imgur.com/ThE8crI.gif",
+                "waves": [
+                    {
+                        "enemy": 49
+                    },
+                    {
+                        "enemy": 49
+                    },
+                    {
+                        "enemy": 49
+                    }
+                ],
+                "storyend": "As the abomination falls, the forces of the cult demolished from its might, you proceed to the pendant.",
+                "rewards": {
+                    "gold": 800,
+                    "shards": 10,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Preventative measures",
+                "description": "You have a new task, seek out the sleeping ancient Heroes of the church, and put them down before they can re-awaken.",
+                "objective": "Locate the first Hero",
+                "img": "https://i.imgur.com/ccZN25r.jpg",
+                "waves": [
+                    {
+                        "enemy": 50
+                    },
+                    {
+                        "enemy": 11
+                    },
+                    {
+                        "enemy": 12
+                    }
+                ],
+                "storyend": "You realize something important must lie within the structure, for guards to be stationed there.",
+                "rewards": {
+                    "gold": 800,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Tomb of saints",
+                "description": "You enter the odd structure, golden statues of angels lining the way.",
+                "objective": "Enter the Tomb of Saints",
+                "img": "https://i.imgur.com/ccZN25r.jpg",
+                "waves": [
+                    {
+                        "enemy": 12
+                    },
+                    {
+                        "enemy": 50
+                    },
+                    {
+                        "enemy": 51
+                    }
+                ],
+                "storyend": "Resistance grows...",
+                "rewards": {
+                    "gold": 900,
+                    "shards": 5,
+                    "glimmer": 0
+
+                }
+            },
+            {
+                "name": "Sign of Heroes",
+                "description": "You see a massive locked door, with a small guard standing infront of it.",
+                "objective": "Reach the door",
+                "img": "https://i.imgur.com/ccZN25r.jpg",
+                "waves": [
+                    {
+                        "enemy": 51
+                    },
+                    {
+                        "enemy": 51
+                    },
+                    {
+                        "enemy": 52
+                    }
+                ],
+                "storyend": "You reach the huge door, surging with power it opens on its own.",
+                "rewards": {
+                    "gold": 1000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The great Hero",
+                "description": "You enter to find the hero, awake and ready, along with 2 attendants!",
+                "objective": "Topple the Enemy Forces",
+                "img": "https://i.imgur.com/ccZN25r.jpg",
+                "waves": [
+                    {
+                        "enemy": 52
+                    },
+                    {
+                        "enemy": 52
+                    },
+                    {
+                        "enemy": 53
+                    }
+                ],
+                "storyend": "The Hero falls, having been half asleep to reveal a massive whole in the ground behind him.",
+                "rewards": {
+                    "gold": 1000,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Chasm of Saints",
+                "description": "You begin your descent down the massive chasm full of crystals.",
+                "objective": "Investigate the Chasm",
+                "img": "https://i.imgur.com/OZd33PJ.jpg",
+                "waves": [
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 51
+                    }
+                ],
+                "storyend": "You notice the chasm is home to all kinds of unusual creatures.",
+                "rewards": {
+                    "gold": 800,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Abandoned Path",
+                "description": "You continue down the winding rock formations, finding the remains of holy guards.",
+                "objective": "Head towards the door",
+                "img": "https://i.imgur.com/OZd33PJ.jpg",
+                "waves": [
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 44
+                    },
+                    {
+                        "enemy": 44
+                    }
+                ],
+                "storyend": "You find a similar party of guards by the door, although hurt and weak.",
+                "rewards": {
+                    "gold": 900,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "The welcome party",
+                "description": "They being to prepare for battle against you, only to be ambushed by a cave dweller and slaughtered.",
+                "objective": "Defeated the Winged Beast",
+                "img": "https://i.imgur.com/OZd33PJ.jpg",
+                "waves": [
+                    {
+                        "enemy": 45
+                    },
+                    {
+                        "enemy": 45
+                    },
+                    {
+                        "enemy": 45
+                    }
+                ],
+                "storyend": "The beast falls, and you had towards the opening door.",
+                "rewards": {
+                    "gold": 1000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Down the line of Heroes",
+                "description": "You enter the shining room, and are greated with a mighty warrior, his attendants long dead from beasts.",
+                "objective": "Defeat the Hero",
+                "img": "https://i.imgur.com/jD1zbqQ.gif",
+                "waves": [
+                    {
+                        "enemy": 54
+                    },
+                    {
+                        "enemy": 54
+                    },
+                    {
+                        "enemy": 55
+                    }
+                ],
+                "storyend": "The Hero falls to your might, a ladder at the far end of the room pointing you forward.",
+                "rewards": {
+                    "gold": 1000,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "In Search of the last",
+                "description": "As you move towards the ladder a rumbling can be heard, the floor above bursting in, the final hero has come to you!",
+                "objective": "Take down the final Hero",
+                "img": "https://i.imgur.com/AkEZVQd.gif",
+                "waves": [
+                    {
+                        "enemy": 56
+                    },
+                    {
+                        "enemy": 56
+                    },
+                    {
+                        "enemy": 56
+                    }
+                ],
+                "storyend": "The Hero appears to stagger, before raising up, it will not fall so soon!",
+                "rewards": {
+                    "gold": 1000,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Wrath of a Hero",
+                "description": "The final hero stands ready to end your blasphemous existance!",
+                "objective": "Defeat the Hero",
+                "img": "https://i.imgur.com/kfsl6Ol.gif",
+                "waves": [
+                    {
+                        "enemy": 56
+                    }, 
+                    {
+                        "enemy": 57
+                    },
+                    {
+                        "enemy": 57
+                    }
+                ],
+                "storyend": "The fallout of the great hero's death breaks the ground below you, and you fall to the abyss.",
+                "rewards": {
+                    "gold": 1500,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "A brash return",
+                "description": "As you come back to deep underground, you begin the journy to return to the surface and report to the bishop.",
+                "objective": "Fight through the lava-covered caverns",
+                "img": "https://i.imgur.com/03txNSg.gif",
+                "waves": [
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 37
+                    },
+                    {
+                        "enemy": 29
+                    }
+                ],
+                "storyend": "You notice the vortex in the distance, its looming shape causes you unsease..",
+                "rewards": {
+                    "gold": 2000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Face of Blood",
+                "description": "Your path leads you closer to the vortex.",
+                "objective": "Find you way out.",
+                "img": "https://i.imgur.com/03txNSg.gif",
+                "waves": [
+                    {
+                        "enemy": 29
+                    },
+                    {
+                        "enemy": 29
+                    },
+                    {
+                        "enemy": 58
+                    }
+                ],
+                "storyend": "You get the feeling this monster wont be the last..",
+                "rewards": {
+                    "gold": 1000,
+                    "shards": 10,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Face of Luxory",
+                "description": "You proceed along the outskirts of the vortex, its dark energies starting to affect you.",
+                "objective": "Find your way out.",
+                "img": "https://i.imgur.com/03txNSg.gif",
+                "waves": [
+                    {
+                        "enemy": 29
+                    },
+                    {
+                        "enemy": 29
+                    },
+                    {
+                        "enemy": 59
+                    }
+                ],
+                "storyend": "You see a path away from the vortex in the distance.",
+                "rewards": {
+                    "gold": 1500,
+                    "shards": 10,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Face of Earth",
+                "description": "You find yourself close to the vortex, its power starting to sprout monsters around you in an instance.",
+                "objective": "Escape the influence of the vortex.",
+                "img": "https://i.imgur.com/03txNSg.gif",
+                "waves": [
+                    {
+                        "enemy": 61
+                    },
+                    {
+                        "enemy": 61
+                    },
+                    {
+                        "enemy": 60
+                    }
+                ],
+                "storyend": "You arrive at a path away from the vortex, and hurry back up to the surface.",
+                "rewards": {
+                    "gold": 2000,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Unwelcoming return",
+                "description": "As you find yourself back in the world of the light near Cult hq, you quickly find yourself attacked!",
+                "objective": "Fight off the ambush.",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 38
+                    }
+                ],
+                "storyend": "You realize the bishop must have blown your cover..",
+                "rewards": {
+                    "gold": 1000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Into the belly of the beast",
+                "description": "You understand full well the only way through, is out the other side of cult hq.",
+                "objective": "Fight to the center of the cult",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 35
+                    },
+                    {
+                        "enemy": 38
+                    },
+                    {
+                        "enemy": 19
+                    }
+                ],
+                "storyend": "You near the heart of the cult's temple.",
+                "rewards": {
+                    "gold": 1500,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "An unexpected turn",
+                "description": "You approach what you think must be nearing the way out, however you are close to something dangerous..",
+                "objective": "Fight out of the cult",
+                "img": "https://i.imgur.com/5OixYeI.gif",
+                "waves": [
+                    {
+                        "enemy": 19
+                    },
+                    {
+                        "enemy": 62
+                    },
+                    {
+                        "enemy": 62
+                    }
+                ],
+                "storyend": "You wonder why such a powerful foe is keeping watch here.",
+                "rewards": {
+                    "gold": 2000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Raging dark",
+                "description": "The keeper rises again, channeling dark energies.",
+                "objective": "Take down the keeper",
+                "img": "https://i.imgur.com/4nLEjIk.gif",
+                "waves": [
+                    {
+                        "enemy": 62
+                    },
+                    {
+                        "enemy": 63
+                    },
+                    {
+                        "enemy": 63
+                    }
+                ],
+                "storyend": "You suddenly realize you recognize this room, its the chamber of the reaper..",
+                "rewards": {
+                    "gold": 2500,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "True Death",
+                "description": "You watch as shadows form before you, and the true messenger of death forms.",
+                "objective": "Take down the Reaper",
+                "img": "https://i.imgur.com/JPKSYzO.gif",
+                "waves": [
+                    {
+                        "enemy": 64
+                    },
+                    {
+                        "enemy": 64
+                    },
+                    {
+                        "enemy": 64
+                    }
+                ],
+                "storyend": "The shackled reaper bursts from its form.",
+                "rewards": {
+                    "gold": 3000,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Under the Cloak",
+                "description": "The reaper begins its punishment of your desecration, in a form fit for warriors!",
+                "objective": "Defeat the reaper",
+                "img": "https://i.imgur.com/KhDlAGS.gif",
+                "waves": [
+                    {
+                        "enemy": 65
+                    },
+                    {
+                        "enemy": 65
+                    },
+                    {
+                        "enemy": 65
+                    }
+                ],
+                "storyend": "The reaper does not fall, instead its magic increases.",
+                "rewards": {
+                "gold": 3000,
+                "shards": 10,
+                "glimmer": 1
+                }
+            },
+            {
+                "name": "To the End",
+                "description": "The reaper hungers for your very soul, its power will not be sated so easily!",
+                "objective": "Put an end to the reaper.",
+                "img": "https://i.imgur.com/y2kZ2Ue.gif",
+                "waves": [
+                    {
+                        "enemy": 65
+                    },
+                    {
+                        "enemy": 66
+                    },
+                    {
+                        "enemy": 66
+                    }
+                ],
+                "storyend": "The skull tying the reaper to this plane shatters, and the arbiter of death returns to the underworld.",
+                "rewards": {
+                    "gold": 3500,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "The Trap",
+                "description": "The cult is collapsing around you, escape!",
+                "objective": "Escape the Cult",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 41
+                    },
+                    {
+                        "enemy": 41
+                    },
+                    {
+                        "enemy": 41
+                    }
+                ],
+                "storyend": "As you exit the cult at last you see a familiar face, the bishop stands there ready to collect the pendants from the cult.",
+                "rewards": {
+                    "gold": 2000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Dawn of conflict",
+                "description": "You have cleared a path for the bishop to take the other pendants, stop him now.",
+                "objective": "Defeat the holy church for good.",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 87
+                    },
+                    {
+                        "enemy": 87
+                    },
+                    {
+                        "enemy": 87
+                    }
+                ],
+                "storyend": "In the midst of your battle, the church has gathered the other pendants!",
+                "rewards": {
+                    "gold": 2500,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Ritual of the Depths",
+                "description": "Using the power of the ancient pendants the bishop has summoned guardians to face you!",
+                "objective": "Clear out the summoned beasts.",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 36
+                    },
+                    {
+                        "enemy": 48
+                    },
+                    {
+                        "enemy": 60
+                    }
+                ],
+                "storyend": "The bishop sees you will not be defeated so easily..",
+                "rewards": {
+                    "gold": 3000,
+                    "shards": 10,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Ritual of the Depths pt. 2",
+                "description": "The bishop summons fammiliar faces to deal with you..",
+                "objective": "Clear out the heroes",
+                "img": "https://i.imgur.com/XQW56n2.png",
+                "waves": [
+                    {
+                        "enemy": 55
+                    },
+                    {
+                        "enemy": 57
+                    },
+                    {
+                        "enemy": 57
+                    }
+                ],
+                "storyend": "With the heroes defeated the bishop begins to panic, its his turn.",
+                "rewards": {
+                    "gold": 4000,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Devil in Disguise",
+                "description": "The bishop has come to face you in person!",
+                "objective": "Defeat the Arch-Bishop.",
+                "img": "https://i.imgur.com/1991vU8.gif",
+                "waves": [
+                    {
+                        "enemy": 88
+                    },
+                    {
+                        "enemy": 88
+                    },
+                    {
+                        "enemy": 89
+                    }
+                ],
+                "storyend": "The bishop hangs back to start regaining health, summoning his final monster in his stead.",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Correspondance with Death",
+                "description": "The bishop has summoned the reaper of soul, defeat it once more and finish him off!",
+                "objective": "Defeat the Reaper once more",
+                "img": "https://i.imgur.com/mr2OILv.gif",
+                "waves": [
+                    {
+                        "enemy": 65
+                    },
+                    {
+                        "enemy": 66
+                    },
+                    {
+                        "enemy": 66
+                    }
+                ],
+                "storyend": "Only one enemy left..",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "The reveal",
+                "description": "You realize quickly that the holy bishop heals thanks to the mask he wears, destroy it to end his reign.",
+                "objective": "Finish Him",
+                "img": "https://i.imgur.com/1991vU8.gif",
+                "waves": [
+                    {
+                        "enemy": 88
+                    },
+                    {
+                        "enemy": 89
+                    },
+                    {
+                        "enemy": 89
+                    }
+                ],
+                "storyend": "The bishop falls, his mask broken off his face to reveal...",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Liang",
+                "description": "As the mask shatters to bits across his face, the bishop is revealed to be none other than Zhuge Liang!",
+                "objective": "Confront the Character.",
+                "img": "https://i.imgur.com/lW0P86U.png",
+                "waves": [
+                    {
+                        "enemy": 97
+                    },
+                    {
+                        "enemy": 97
+                    },
+                    {
+                        "enemy": 98
+                    }
+                ],
+                "storyend": "In a final attempt, Zhuge liang grasps the pendants he has, and escapes through the bounds of reality, to a realm above..",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Into the Bounds of Space",
+                "description": "Using the pendnat you have to keep up, you chase Liang's trail through reality!",
+                "objective": "Chase Liang",
+                "img": "https://i.imgur.com/Rys95xg.gif",
+                "waves": [
+                    {
+                        "enemy": 85
+                    },
+                    {
+                        "enemy": 85
+                    },
+                    {
+                        "enemy": 88
+                    }
+                ],
+                "storyend": "The portals left by Zhuge Liang are getting closer, the chase is on!",
+                "rewards": {
+                    "gold": 4000,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Through the vortex",
+                "description": "Interdimensional beings stand in your way!",
+                "objective": "Clear out the Enemies",
+                "img": "https://i.imgur.com/ZxgMktV.gif",
+                "waves": [
+                    {
+                        "enemy": 71
+                    },
+                    {
+                        "enemy": 72
+                    },
+                    {
+                        "enemy": 70
+                    }
+                ],
+                "storyend": "As you aproach Liang, still running, a ripple sends you both reeling, and flings you both out to parts unknown...",
+                "rewards": {
+                    "gold": 3000,
+                    "shards": 0,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "The Crimson Twilight",
+                "description": "You peer up, still shakey from the impact only to see...",
+                "objective": "Explore your surroundings",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 61
+                    },
+                    {
+                        "enemy": 61
+                    },
+                    {
+                        "enemy": 61
+                    }
+                ],
+                "storyend": "As you finish the abyssal creatures, you realized tattered bits of Liang's cloak lie towards the mountains.",
+                "rewards": {
+                    "gold": 2000,
+                    "shards": 0,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Inhabitors of the Twilight",
+                "description": "Track Liang through the mountains in the twilight valley, known as the spaceless realm in legend.",
+                "objective": "Track Liang",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 106
+                    },
+                    {
+                        "enemy": 105
+                    },
+                    {
+                        "enemy": 105
+                    }
+                ],
+                "storyend": "The phantom vanishes from reality, leaving you an ominous sensation as you press deeper.",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Guardians",
+                "description": "Your battle with Ryunosuke has stirred the ancient golems of the twilight!",
+                "objective": "Escape the Golems",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 106
+                    },
+                    {
+                        "enemy": 107
+                    },
+                    {
+                        "enemy": 107
+                    }
+                ],
+                "storyend": "The Golems fall, however the faint whistle of a blade can be heard approaching...",
+                "rewards": {
+                    "gold": 2500,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Hunter",
+                "description": "The hunter of the spaceless realm has come for you.",
+                "objective": "Escape the Hunter",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 61
+                    },
+                    {
+                        "enemy": 61
+                    },
+                    {
+                        "enemy": 108
+                    }
+                ],
+                "storyend": "You spot a cave in the distance, and make a run for it.",
+                "rewards": {
+                    "gold": 2500,
+                    "shards": 5,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Black Reflection",
+                "description": "You find yourself ambushed by another mirror!",
+                "objective": "Track Liang",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 106
+                    },
+                    {
+                        "enemy": 104
+                    },
+                    {
+                        "enemy": 104
+                    }
+                ],
+                "storyend": "You decide to run to the cave, sensing more mirrors swarming towards you.",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Into the Blackened Cave",
+                "description": "You find pieces of liang's cloak, the pendants he holds may be the only way back home.",
+                "objective": "Explore the Cave of the Forgotten",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 110
+                    },
+                    {
+                        "enemy": 110
+                    },
+                    {
+                        "enemy": 106
+                    }
+                ],
+                "storyend": "You push deeper into the cave.",
+                "rewards": {
+                    "gold": 3000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Lane of Memory",
+                "description": "The broken mirror of your last battle flickers behind you.",
+                "objective": "Defeat the Echo",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 110
+                    },
+                    {
+                        "enemy": 111
+                    },
+                    {
+                        "enemy": 111
+                    }
+                ],
+                "storyend": "You notice the following room of the cave has a dim, red light coming from it...",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 10,
+                    "glimmer": 1
+                }
+            },
+            {
+                "name": "Maze-like Caves",
+                "objective": "Make it through the cave-system",
+                "description": "The shadows on the cave walls.. They move",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 107
+                    },
+                    {
+                        "enemy": 107
+                    },
+                    {
+                        "enemy": 108
+                    }
+                ],
+                "storyend": "You realize shadows must come from a stronger light source, there is activity ahead.",
+                "rewards": {
+                    "gold": 3000,
+                    "shards": 5,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "Evidence of Tomorrow",
+                "objective": "Escape the Watching Mech",
+                "description": "You realize something has been watching you from the upper caves.",
+                "img": "https://i.imgur.com/n12YF2B.jpg?1",
+                "waves": [
+                    {
+                        "enemy": 108
+                    },
+                    {
+                        "enemy": 113
+                    },
+                    {
+                        "enemy": 113
+                    }
+                ],
+                "storyend": "You finally reach the lit cave.",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 10,
+                    "glimmer": 0
+                }
+            },
+            {
+                "name": "True Despair",
+                "description": "You enter to find a horrifying scene, liang being absorbed by a glitching phantom.",
+                "objective": "Defeat the glitch before it merges",
+                "img": "https://i.imgur.com/xbR3iFY.png",
+                "waves": [
+                    {
+                        "enemy": 98
+                    },
+                    {
+                        "enemy": 112
+                    },
+                    {
+                        "enemy": 116
+                    }
+                ],
+                "storyend": "Before dissapearing back into the system, the phantom dives for Liang.",
+                "rewards": {
+                    "gold": 5000,
+                    "shards": 15,
+                    "glimmer": 1
+                }
+            }
+            ],
+            "events": [
+                {
+                    "name": "Encounter: Demon moon company.",
+                    "description": "A strange group of characters has appear!",
+                    "objective": "Defeat the intruders",
+                    "img": "https://i.imgur.com/RQeWaqo.png",
+                    "waves": [
+                        {
+                            "enemy": 136
+                        },
+                        {
+                            "enemy": 136
+                        },
+                        {
+                            "enemy": 137
+                        }
+                    ],
+                    "rewards": {
+                        "gold": 1000,
+                        "shards": 0,
+                        "glimmer": 0
+                    }
+                },
+                {
+                    "name": "Vampire Reign",
+                    "description": "The vampires seem to have followed the demon army!",
+                    "objective": "Defeat the vampires",
+                    "img": "https://i.imgur.com/RQeWaqo.png",
+                    "waves": [
+                        {
+                            "enemy": 138
+                        },
+                        {
+                            "enemy": 138
+                        },
+                        {
+                            "enemy": 139
+                        }
+                    ],
+                    "rewards": {
+                        "gold": 2000,
+                        "shards": 0,
+                        "glimmer": 0
+                    }
+                },
+                {
+                    "name": "Given Chase",
+                    "description": "The vampires are fleeing! Chase them down and rescue mika!",
+                    "objective": "Hunt the vampires",
+                    "img": "https://i.imgur.com/RQeWaqo.png",
+                    "waves": [
+                        {
+                            "enemy": 139
+                        },
+                        {
+                            "enemy": 139
+                        },
+                        {
+                            "enemy": 140
+                        }
+                    ],
+                    "rewards": {
+                        "gold": 3000,
+                        "shards": 5,
+                        "glimmer": 0
+                    }
+                }
+            ],
+            "spire": [
+                {
+                    "boss": 6
+                },
+                {
+                    "boss": 13
+                },
+                {
+                    "boss": 16
+                },
+                {
+                    "boss": 27
+                },
+                {
+                    "boss": 36
+                },
+                {
+                    "boss": 41
+                },
+                {
+                    "boss": 142
+                },
+                {
+                    "boss": 143
+                },
+                {
+                    "boss": 47
+                },
+                {
+                    "boss": 145
+                },
+                {
+                    "boss": 144
+                },
+                {
+                    "boss": 53
+                },
+                {
+                    "boss": 54
+                },
+                {
+                    "boss": 56
+                },
+                {
+                    "boss": 65
+                },
+                {
+                    "boss": 73
+                },
+                {
+                    "boss": 74
+                },
+                {
+                    "boss": 75
+                },
+                {
+                    "boss": 76
+                },
+                {
+                    "boss": 79
+                },
+                {
+                    "boss": 80
+                },
+                {
+                    "boss": 81
+                },
+                {
+                    "boss": 78
+                },
+                {
+                    "boss": 77
+                },
+                {
+                    "boss": 90
+                },
+                {
+                    "boss": 92
+                },
+                {
+                    "boss": 94
+                },
+                {
+                    "boss": 96
+                },
+                {
+                    "boss": 109
+                },
+                {
+                    "boss": 141
+                }
+            ]
+            
+        }

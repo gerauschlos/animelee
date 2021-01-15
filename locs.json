@@ -1,0 +1,248 @@
+{
+    "locs": [
+        {
+            "name": "Abandoned Town",
+            "description": "The first town you discover upon arriving in the world of Animelee, filled to the brim with undead monsters.",
+            "spawnlist": [0,1,3,5,6,7,8],
+            "img": "https://i.imgur.com/ilmkehR.png",
+            "req": 4,
+            "spawnlisttxt": "Lesser Phantom, Greater Phantom, Umbral Demon, Skeleton Lancer, Fallen Hero; Castle Lord, Skeleton Archer, Skeleton Tank.",
+            "key": 7
+        },
+        {
+            "name": "Town Underground",
+            "description": "The rotting space underneath the abandoned town, home to creepy crawlies of all kinds.",
+            "spawnlist": [14,15,16,9],
+            "img": "https://i.imgur.com/uc1IHQt.gif",
+            "req": 10,
+            "spawnlisttxt": "Sewer Ghouls, King of the Underground, Skeletal Dragon, Nightmare Slime."
+        },
+        {
+            "name": "Crater-born Valley",
+            "description": "A mysterious, massive crater previously housing the unholy spire yet now somehow empty.",
+            "spawnlist": [23,24,18,17],
+            "img": "https://i.imgur.com/o13ue7I.png",
+            "req": 16,
+            "spawnlisttxt": "Flame beast, Valley Knight, Chaos Soul Magus, Black Arcanist."
+        },
+        {
+            "name": "Holy Suspended laboratory",
+            "description": "The odd building housing the main scientific force of the Holy Order, aswell as home to the arch-bishop.",
+            "spawnlist": [11,13,25,28,50,51],
+            "img": "https://i.imgur.com/QfDzThV.jpg",
+            "req": 19,
+            "spawnlisttxt": "Holy Knight, Seiyusael; Angel of Duality, Nightmare Golem, Arch-Bishop; Holy Incarnate, Holy Inquisitor, Grand Crusader."
+        },
+        {
+            "name": "Sunken City",
+            "description": "The ruins of a once great civilization, housing unknown magic and creatures.",
+            "spawnlist": [26,27,14,9],
+            "img": "https://i.imgur.com/7OKdNUl.png",
+            "req": 23,
+            "spawnlisttxt": "Deepsea Protector, Sunken Guardian, Sewer Ghouls, Nightmare Slime"
+        },
+        {
+            "name": "Scorching Desert",
+            "description": "A dessert left behind in the wake of a changing world, full of monsters and secrets.",
+            "spawnlist": [29,30,31,32,33,34],
+            "img": "https://i.imgur.com/9wboP5V.png",
+            "req": 32,
+            "spawnlisttxt": "Keeper of the Flame, Imp, Protector of the Flame, Blaze incarnate; Sol, Scorched Guardian."
+        },
+        {
+            "name": "Cult of Undeath",
+            "description": "A hidden fortress in a sinister valley, home to all kinds of dark worshiping experiments.",
+            "spawnlist": [35,38,39,41,62,64],
+            "img": "https://i.imgur.com/XQW56n2.png",
+            "req": 40,
+            "spawnlisttxt": "Cultist of Undeath, Priest of Undeath, Experiment Unleashed: Gargoyl, Unshackled Abomination; Angel's Death, Keeper of Death, Reaper of Soul"
+        },
+        {
+            "name": "Flying City",
+            "description": "Another renmant of a now fractured world, the ruins of a city that once floated through the sky.",
+            "spawnlist": [44,45,46,47],
+            "img": "https://i.imgur.com/R8SqcIN.gif",
+            "req": 53,
+            "spawnlisttxt": "Feathered Serpent, Gaseous Reaper, Wind Rider, Soaring Guardian"
+        },
+        {
+            "name": "Edge of Vortex: Abyss",
+            "description": "A firey pit deep underground bordering the spinning vortex leaking dark energies into the world.",
+            "spawnlist": [58,59,60,61],
+            "img": "https://i.imgur.com/03txNSg.gif",
+            "req": 67,
+            "spawnlisttxt": "Bloodcrystal Titan, Diamond Titan, Mantle Incarnate, Expression of Void."
+        },
+        {
+            "name": "Crystal Tomb",
+            "description": "The resting place of heroes from the annals of history, resting for days yet to come..",
+            "spawnlist": [53,54,56],
+            "img": "https://i.imgur.com/OZd33PJ.jpg",
+            "req": 70,
+            "spawnlisttxt": "Hero of the Holy Light: Imperitus, Hero of the Holy Light: Asphur, Hero of the Holy Light: Aethel."
+        },
+        {
+            "name": "Vampire Infested Nagoya",
+            "description": "A ruined city taken from the humans.",
+            "spawnlist": [138,139,140],
+            "img": "https://i.imgur.com/RQeWaqo.png",
+            "req": 1,
+            "spawnlisttxt": "Unknown Vampires"
+        },
+        {
+            "name": "Spaceless Twilight",
+            "description": "The world between worlds, the space between space, the tomb of the forgotten.",
+            "spawnlist": [106,107,108],
+            "img": "https://i.imgur.com/n12YF2B.jpg?1",
+            "req": 89,
+            "spawnlisttxt": "Mirror of Worlds, Realm Keeper, Realm Hunter"
+        }
+    ],
+    "dungeons": [
+        {
+            "name": "Underground Dungeon",
+            "description": "Upon further exploration, you find a hidden catacomb in the underground, but it requires a key..",
+            "waves": [
+                {
+                    "enemy": 0
+                },
+                {
+                    "enemy": 0
+                },
+                {
+                    "enemy": 90,
+                    "support1": 91,
+                    "support2": 91
+                }
+            ],
+            "storyend": "The spectre falls to your might, although a powerful spirit cannot be kept down for long...",
+            "rewards": {
+                "mats": "horns",
+                "shards": 150,
+                "gold": 10000,
+                "medals": 10
+            }
+        },
+        {
+            "name": "Scoarched Dungeon",
+            "description": "A mysterious building rises from the sands, the great door standing in your way seems to require a key..",
+            "waves": [
+                {
+                    "enemy": 33
+                },
+                {
+                    "enemy": 33
+                },
+                {
+                    "enemy": 92,
+                    "support1": 93,
+                    "support2": 93
+                }
+            ],
+            "storyend": "The maiden falls in a radiant blaze, however the embers of a mighty flame seldom do not blow back to life...",
+            "rewards": {
+                "mats": "souldust",
+                "shards": 200,
+                "gold": 20000,
+                "medals": 25
+            }
+        },
+        {
+            "name": "Soaring Dungeon",
+            "description": "Far above even the flying city, a tower shrouded in clouds whistles locked shut.",
+            "waves": [
+                {
+                    "enemy": 46
+                },
+                {
+                    "enemy": 46
+                },
+                {
+                    "enemy": 94,
+                    "support1": 95,
+                    "support2": 95
+                }
+            ],
+            "storyend": "The ancient wind falls, his body turned to stone before your very eyes, the winds around the tower have not dissapated however..",
+            "rewards": {
+                "mats": "souldew",
+                "shards": 250,
+                "gold": 25000,
+                "medals": 50
+            }
+        },
+        {
+            "name": "Crystal Tomb",
+            "description": "The resting place of ancient heroes, now resonating with the energy of soul.",
+            "waves": [
+                {
+                    "enemy": 96
+                },
+                {
+                    "enemy": "96"
+                },
+                {
+                    "enemy": 96,
+                    "support1": 97,
+                    "support2": 97
+                }
+            ],
+            "storyend": "The hero falls to the tomb floor, the entire structure fading away in sparkling light, leaving you returned to the crystal caverns.",
+            "rewards": {
+                "mats": "diamonds",
+                "shards": 600,
+                "gold": 30000,
+                "medals": 75
+
+            }
+        },
+        {
+            "name": "Tomb of The Twilight Echo",
+            "description": "Surrounded in a blood red mist, the tomb holds a powerful Echo from other worlds..",
+            "waves": [
+                {
+                    "enemy": 106
+                },
+                {
+                    "enemy": 106
+                },
+                {
+                    "enemy": 109,
+                    "support1": 106,
+                    "support2": 106
+                }
+            ],
+            "storyend": "The crimson mist swirls across the brokem echo, parting to leave nothing but an empty cave...",
+            "rewards": {
+                "mats": "souldew",
+                "shards": 400,
+                "gold": 40000,
+                "medals": 100
+            }
+        },
+        {
+            "name": "Altar of the SKy",
+            "description": "A place near the ozone, where a legendary pokemon is said to dwell.",
+            "waves": [
+                {
+                    "enemy": 124
+                },
+                {
+                    "enemy": 124
+                },
+                {
+                    "enemy": 134,
+                    "support1": 131,
+                    "support2": 131
+                }
+            ],
+            "storyend": "Ichigo falls unconcious, his heart replaced.",
+            "rewards": {
+                "mats": "souls",
+                "shards": 250,
+                "gold": 25000,
+                "medals": 10
+            }
+        }
+    ]
+}

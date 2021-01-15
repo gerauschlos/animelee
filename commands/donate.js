@@ -1,0 +1,16 @@
+exports.run = (client, message, args) => {
+    const Discord = require(`discord.js`)
+    const donation = new Discord.RichEmbed()
+    .setColor(`#0099ff`)
+    .setTitle(`Donating to Animelee!`)
+    .setDescription(`To donate to animelee, use the following link and send a picture of your donation to <@314385179420393472>.`)
+    .setURL(`https://paypal.me/lowkeydahly?locale.x=en_US`)
+    .addField(`Donation Scheme:`, `*Rewards can take a few hours to deliver*.`)
+    .addField(`1$ (USD)`, `💮 Celestial Sakura x1`)
+    .addField(`5$ (USD)`, `💮 Celestial Sakura x8`)
+    .addField(`10$ (USD)`, `💮 Celestial Sakura x20`)
+    .addField(`20$ (USD)`, `💮 Celestial Sakura x50`)
+    .setFooter(`Donations help keep the host and development of Animelee going, donated amounts are universal across your profile. Meaning they will carry over to the official animelee server.`)
+    .setThumbnail(message.author.avatarURL)
+    message.channel.send(donation)
+}

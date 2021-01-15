@@ -1,0 +1,300 @@
+{
+    "pets":[
+        {
+            "name": "Agumon",
+            "description": "A digimon very much like a friendly dinosaur!",
+            "atk": 10,
+            "matk": 5,
+            "spd": 5,
+            "attack": "Pepper Breath",
+            "img": "https://i.imgur.com/MbkELcd.gif",
+            "atkimg": "https://i.imgur.com/MbkELcd.gif"
+        },
+        {
+            "name": "Falcomon",
+            "description": "An owl digimon with good speed and precise attacks!",
+            "atk": 8,
+            "matk": 5,
+            "spd": 8,
+            "attack": "Ninja Blade",
+            "img": "https://i.imgur.com/j5qVx0X.gif",
+            "atkimg": "https://i.imgur.com/j5qVx0X.gif"
+        },
+        {
+            "name": "DemiDevimon",
+            "description": "A pre-form bat digimon, more mischevous than malicious.",
+            "atk": 9,
+            "matk": 4,
+            "spd": 8,
+            "attack": "DemiDevi Claw",
+            "img": "https://i.imgur.com/mIOFKC0.gif",
+            "atkimg": "https://i.imgur.com/mIOFKC0.gif"
+        },
+        {
+            "name": "Minor Hellhound",
+            "description": "An undeveloped hellhound of a much friendlier dispostion!",
+            "atk": 9,
+            "matk": 7,
+            "spd": 7,
+            "attack": "Flame Blast",
+            "img": "https://i.imgur.com/5MmJ2iW.gif",
+            "atkimg": "https://i.imgur.com/9wZpdrc.gif"
+        },
+        {
+            "name": "Duskflame Unicorn",
+            "description": "A Remnant of ancient times only rarely seen at the boundary between dimensions.",
+            "atk": 10,
+            "matk": 5,
+            "spd": 8,
+            "attack": "NightBringer",
+            "img": "https://i.imgur.com/wSwJ7s2.gif",
+            "atkimg": "https://i.imgur.com/Gy6Fl6b.gif"
+        },
+        {
+            "name": "BlightBringer",
+            "description": "A decaying dragon from the depths, this creature corrodes anything it touches.",
+            "atk": 9,
+            "matk": 9,
+            "spd": 5,
+            "attack": "Endless Corrosion",
+            "img": "https://i.imgur.com/uD9nPCq.gif",
+            "atkimg": "https://i.imgur.com/mCsXbvZ.gif"
+        },
+        {
+            "name": "Blobfish-Senpai",
+            "description": "Tis a blobfish, give it a crown.",
+            "atk": 8,
+            "matk": 8,
+            "spd": 5,
+            "attack": "NepNep",
+            "img": "https://i.imgur.com/ChXR2eu.gif",
+            "atkimg": "https://i.imgur.com/ChXR2eu.gif"
+        },
+        {
+            "name": "Gatomon",
+            "description": "A cat Digimon, nyan~!",
+            "atk": 8,
+            "matk": 2,
+            "spd": 7,
+            "attack": "Lightning Paw!",
+            "img": "https://i.imgur.com/shv8awL.gif",
+            "atkimg": "https://i.imgur.com/shv8awL.gif"
+        },
+        {
+            "name": "Padoru Nezuko",
+            "description": "Padoru Padoru?",
+            "atk": 7,
+            "matk": 7,
+            "spd": 7,
+            "attack": "Demon Art: Exploading Candy canes!",
+            "img": "https://i.imgur.com/Ugk34su.gif",
+            "atkimg": "https://i.imgur.com/Ugk34su.gif"
+        },
+        {
+            "name": "Squirtle",
+            "description": "One of the original starter pokemon, this water turtle packs a punch!",
+            "atk": 5,
+            "matk": 8,
+            "spd": 6,
+            "attack": "Hydro-Pump",
+            "img": "https://i.imgur.com/24VEDfV.gif",
+            "atkimg": "https://i.imgur.com/24VEDfV.gif"
+        },
+        {
+            "name": "Frost Wyvern",
+            "description": "An creature and spiritual protector of the northern forrests.",
+            "atk": 7,
+            "matk": 10,
+            "spd": 7,
+            "attack": "Icy Tomb",
+            "img": "https://i.imgur.com/jFVkr9R.gif",
+            "atkimg": "https://i.imgur.com/PP5Pqy8.gif"
+        },
+        {
+            "name": "GreatWing",
+            "description": "A mighty hyperconceptual creature with a soft spot for helping peoeple.",
+            "atk": 2,
+            "matk": 9,
+            "spd": 10,
+            "attack": "Reality Shatter",
+            "img": "https://i.imgur.com/CamMBKG.gif",
+            "atkimg": "https://i.imgur.com/CvCKla3.gif"
+        },
+        {
+            "name": "Koromon",
+            "description": "Look at that grin! What more could you want?",
+            "atk": 6,
+            "matk": 6,
+            "spd": 6,
+            "attack": "Power Pellet",
+            "img": "https://i.imgur.com/rLs7AxZ.gif",
+            "atkimg": "https://i.imgur.com/rLs7AxZ.gif"
+        },
+        {
+            "name": "Flame Wyvern",
+            "description": "A somewhat small cousin of the draconic lineage.",
+            "atk": 5,
+            "matk": 8,
+            "spd": 8,
+            "attack": "Great-Fire Wing",
+            "img": "https://i.imgur.com/1tUNWn7.gif",
+            "atkimg": "https://i.imgur.com/ZdCuMRx.gif"
+        },
+        {
+            "name": "YukOrb the Camellia",
+            "description": "Coot drogon bubble.",
+            "atk": 8,
+            "matk": 8,
+            "spd": 7,
+            "attack": "True bloom, thorned embrace~",
+            "img": "https://i.imgur.com/zJmnZxQ.png",
+            "atkimg": "https://i.imgur.com/92FRSQQ.gif"
+        },
+        {
+            "name": "Dwarven Hydra",
+            "description": "A specifically small and friendly breed of hydra.",
+            "atk": 8,
+            "matk": 7,
+            "spd": 8,
+            "attack": "Poison Fang Combo",
+            "img": "https://i.imgur.com/SPjCK9J.gif",
+            "atkimg": "https://i.imgur.com/GwEftoX.gif"
+        },
+        {
+            "name": "Crimson Stag",
+            "description": "A corrupted beast of the hollow forrest, this creature has strong loyalty bonds.",
+            "atk": 7,
+            "matk": 8,
+            "spd": 8,
+            "attack": "Negative Burst",
+            "img": "https://i.imgur.com/9MRbWYA.gif",
+            "atkimg": "https://i.imgur.com/ZMUxzSg.gif"
+        },
+        {
+            "name": "Crimson Sabre",
+            "description": "A corrupted beast that roams the hollow forrest, valuing only the will of those who prove themselves to be strong.",
+            "atk": 10,
+            "matk": 10,
+            "spd": 7,
+            "attack": "Red-Tint Slash",
+            "img": "https://i.imgur.com/Zu005ff.gif",
+            "atkimg": "https://i.imgur.com/DpEA98X.gif"
+        },
+        {
+            "name": "PuppyDragon",
+            "description": "A spiritual creature found between the world of the living and that of the dead, legend has it this loyal companion guides worthy souls to eternal rest.",
+            "atk": 8,
+            "matk": 8,
+            "spd": 10,
+            "attack": "Soul Whip",
+            "img": "https://i.imgur.com/u45aXzS.gif",
+            "atkimg": "https://i.imgur.com/icHlxYf.gif"
+        },
+        {
+            "name": "LuvDisc",
+            "description": "It lives in warm seas. It is said that a couple finding this Pokémon will be blessed with eternal love",
+            "atk": 5,
+            "matk": 8,
+            "spd": 5,
+            "attack": "Charm!",
+            "img": "https://i.imgur.com/vRsZE3R.gif",
+            "atkimg": "https://i.imgur.com/vRsZE3R.gif"
+        },
+        {
+            "name": "Mimikyu",
+            "description": "Its actual appearance is unknown. A scholar who saw what was under its rag was overwhelmed by terror and died from the shock",
+            "atk": 5,
+            "matk": 10,
+            "spd": 10,
+            "attack": "Dark Ball",
+            "img": "https://i.imgur.com/cO5SlyX.gif",
+            "atkimg": "https://i.imgur.com/Nf1d4Gy.gif"
+        },
+        {
+            "name": "Baby Axolotl",
+            "description": "An adorable creature, however its existance in the world was not by consensus.",
+            "atk": 8,
+            "matk": 10,
+            "spd": 8,
+            "attack": "...",
+            "img": "https://i.imgur.com/DlG53OJ.gif",
+            "atkimg": "https://i.imgur.com/DlG53OJ.gif"
+        },
+        {
+            "name": "Stuffed Lion Kon",
+            "description": "A faulty substitute candy that found its way into the body of a stuffed animal!",
+            "atk": 8,
+            "matk": 8,
+            "spd": 10,
+            "attack": "Stomp on me roar!",
+            "img": "https://i.imgur.com/5xwnNvH.gif",
+            "atkimg": "https://i.imgur.com/5xwnNvH.gif"
+        },
+        {
+            "name": "Rayquaza",
+            "description": "Rayquaza is said to have lived for hundreds of millions of years. Legends remain of how it put to rest the clash between Kyogre and Groudon.",
+            "atk": 12,
+            "matk": 12,
+            "spd": 10,
+            "attack": "Dragon Ascent",
+            "img": "https://i.imgur.com/kjeLCkk.png",
+            "atkimg": "https://i.imgur.com/Th2fBtS.gif"
+        },
+        {
+            "name": "Kyurem",
+            "description": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+            "atk": 15,
+            "matk": 15,
+            "spd": 8,
+            "attack": "Glaciate",
+            "img":"https://i.imgur.com/oto1cNB.png",
+            "atkimg": "https://i.imgur.com/Q07UVgZ.gif"
+        }
+    ],
+    "levels":[
+        {
+            "name": "Level 0",
+            "next": 5
+        },
+        {
+            "name": "Level 1",
+            "next": 15
+        },
+        {
+            "name": "Level 2",
+            "next": 20
+        },
+        {
+            "name": "Level 3",
+            "next": 30
+        },
+        {
+            "name": "Level 4",
+            "next": 40
+        },
+        {
+            "name": "Level 5",
+            "next": 45
+        },
+        {
+            "name": "Level 6",
+            "next": 50
+        },
+        {
+            "name": "Level 7",
+            "next": 60
+        },
+        {
+            "name": "Level 8",
+            "next": 70
+        },
+        {
+            "name": "Level 9",
+            "next": 90
+        },
+        {
+            "name": "Level 10",
+            "next": 100
+        }
+    ]
+}
