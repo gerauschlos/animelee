@@ -1,5 +1,5 @@
 {
-  "name": "Animelee",
+  "name": "animelee",
   "version": "1.0.0",
   "description": "An Anime themed rpg!",
   "main": "index.js",
@@ -15,5 +15,13 @@
     "enmap": "^5.1.2",
     "mongodb": "^3.3.2",
     "sqlite3": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerauschlos/animelee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gerauschlos/animelee/issues"
+  },
+  "homepage": "https://github.com/gerauschlos/animelee#readme"
 }
