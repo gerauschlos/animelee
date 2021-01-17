@@ -1,11 +1,11 @@
-import { Client, Collection } from 'discord.js';
+import { Client, Collection, Message } from 'discord.js';
 import { readdirSync } from 'fs';
 import messageEvent from './events/message';
 import readyEvent from './events/ready';
 import Command from './interfaces/command';
 
 export default class Bot extends Client {
-    public commands: Collection<string, Command> = new Collection();
+    public commands: Collection<string | undefined, Command> = new Collection();
 
     constructor() {
         super();
@@ -14,12 +14,12 @@ export default class Bot extends Client {
     }
 
     private loadEvents = (): void => {
-        this.on("message", messageEvent);
-        this.on("ready", readyEvent);
+        this.on("message", (message: Message) => messageEvent(this, message));
+        this.on("ready", () => readyEvent(this));
     }
 
     private loadCommands = (): void => {
-        readdirSync("./commands").forEach(fileName => {
+        readdirSync("./commands").forEach((fileName: string) => {
             let cmd: Command = require(`./commands/${fileName}`);
             this.commands.set(cmd.name, cmd);
         });
@@ -27,4 +27,5 @@ export default class Bot extends Client {
 }
 
 const bot = new Bot();
+
 bot.login();

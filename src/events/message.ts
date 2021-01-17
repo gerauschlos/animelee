@@ -22,9 +22,10 @@ export default async (bot: Bot, message: Message): Promise<void> => {
     // Ignore other bots and messages outside of a server
     if (message.author.bot && !message.guild) return;
     
-    let prefix: string = getPrefix(message.guild);
+    let prefix: string = getPrefix(message.guild!);
 
-    if (message.mentions.users.has(bot.user.id)) {
+    // give the bot name if it was mentioned
+    if (message.mentions.users.has(bot.user!.id)) {
         await message.channel.send(`The prefix for Animelee is ${prefix}`);
         return;
     }
@@ -46,9 +47,9 @@ export default async (bot: Bot, message: Message): Promise<void> => {
     // Run the command triggered, if the correct
     if (message.content.indexOf(prefix) == 0) {
         const args: string[] = message.content.split(" ").slice(1);
-        const cmdName: string = message.content.split(" ").shift();
+        const cmdName: string | undefined = message.content.split(" ").shift()?.slice(1);
 
-        const cmd: Command = bot.commands.get(cmdName);
+        const cmd: Command | undefined = bot.commands.get(cmdName);
 
         if (cmd) {
             cmd.run(bot, message, args);
