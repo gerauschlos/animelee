@@ -20,9 +20,9 @@ let getPrefix = (guild: Guild): string => "!";
 
 export default async (bot: Bot, message: Message): Promise<void> => {
     // Ignore other bots and messages outside of a server
-    if (message.author.bot && !message.guild) return;
+    if (message.author.bot || !message.guild) return;
     
-    let prefix: string = getPrefix(message.guild!);
+    let prefix: string = getPrefix(message.guild);
 
     // give the bot name if it was mentioned
     if (message.mentions.users.has(bot.user!.id)) {

@@ -3,5 +3,6 @@ import Bot from "..";
 
 export default interface Command {
     readonly name: string;
+    readonly aliases?: string[];
     run(bot: Bot, msg: Message, args: string[]) : Promise<void>;
 }

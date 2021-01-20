@@ -3,6 +3,7 @@ import { readdirSync } from 'fs';
 import messageEvent from './events/message';
 import readyEvent from './events/ready';
 import Command from './interfaces/command';
+import config from './data/config.json';
 
 export default class Bot extends Client {
     public commands: Collection<string | undefined, Command> = new Collection();
@@ -28,4 +29,4 @@ export default class Bot extends Client {
 
 const bot = new Bot();
 
-bot.login();
+bot.login(config.token);
