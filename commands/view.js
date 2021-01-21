@@ -186,6 +186,42 @@ exports.run = (client, message, args) => {
             if(args.includes("kaede")){
                 var checking = 56
             }
+            if(args.includes("kurumi")){
+                var checking = 57
+            }
+            if(args.includes("strelitzia")){
+                var checking = 58
+            }
+            if(args.includes("escanor")){
+                var checking = 59
+            }
+            if(args.includes("trevor")){
+                var checking = 60
+            }
+            if(args.includes("megumin")){
+                var checking = 61
+            }
+            if(args.includes("yuichiro")){
+                var checking = 62
+            }
+            if(args.includes("mikaela")){
+                var checking = 63
+            }
+            if(args.includes("yuji")){
+                var checking = 64
+            }
+            if(args.includes("yami")){
+                var checking = 65
+            }
+            if(args.includes("akatsuki")){
+                var checking = 66
+            }
+            if(args.includes("seiya")){
+                var checking = 67
+            }
+            if(args.includes("hajime")){
+                var checking = 68
+            }
         }
         if (0 <= checking && checking <= max){
             let charkey = client.units.units[checking]

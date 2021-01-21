@@ -279,7 +279,7 @@ exports.run = (client, message, args) => {
             }
             if(client.profile.has(message.author.id, "daily")){
                 let dailies = client.profile.get(message.author.id, "daily")
-                if(dailies.has(11)){
+                if(dailies.includes(11)){
                     client.profile.remove(message.author.id, 11, "daily")
                     let Discord = require(`discord.js`)
                     let accomplished = new Discord.RichEmbed()
@@ -319,7 +319,7 @@ exports.run = (client, message, args) => {
             .addField(`Pets:`, `1. ${name} | 75 drops \n 2. ${name1} | 75 drops`)
             .addField(`Materials:`, `3. ${mat1} | 5 drops \n 4. ${mat2} | 5 drops`)
             .addField(`Gold:`, `5. 300 gold | 1 shard \n 6. 3000 gold | 1 glimmer`)
-            .addField(`Keys:`, `7. ${key1} | 25 drops \n 8. ${key2} | 25 drops`)
+            .addField(`Keys:`, `7. ${key1} | 10k gold \n 8. ${key2} | 10k gold`)
             .setFooter(`Use !buy to purchase any of these options, ONLY WORKS IF THE TRADER IS SPAWNED!! Use !viewp to see the pets the trader is selling ONLY WORKS IF THE TRADER IS SPAWNED!!`)
             return message.channel.send(nomad)
             

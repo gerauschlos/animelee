@@ -3,7 +3,7 @@ exports.run = (client, message, args) => {
     if(!client.profile.has(message.author.id)){
         return message.channel.send(`You have not started Animelee!`)
     }
-    let pass = 1
+    let pass = 0
     var prefix = client.config.prefix
     var quests = client.profile.get(message.author.id, "quests")
     var qlength = quests.length

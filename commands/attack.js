@@ -2228,6 +2228,16 @@ exports.run = (client, message, args) => {
                     client.profile.math(message.author.id, "+", shards, "shards")
                     end.addField(`Bonus Shards:`, `\`${shards}\``)
                 }
+                else if(client.battles.get(message.channel.id, "id") == 146){
+                    let shards = Math.floor((Math.random() * 3) + 1)
+                    client.profile.math(message.author.id, "+", shards, "shards")
+                    end.addField(`Bonus Shards:`, `\`${shards}\``)
+                }
+                else if(client.battles.get(message.channel.id, "id") == 147){
+                    let shards = Math.floor((Math.random() * 10000) + 1)
+                    client.profile.math(message.author.id, "+", shards, "gold")
+                    end.addField(`Bonus Gold:`, `\`${shards}\``)
+                }
                 else if(client.battles.get(message.channel.id, "id") == 101){
                     let chocolates = Math.floor((Math.random() * 19) + 1)
                     if(client.holiday.has(message.author.id) && client.holiday.has(message.author.id, "chocolates")){
