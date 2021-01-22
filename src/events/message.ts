@@ -3,6 +3,7 @@ import Bot from "..";
 import Command from "../interfaces/command";
 import config from "../data/config.json";
 import spawnMob from "../util/spawnMob";
+import serverModel, { ServerInstance } from '../models/server';
 
 const triggers = {
     "anime": "*Sneezes*.. I feel asthough ive been talked about..",
@@ -18,7 +19,7 @@ const triggers = {
     "bots": "HaAhHA.. nO No.. YoU DoNT nEEd AnY oThER bOT."
 }
 
-let getPrefix = (guild: Guild): string => config.prefix;
+let getPrefix = (server: ServerInstance | null): string => server?.prefix || config.prefix;
 
 export default async (bot: Bot, message: Message): Promise<void> => {
     // Ignore other bots and messages outside of a server
@@ -26,7 +27,8 @@ export default async (bot: Bot, message: Message): Promise<void> => {
     // Ignore message if it is in a DMChannel or NewsChannel
     if (!(message.channel instanceof TextChannel)) return;
     
-    let prefix: string = getPrefix(message.guild);
+    let server: ServerInstance | null = await serverModel.findOne({ where: {id: message.guild.id} });
+    let prefix: string = getPrefix(server);
 
     // give the bot name if it was mentioned
     if (message.mentions.users.has(bot.user!.id)) {
@@ -35,7 +37,7 @@ export default async (bot: Bot, message: Message): Promise<void> => {
     }
 
     // if toggle auto is turned on in this server
-    if (true) {
+    if (server?.toggleAuto) {
         for (const [key, value] of Object.entries(triggers)) {
             if (message.content.includes(key)) {
                 await message.channel.send(value);
@@ -46,7 +48,7 @@ export default async (bot: Bot, message: Message): Promise<void> => {
     
     spawnMob(message.author, message.channel, prefix);
 
-    // Run the command triggered, if the correct
+    // Run the command triggered, if the correct prefix is used
     if (message.content.indexOf(prefix) == 0) {
         const args: string[] = message.content.split(" ").slice(1);
         const cmdName: string | undefined = message.content.split(" ").shift()?.slice(1);

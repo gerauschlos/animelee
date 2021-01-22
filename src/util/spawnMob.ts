@@ -1,7 +1,6 @@
 import { TextChannel, User, MessageEmbed } from "discord.js";
 import { mobs } from '../data/mobs.json';
 import { classes } from '../data/classes.json';
-import message from "../events/message";
 
 export default async (author: User, channel: TextChannel, prefix: string): Promise<void> => {
     let randomNumber: number = Math.floor((Math.random() * 400) + 1);

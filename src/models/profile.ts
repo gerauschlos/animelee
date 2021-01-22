@@ -1,4 +1,4 @@
-import { Sequelize, Model, DataTypes, Optional } from 'sequelize';
+import { Sequelize, Model, DataTypes } from 'sequelize';
 import config from '../data/config.json';
 
 const sequelize = new Sequelize(config.database);
