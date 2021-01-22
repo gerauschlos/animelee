@@ -1,9 +1,9 @@
-import { Guild, Message, TextChannel } from "discord.js";
+import { Message, TextChannel } from "discord.js";
 import Bot from "..";
 import Command from "../interfaces/command";
-import config from "../data/config.json";
 import spawnMob from "../util/spawnMob";
 import serverModel, { ServerInstance } from '../models/server';
+import getPrefix from "../util/getPrefix";
 
 const triggers = {
     "anime": "*Sneezes*.. I feel asthough ive been talked about..",
@@ -18,8 +18,6 @@ const triggers = {
     "android": "Well done, android. The Enrichment Center once again reminds you that Android Hell is a real place",
     "bots": "HaAhHA.. nO No.. YoU DoNT nEEd AnY oThER bOT."
 }
-
-let getPrefix = (server: ServerInstance | null): string => server?.prefix || config.prefix;
 
 export default async (bot: Bot, message: Message): Promise<void> => {
     // Ignore other bots and messages outside of a server

@@ -13,15 +13,16 @@ export interface ServerInstance extends Model {
 export default sequelize.define<ServerInstance>("Server", {
     id: {
         primaryKey: true,
-        type: DataTypes.STRING
+        type: DataTypes.STRING(128)
     },
     prefix: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING(10)
     },
     tradeLog: {
-        type: DataTypes.STRING
+        type: DataTypes.STRING(128)
     },
     toggleAuto: {
-        type: DataTypes.BOOLEAN
+        type: DataTypes.BOOLEAN,
+        defaultValue: false
     }
 });
