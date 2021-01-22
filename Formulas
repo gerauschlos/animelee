@@ -1,5 +1,0 @@
-If ability is attack based:
-    (ability power) * (attack/defense) * class multiplier
-If ability is magic attack based:
-    (ability power) * (attack/def) * class multiplier
-    If const = (c)

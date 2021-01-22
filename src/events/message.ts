@@ -1,6 +1,8 @@
-import { Guild, Message } from "discord.js";
+import { Guild, Message, TextChannel } from "discord.js";
 import Bot from "..";
 import Command from "../interfaces/command";
+import config from "../data/config.json";
+import spawnMob from "../util/spawnMob";
 
 const triggers = {
     "anime": "*Sneezes*.. I feel asthough ive been talked about..",
@@ -16,11 +18,13 @@ const triggers = {
     "bots": "HaAhHA.. nO No.. YoU DoNT nEEd AnY oThER bOT."
 }
 
-let getPrefix = (guild: Guild): string => "!";
+let getPrefix = (guild: Guild): string => config.prefix;
 
 export default async (bot: Bot, message: Message): Promise<void> => {
     // Ignore other bots and messages outside of a server
     if (message.author.bot || !message.guild) return;
+    // Ignore message if it is in a DMChannel or NewsChannel
+    if (!(message.channel instanceof TextChannel)) return;
     
     let prefix: string = getPrefix(message.guild);
 
@@ -39,10 +43,8 @@ export default async (bot: Bot, message: Message): Promise<void> => {
             }
         }
     }
-
-    if (true) {
-        // Some mob activity
-    }
+    
+    spawnMob(message.author, message.channel, prefix);
 
     // Run the command triggered, if the correct
     if (message.content.indexOf(prefix) == 0) {

@@ -2,7 +2,6 @@
   "name": "animelee",
   "version": "1.0.0",
   "description": "Animelee.kawaiibot",
-  "main": "sql_query.js",
   "dependencies": {
     "@types/node": "^14.14.21",
     "@types/validator": "^13.1.3",
