@@ -3,7 +3,7 @@ import config from '../data/config.json';
 
 const sequelize = new Sequelize(config.database);
 
-interface ProfileInstance extends Model {
+export interface ProfileInstance extends Model {
     id: string,
     shards: number,
     gold: number,

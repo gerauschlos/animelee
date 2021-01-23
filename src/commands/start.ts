@@ -1,23 +1,34 @@
 import { Message, MessageEmbed } from "discord.js";
+import { UniqueConstraintError } from "sequelize/types";
 import src from "..";
 import Command from "../interfaces/command";
 import Profile from "../models/profile";
-import server from "../models/server";
+import Server from "../models/server";
+import Quest from "../models/quests"
 import getPrefix from "../util/getPrefix";
+import Book from "../models/books";
 
 export default class Start implements Command {
     name: string = "start";
-    async run(bot: src, msg: Message, args: string[]): Promise<void> {
+    run = async (bot: src, msg: Message): Promise<void>  => {
         try {
             await Profile.create({
-                id: msg.guild!.id
+                id: msg.author.id
             });
-        } catch (e: any) {
-            await msg.channel.send("You already have a profile");
+        } catch (e) {
+            if (e instanceof UniqueConstraintError) {
+                await msg.channel.send("You already have a profile");
+            } else {
+                await msg.channel.send("Something went wrong");
+                console.log(e);
+            }
             return;
         }
 
-        let prefix = getPrefix(await server.findOne({ where: { id: msg.guild!.id } }));
+        await Quest.create({ id: 0, profile_id: msg.author.id });
+        await Book.create({ id: 1, profile_id: msg.author.id });
+
+        let prefix = getPrefix(await Server.findOne({ where: { id: msg.guild!.id } }));
         
         let welcomeEmbed = new MessageEmbed()
             .setColor('#0099ff')
@@ -42,5 +53,4 @@ export default class Start implements Command {
         await msg.channel.send(welcomeEmbed);
         await msg.channel.send(newQuestEmbed);
     }
-
 }
