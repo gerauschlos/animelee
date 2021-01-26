@@ -1,16 +1,15 @@
 import { Message, MessageEmbed } from "discord.js";
 import { UniqueConstraintError } from "sequelize/types";
-import src from "..";
 import Command from "../interfaces/command";
-import Profile from "../models/profile";
-import Server from "../models/server";
+import Profile from "../models/profiles";
 import Quest from "../models/quests"
 import getPrefix from "../util/getPrefix";
 import Book from "../models/books";
+import Bot from "..";
 
 export default class Start implements Command {
     name: string = "start";
-    run = async (bot: src, msg: Message): Promise<void>  => {
+    run = async (bot: Bot, msg: Message): Promise<void>  => {
         try {
             await Profile.create({
                 id: msg.author.id
@@ -28,7 +27,7 @@ export default class Start implements Command {
         await Quest.create({ id: 0, profile_id: msg.author.id });
         await Book.create({ id: 1, profile_id: msg.author.id });
 
-        let prefix = getPrefix(await Server.findOne({ where: { id: msg.guild!.id } }));
+        let prefix = getPrefix(msg.guild!.id);
         
         let welcomeEmbed = new MessageEmbed()
             .setColor('#0099ff')

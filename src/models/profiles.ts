@@ -4,15 +4,16 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface ProfileInstance extends Model {
-    id: string,
-    shards: number,
-    gold: number,
-    glimmer: number,
-    rank: number,
-    timesCompleted: number
+    id: string;
+    shards: number;
+    gold: number;
+    glimmer: number;
+    rank: number;
+    donated: number;
+    timesCompleted: number;
 }
 
-export default sequelize.define<ProfileInstance>("Profile", {
+export default sequelize.define<ProfileInstance>("Profiles", {
     id: {
         primaryKey: true,
         type: new DataTypes.STRING(128)
@@ -33,6 +34,7 @@ export default sequelize.define<ProfileInstance>("Profile", {
         type: DataTypes.INTEGER,
         defaultValue: 0
     },
+    donated: new DataTypes.INTEGER(),
     timesCompleted: {
         type: DataTypes.INTEGER,
         defaultValue: 0

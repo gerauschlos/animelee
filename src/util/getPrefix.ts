@@ -1,4 +1,4 @@
 import config from '../data/config.json';
-import { ServerInstance } from "../models/server";
+import Server from "../models/servers";
 
-export default (server: ServerInstance | null): string => server?.prefix || config.prefix;
+export default async (guild_id: string): Promise<string> => (await Server.findOne({where: {id: guild_id}}))?.prefix || config.prefix;

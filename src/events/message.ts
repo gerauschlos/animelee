@@ -2,7 +2,7 @@ import { Message, TextChannel } from "discord.js";
 import Bot from "..";
 import Command from "../interfaces/command";
 import spawnMob from "../util/spawnMob";
-import serverModel, { ServerInstance } from '../models/server';
+import serverModel, { ServerInstance } from '../models/servers';
 import getPrefix from "../util/getPrefix";
 
 const triggers = {
@@ -26,7 +26,7 @@ export default async (bot: Bot, message: Message): Promise<void> => {
     if (!(message.channel instanceof TextChannel)) return;
     
     let server: ServerInstance | null = await serverModel.findOne({ where: {id: message.guild.id} });
-    let prefix: string = getPrefix(server);
+    let prefix: string = await getPrefix(message.guild.id);
 
     // give the bot name if it was mentioned
     if (message.mentions.users.has(bot.user!.id)) {

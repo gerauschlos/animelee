@@ -8,7 +8,7 @@ export interface BookInstance extends Model {
     profile_id: string    
 }
 
-export default sequelize.define<BookInstance>("Book", {
+export default sequelize.define<BookInstance>("Books", {
     id: {
         type: DataTypes.INTEGER,
         primaryKey: true
