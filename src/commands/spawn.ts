@@ -1,10 +1,10 @@
-import { Message } from "discord.js";
+import { Message, MessageEmbed } from "discord.js";
 import Bot from "..";
 import Command from "../interfaces/command";
 import Characters ,{ CharacterInstance } from "../models/characters";
 import Profiles, { ProfileInstance } from "../models/profiles";
 import getPrefix from "../util/getPrefix";
-import { beginnerSpawn } from "../util/spawnCharacter";
+import { beginnerSpawn, duplicateSpawn, eventSpawn, heroicSpawn, selectionSpawn } from "../util/spawnCharacter";
 
 export default class Spawn implements Command {
     name: string = "spawn";
@@ -24,28 +24,39 @@ export default class Spawn implements Command {
         }
 
         let spawnType: string = args[0];
+        let message: string | MessageEmbed;
 
         switch (spawnType) {
             case "b":
             case "beginner":
-                await beginnerSpawn(bot, msg.author, profile, prefix);
+                message = await beginnerSpawn(bot, msg.author, profile, prefix);
             break;
             case "h":
             case "heroic":
+                message = await heroicSpawn(bot, msg.author, profile, prefix);
             break;
             case "e":
             case "event":
+                message = await eventSpawn(bot, msg.author, profile, prefix);
             break;
             case "s":
             case "selection":
+                if (![0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,45,46].includes(Number(args[1]))) {
+                    message = `This character is not available to selection spawn!`;
+                } else {
+                    message = await selectionSpawn(bot, msg.author, profile, prefix, Number(args[1]));
+                }
             break;
             case "d":
             case "duplicate":
+                message = await duplicateSpawn(bot, msg.author, profile, prefix);
             break;
             default:
-                await msg.channel.send(`That is not a valid spawn! To check current spawns, please try \`${prefix}\``);
+                message = `That is not a valid spawn! To check current spawns, please try \`${prefix}\``;
             break;
         }
+
+        await msg.channel.send(message);
     }
     
 }

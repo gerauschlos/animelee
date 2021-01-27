@@ -22,6 +22,7 @@ export interface CharacterInstance extends Model {
     exp: number;
     reinforced: number;
     rarity: number;
+    isChosen: boolean;
 }
 
 export default sequelize.define<CharacterInstance>("Characters", {
@@ -46,5 +47,6 @@ export default sequelize.define<CharacterInstance>("Characters", {
     level: new DataTypes.INTEGER(),
     exp: new DataTypes.INTEGER(),
     reinforced: new DataTypes.INTEGER(),
-    rarity: new DataTypes.INTEGER()
+    rarity: new DataTypes.INTEGER(),
+    isChosen: DataTypes.BOOLEAN
 });
