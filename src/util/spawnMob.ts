@@ -17,14 +17,14 @@ export default async (author: User, channel: TextChannel, prefix: string): Promi
         let mob = mobs[mobSpawned];
         let mobClass = classes[mob.class];
         let spawnEmbed: MessageEmbed = new MessageEmbed()
-        .setColor(`#0099ff`)
-        .setAuthor(mobClass.name, mobClass.img)
-        .setTitle(`**Wild ${mob.name}**`)
-        .setDescription(`${mob.description}`)
-        .addField(`Health:`, `\`\`\`${mob.hp}\`\`\``)
-        .setImage(mob.image)
-        .setFooter(`To fight it use the ${prefix}attack command!`)
-        .setTimestamp();
+            .setColor(`#0099ff`)
+            .setAuthor(mobClass.name, mobClass.img)
+            .setTitle(`**Wild ${mob.name}**`)
+            .setDescription(`${mob.description}`)
+            .addField(`Health:`, `\`\`\`${mob.hp}\`\`\``)
+            .setImage(mob.image)
+            .setFooter(`To fight it use the ${prefix}attack command!`)
+            .setTimestamp();
 
         await channel.send(`${author} has spawned a ${mob.name}!`);
         await channel.send(spawnEmbed);

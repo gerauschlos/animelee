@@ -1,308 +1,308 @@
 {
-  "units": [
-    {
-      "name": "Altair",
-	  	"class": 0,
-	  	"gender": "2",
-	  	"description": "A creation turned real by her almost unlimited powers, Altair longs for the destruction of the world as revenge for its cruelty to her creator.",
-		"series": "Re:Creators",
-		  	"hp": 100,
-		  	"atk": 90,
-		  	"def": 60,
+	"units": [
+		{
+			"name": "Altair",
+			"class": 0,
+			"gender": "2",
+			"description": "A creation turned real by her almost unlimited powers, Altair longs for the destruction of the world as revenge for its cruelty to her creator.",
+			"series": "Re:Creators",
+			"hp": 100,
+			"atk": 90,
+			"def": 60,
 			"matk": 90,
-		  	"mdef": 70,
-		  	"spd": 70,
-		"image": "https://i.imgur.com/pKNrkv2.png",
-		"gimg": "https://i.imgur.com/4N3t3hE.gif",
-		"abilities": [
-			 {
-				"name": "Sword Rain",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 0,
-				"crit_chance": 25,
-				"miss_chance": 5,
-				"description": "Altair launches swords at her opponent",
-				"type": 1
+			"mdef": 70,
+			"spd": 70,
+			"image": "https://i.imgur.com/pKNrkv2.png",
+			"gimg": "https://i.imgur.com/4N3t3hE.gif",
+			"abilities": [
+				{
+					"name": "Sword Rain",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 0,
+					"crit_chance": 25,
+					"miss_chance": 5,
+					"description": "Altair launches swords at her opponent",
+					"type": 1
 				},
-			 {
-				"name": "The Thirteenth movement of the Cosmos; Outline Origin",
-				"Ap": 10,
-				"hits": 4,
-				"cd": 2,
-				"crit_chance": 0,
-				"miss_chance": 20,
-				"description": "The holopsicon robs the enemy of their health, returning them to their origin~",
-				"type": 2
-				 },
-			{
-				"name": "The Fourteenth Movement of Cosmos: The Vicissitudes of Fortune",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 25,
-				"miss_chance": 0,
-				"description": "Altair's",
-				"type": 2,
-				"img": "https://i.imgur.com/O6E2jSt.gif"
+				{
+					"name": "The Thirteenth movement of the Cosmos; Outline Origin",
+					"Ap": 10,
+					"hits": 4,
+					"cd": 2,
+					"crit_chance": 0,
+					"miss_chance": 20,
+					"description": "The holopsicon robs the enemy of their health, returning them to their origin~",
+					"type": 2
+				},
+				{
+					"name": "The Fourteenth Movement of Cosmos: The Vicissitudes of Fortune",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 25,
+					"miss_chance": 0,
+					"description": "Altair's",
+					"type": 2,
+					"img": "https://i.imgur.com/O6E2jSt.gif"
 				}
-			 ]
-		  },
-    {
-	    "name": "Sirius",
-		  "class": 0,
-		  "gender": "2",
-		  "description": "A creation brought to life to replicate Altairs power, and destroy her, sirius possesses the same reality altering abilities as Altair.",
-		  "series": "Re:Creators",
+			]
+		},
+		{
+			"name": "Sirius",
+			"class": 0,
+			"gender": "2",
+			"description": "A creation brought to life to replicate Altairs power, and destroy her, sirius possesses the same reality altering abilities as Altair.",
+			"series": "Re:Creators",
 			"hp": 100,
 			"atk": 100,
 			"def": 80,
-		  	"matk": 40,
-		  	"mdef": 60,
-		  	"spd": 80,
-		  "image": "https://i.imgur.com/c6nH2A6.png",
-		  "gimg": "https://i.imgur.com/Q5fGswH.gif",
-		  "abilities": [
-			{
-				"name": "Lance of the cosmos: Holopsicon",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 0,
-				"crit_chance": 15,
-				"miss_chance": 15,
-				"description": "Being a creation akin to altair, Sirius also has access to the unlimited holopsicon.",
-				"type": 1
+			"matk": 40,
+			"mdef": 60,
+			"spd": 80,
+			"image": "https://i.imgur.com/c6nH2A6.png",
+			"gimg": "https://i.imgur.com/Q5fGswH.gif",
+			"abilities": [
+				{
+					"name": "Lance of the cosmos: Holopsicon",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 0,
+					"crit_chance": 15,
+					"miss_chance": 15,
+					"description": "Being a creation akin to altair, Sirius also has access to the unlimited holopsicon.",
+					"type": 1
 				},
-			{
-				"name": "Gravity Well",
-				"Ap": 20,
-				"hits": 1,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 5,
-				"description": "",
-				"type": 2       
+				{
+					"name": "Gravity Well",
+					"Ap": 20,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 5,
+					"description": "",
+					"type": 2
 				},
-			{
-				"name": "The sixty-sixth movement of the cosmos: Existence Change.",
-				"Ap": 35,
-				"hits": 2,
-				"cd": 3,
-				"crit_chance": 40,
-				"miss_chance": 0,
-				"description": "Channeling the power of the Holopsicon, sirius absorbs the target, dealing heavy dammage.",
-				"type": 1,
-				"img": "https://i.imgur.com/ZNMgxSX.gif"
-		 	 }
-			]
-			},
-  		{
-	    "name": "Artoria Pendragon",
-		  "class": 0,
-		  "gender": "2",
-		  "description": "King of Britain and weilder of the sword in the stone, Excalibur!",
-		  "series": "Fate/",
-			  "hp": 100,
-			  "atk": 65,
-			  "def": 85,
-			  "matk": 20,
-			  "mdef": 85,
-			  "spd": 50,
-		  "image": "https://i.imgur.com/sY6ltG1.png",
-		  "gimg": "https://i.imgur.com/cdqmfS7.gif",
-		  "abilities": [
-			{
-				"name": "Heavenly Sword Smash",
-				"Ap": 5,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 70,
-				"miss_chance": 0,
-				"description": "A solid dual swing from the mighty sword!",
-				"type": 1
-				},
-			{
-				"name": "Heavy Bunker Hit",
-				"Ap": 10,
-				"hits": 3,
-				"cd": 3,
-				"crit_chance": 30,
-				"miss_chance": 5,
-				"description": "A heavy blow from above delivered with expert fatility.",
-				"type": 1
-				},
-			{
-				"name": "EXCALIBUR",
-				"Ap": 60,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 25,
-				"miss_chance": 0,
-				"description": "The King of Knights unsheathes her holy sword and brings forth the fabled noble phantasm; Excalibur!",
-				"type": 1,
-				"img": "https://i.imgur.com/817HFDs.gif"
+				{
+					"name": "The sixty-sixth movement of the cosmos: Existence Change.",
+					"Ap": 35,
+					"hits": 2,
+					"cd": 3,
+					"crit_chance": 40,
+					"miss_chance": 0,
+					"description": "Channeling the power of the Holopsicon, sirius absorbs the target, dealing heavy dammage.",
+					"type": 1,
+					"img": "https://i.imgur.com/ZNMgxSX.gif"
 				}
-		  ]
-	  },
-	  {
-		  "name": "Magane Chikujoin",
-		  "class": 2,
-		  "gender": "2",
-		  "description": "A serial killer from the manga she comes from, Magane enjoys the finer things in life; murder, manipulation, and watching people tear themselves apart!",
-		  "series": "Re:Creators",
+			]
+		},
+		{
+			"name": "Artoria Pendragon",
+			"class": 0,
+			"gender": "2",
+			"description": "King of Britain and weilder of the sword in the stone, Excalibur!",
+			"series": "Fate/",
+			"hp": 100,
+			"atk": 65,
+			"def": 85,
+			"matk": 20,
+			"mdef": 85,
+			"spd": 50,
+			"image": "https://i.imgur.com/sY6ltG1.png",
+			"gimg": "https://i.imgur.com/cdqmfS7.gif",
+			"abilities": [
+				{
+					"name": "Heavenly Sword Smash",
+					"Ap": 5,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 70,
+					"miss_chance": 0,
+					"description": "A solid dual swing from the mighty sword!",
+					"type": 1
+				},
+				{
+					"name": "Heavy Bunker Hit",
+					"Ap": 10,
+					"hits": 3,
+					"cd": 3,
+					"crit_chance": 30,
+					"miss_chance": 5,
+					"description": "A heavy blow from above delivered with expert fatility.",
+					"type": 1
+				},
+				{
+					"name": "EXCALIBUR",
+					"Ap": 60,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 25,
+					"miss_chance": 0,
+					"description": "The King of Knights unsheathes her holy sword and brings forth the fabled noble phantasm; Excalibur!",
+					"type": 1,
+					"img": "https://i.imgur.com/817HFDs.gif"
+				}
+			]
+		},
+		{
+			"name": "Magane Chikujoin",
+			"class": 2,
+			"gender": "2",
+			"description": "A serial killer from the manga she comes from, Magane enjoys the finer things in life; murder, manipulation, and watching people tear themselves apart!",
+			"series": "Re:Creators",
 			"hp": 100,
 			"atk": 20,
-		  	"def": 50,
+			"def": 50,
 			"matk": 100,
 			"mdef": 80,
-		  	"spd": 100,
-		  "image": "https://i.imgur.com/MPTalpW.png",
-		  "gimg": "https://i.imgur.com/O5cMF31.gif",
-		  "abilities": [
-			{
-				"name": "Cheshire Bells",
-				"Ap": 15,
-				"hits": 1,
-				"cd": 0,
-				"crit_chance": 100,
-				"miss_chance": 0,
-				"desciption": "The chiming of a trickster.",
-				"type": 2
+			"spd": 100,
+			"image": "https://i.imgur.com/MPTalpW.png",
+			"gimg": "https://i.imgur.com/O5cMF31.gif",
+			"abilities": [
+				{
+					"name": "Cheshire Bells",
+					"Ap": 15,
+					"hits": 1,
+					"cd": 0,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"desciption": "The chiming of a trickster.",
+					"type": 2
 				},
-			{
-				"name": "Hangakuu!",
-				"Ap": 5,
-				"hits": 5,
-				"cd": 2,
-				"crit_chance": 80,
-				"miss_chance": 6,
-				"description": "A stolen curse from history, hangaku is a fierce and loyal spirit.",
-				"type": 2
+				{
+					"name": "Hangakuu!",
+					"Ap": 5,
+					"hits": 5,
+					"cd": 2,
+					"crit_chance": 80,
+					"miss_chance": 6,
+					"description": "A stolen curse from history, hangaku is a fierce and loyal spirit.",
+					"type": 2
 				},
-			{
-				"name": "The Infinite Desception of Words",
-				"Ap": 15,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 90,
-				"miss_chance": 0,
-				"description": "Uso no Uso, Sore wa Kururi to, Uragaeru~",
-				"img": "https://i.imgur.com/A0Z2Ym0.gif",
-				"type": 2
+				{
+					"name": "The Infinite Desception of Words",
+					"Ap": 15,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 90,
+					"miss_chance": 0,
+					"description": "Uso no Uso, Sore wa Kururi to, Uragaeru~",
+					"img": "https://i.imgur.com/A0Z2Ym0.gif",
+					"type": 2
 				}
-		  ]
-	},
-  	{
-	    "name": "Evangelion Unit 01",
-		  "class": 4,
-		  "gender": "3",
-		  "description": "A fully operational piloted mech, created to fight the ever advancing angels before they trigger the end of the world!",
-		  "series": "Neon Genesis Evangelion",
-		  	"hp": 100,
-		  	"atk": 60,
-		  	"def": 60,
-		  	"matk": 60,
-		  	"mdef": 55,
-		  	"spd": 70,
-		  "image": "https://i.imgur.com/SCsngOC.png",
-		  "gimg": "https://i.imgur.com/8gl84AF.gif",
-		  "abilities": [
-			 {
-				"name": "Tactical Supply knife",
-				"Ap": 9,
-				"hits": 5,
-				"cd": 1,
-				"crit_chance": 40,
-				"miss_chance": 20,
-				"description": "A standard military grade NERV knife swing.",
-				"type": 1
+			]
+		},
+		{
+			"name": "Evangelion Unit 01",
+			"class": 4,
+			"gender": "3",
+			"description": "A fully operational piloted mech, created to fight the ever advancing angels before they trigger the end of the world!",
+			"series": "Neon Genesis Evangelion",
+			"hp": 100,
+			"atk": 60,
+			"def": 60,
+			"matk": 60,
+			"mdef": 55,
+			"spd": 70,
+			"image": "https://i.imgur.com/SCsngOC.png",
+			"gimg": "https://i.imgur.com/8gl84AF.gif",
+			"abilities": [
+				{
+					"name": "Tactical Supply knife",
+					"Ap": 9,
+					"hits": 5,
+					"cd": 1,
+					"crit_chance": 40,
+					"miss_chance": 20,
+					"description": "A standard military grade NERV knife swing.",
+					"type": 1
 				},
-			 {
-				"name": "High impact pelett riffle",
-				"Ap": 10,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 30,
-				"description": "A sweep of high caliber rounds shot by the evangelion.",
-				"type": 1
+				{
+					"name": "High impact pelett riffle",
+					"Ap": 10,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 30,
+					"description": "A sweep of high caliber rounds shot by the evangelion.",
+					"type": 1
 				},
-			{
-				"name": "Roar of the Angel",
-				"Ap": 30,
-				"hits": 2,
-				"cd": 3,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"description": "The eva unleashes its true nature, releasing all of its savage might on the oponnent.",
-				"type": 2,
-				"img": "https://i.imgur.com/RKpF6Tv.gif"
+				{
+					"name": "Roar of the Angel",
+					"Ap": 30,
+					"hits": 2,
+					"cd": 3,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"description": "The eva unleashes its true nature, releasing all of its savage might on the oponnent.",
+					"type": 2,
+					"img": "https://i.imgur.com/RKpF6Tv.gif"
 				}
-		  ]
-	},
-	{
-	    "name": "Evangelion Unit 13",
-	  	"class": 4,
-		  "gender": "3",
-		  "description": "A mech unit specially constructed to harness the power of the spears of longinus, and bring about the 4th impact.",
-		  "series": "Rebuild of Evangelion",
-		  	"hp": 100,
-		  	"atk": 75,
+			]
+		},
+		{
+			"name": "Evangelion Unit 13",
+			"class": 4,
+			"gender": "3",
+			"description": "A mech unit specially constructed to harness the power of the spears of longinus, and bring about the 4th impact.",
+			"series": "Rebuild of Evangelion",
+			"hp": 100,
+			"atk": 75,
 			"def": 50,
 			"matk": 75,
 			"mdef": 45,
 			"spd": 60,
-		  "image": "https://i.imgur.com/0JxNTGz.png",
-		  "gimg": "https://i.imgur.com/sO8bZpv.gif",
-		  "abilities": [
-			{
-				"name": "Advanced A.T Drones",
-				"Ap": 5,
-				"hits": 10,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 10,
-				"description": "Advanced A.T field carrying projectiles that launch at the Units oponnent.",
-				"type": 1
+			"image": "https://i.imgur.com/0JxNTGz.png",
+			"gimg": "https://i.imgur.com/sO8bZpv.gif",
+			"abilities": [
+				{
+					"name": "Advanced A.T Drones",
+					"Ap": 5,
+					"hits": 10,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 10,
+					"description": "Advanced A.T field carrying projectiles that launch at the Units oponnent.",
+					"type": 1
 				},
-			{
-				"name": "A.T Compress sequence",
-				"Ap": 7,
-				"hits": 5,
-				"cd": 2,
-				"crit_chance": 70,
-				"miss_chance": 20,
-				"description": "Unit 13 Harnesses a powerful A.T field to crush its oponnent.",
-				"type": 1
+				{
+					"name": "A.T Compress sequence",
+					"Ap": 7,
+					"hits": 5,
+					"cd": 2,
+					"crit_chance": 70,
+					"miss_chance": 20,
+					"description": "Unit 13 Harnesses a powerful A.T field to crush its oponnent.",
+					"type": 1
 				},
-			{
-				"name": "Spears of Longinus",
-				"Ap": 30,
-				"hits": 2,
-				"cd": 3,
-				"crit_chance": 35,
-				"miss_chance": 0,
-				"description": "Unit 13 Takes hold of the acient spears, releasing  their ancient power.",
-				"type": 2,
-				"img": "https://i.imgur.com/50wkc8U.gif"
+				{
+					"name": "Spears of Longinus",
+					"Ap": 30,
+					"hits": 2,
+					"cd": 3,
+					"crit_chance": 35,
+					"miss_chance": 0,
+					"description": "Unit 13 Takes hold of the acient spears, releasing  their ancient power.",
+					"type": 2,
+					"img": "https://i.imgur.com/50wkc8U.gif"
 				}
-		  ]
-	},
-	{
-	    "name": "Nero Claudius",
-		  "class": 0,
-		  "gender": "2",
-		  "description": "Roman emporer during the era of the arts for Rome, enthusiast of all forms of fine art and a skilled swordsman in battle.",
-		  "series": "Fate/",
-			  "hp": 100,
-			  "atk": 100,
-			  "def": 80,
-			  "matk": 50,
-			  "mdef": 45,
-			  "spd": 55,
-			  "image": "https://i.imgur.com/kYKscvU.png",
-			  "gimg": "https://i.imgur.com/ydklhb3.gif",
-			  "abilities": [
+			]
+		},
+		{
+			"name": "Nero Claudius",
+			"class": 0,
+			"gender": "2",
+			"description": "Roman emporer during the era of the arts for Rome, enthusiast of all forms of fine art and a skilled swordsman in battle.",
+			"series": "Fate/",
+			"hp": 100,
+			"atk": 100,
+			"def": 80,
+			"matk": 50,
+			"mdef": 45,
+			"spd": 55,
+			"image": "https://i.imgur.com/kYKscvU.png",
+			"gimg": "https://i.imgur.com/ydklhb3.gif",
+			"abilities": [
 				{
 					"name": "Imperial strike",
 					"Ap": 20,
@@ -312,7 +312,7 @@
 					"miss_chance": 20,
 					"description": "A sturdy stab from the son of rome.",
 					"type": 1
-					},
+				},
 				{
 					"name": "Conquest",
 					"Ap": 5,
@@ -322,7 +322,7 @@
 					"miss_chance": 20,
 					"description": "The nature of an emporer, the will to topple!",
 					"type": 1
-					},
+				},
 				{
 					"name": "Aeustus Domus Aurea",
 					"Ap": 50,
@@ -333,1453 +333,1449 @@
 					"description": "The magnus opus of its emporoer, this golden theatre stands as a Holy sanctuary to the fine arts.",
 					"type": 1,
 					"img": "https://i.imgur.com/O2aXLqM.gif"
-					}
-			  ]
-	},
-	  {
-		  "name": "Sebastion Michaelis",
-		  "class": 6,
-		  "gender": "1",
-		  "description": "Simply one hell of a butler.",
-		  "series": "Black Butler",
-		  	"hp": 100,
+				}
+			]
+		},
+		{
+			"name": "Sebastion Michaelis",
+			"class": 6,
+			"gender": "1",
+			"description": "Simply one hell of a butler.",
+			"series": "Black Butler",
+			"hp": 100,
 			"atk": 65,
-		  	"def": 50,
-		  	"matk": 75,
-		  	"mdef": 60,
-		  	"spd": 100,
-		  "image": "https://i.imgur.com/0eBzSuk.png",
-		  "gimg": "https://i.imgur.com/iOecgW2.gif",
-		  "abilities": [
-			{
-				"name": "Volley of forks",
-				"Ap": 3,
-				"hits": 5,
-				"cd": 1,
-				"crit_chance": 90,
-				"miss_chance": 0,
-				"description": "Sebation launches an array of silverware at the oponnent with deadly accuracy, ouch.",
-				"type": 1
+			"def": 50,
+			"matk": 75,
+			"mdef": 60,
+			"spd": 100,
+			"image": "https://i.imgur.com/0eBzSuk.png",
+			"gimg": "https://i.imgur.com/iOecgW2.gif",
+			"abilities": [
+				{
+					"name": "Volley of forks",
+					"Ap": 3,
+					"hits": 5,
+					"cd": 1,
+					"crit_chance": 90,
+					"miss_chance": 0,
+					"description": "Sebation launches an array of silverware at the oponnent with deadly accuracy, ouch.",
+					"type": 1
 				},
-			{
-				"name": "Game of darkness",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 5,
-				"description": "In a game with a demon, the outcome is inevitable.",
-				"type": 2
+				{
+					"name": "Game of darkness",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 5,
+					"description": "In a game with a demon, the outcome is inevitable.",
+					"type": 2
 				},
-			{
-				"name": "A demons true form",
-				"Ap": 25,
-				"hits": 2,
-				"cd": 3,
-				"crit_chance":70,
-				"miss_chance": 0,
-				"description": "",
-				"img": "https://i.imgur.com/kWXX3Yh.gif",
-				"type": 2
+				{
+					"name": "A demons true form",
+					"Ap": 25,
+					"hits": 2,
+					"cd": 3,
+					"crit_chance": 70,
+					"miss_chance": 0,
+					"description": "",
+					"img": "https://i.imgur.com/kWXX3Yh.gif",
+					"type": 2
 				}
-		  ]
-	},
-	  {
-	    "name": "2B",
-	  	"class": 0,
-	  	"gender": "2",
-	  	"description": "A sentient, artificial life form made to protect humanity against the onslaught of evil beings.",
-		  "series": "Nier Automata",
-	  		"hp": 100,
-		  	"atk": 85,
-		  	"def": 60,
+			]
+		},
+		{
+			"name": "2B",
+			"class": 0,
+			"gender": "2",
+			"description": "A sentient, artificial life form made to protect humanity against the onslaught of evil beings.",
+			"series": "Nier Automata",
+			"hp": 100,
+			"atk": 85,
+			"def": 60,
 			"matk": 30,
-		  	"mdef": 70,
-		  	"spd": 85,
-		  "image": "https://i.imgur.com/QSZwlj2.png",
-		  "gimg": "https://i.imgur.com/oLH5gDi.gif",
-		  "abilities": [
-			{
-				"name": "Single sword strike",
-				"Ap": 7,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 0,
-				"description": "A single sword of her mighty Katana.",
-				"type": 1
+			"mdef": 70,
+			"spd": 85,
+			"image": "https://i.imgur.com/QSZwlj2.png",
+			"gimg": "https://i.imgur.com/oLH5gDi.gif",
+			"abilities": [
+				{
+					"name": "Single sword strike",
+					"Ap": 7,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 0,
+					"description": "A single sword of her mighty Katana.",
+					"type": 1
 				},
-			{
-				"name": "Sweeping sword slash",
-				"Ap": 5,
-				"hits": 5,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 2,
-				"description": "2B flings her sword around her, mowing down anything in its path.",
-				"type": 1
+				{
+					"name": "Sweeping sword slash",
+					"Ap": 5,
+					"hits": 5,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 2,
+					"description": "2B flings her sword around her, mowing down anything in its path.",
+					"type": 1
 				},
-			{
-				"name": "Pod Laser Beam",
-				"Ap": 25,
-				"hits": 2,
-				"cd": 3,
-				"crit_chance": 50,
-				"miss_chance": 0,
-				"description": "2B's Pod launches a massive laser beam at the oponnent.",
-				"type": 1,
-				"img": "https://i.imgur.com/xFcGpMZ.gif"
+				{
+					"name": "Pod Laser Beam",
+					"Ap": 25,
+					"hits": 2,
+					"cd": 3,
+					"crit_chance": 50,
+					"miss_chance": 0,
+					"description": "2B's Pod launches a massive laser beam at the oponnent.",
+					"type": 1,
+					"img": "https://i.imgur.com/xFcGpMZ.gif"
 				}
-		  ]
-	},
-	  {
-	    "name": "Nezuko Kamado",
-		  "class": 6,
-	  	"gender": "2",
-		  "description": "A human girl turned into a flesh hungry demon, forced to be muzzled by bamboo to prevent rampage until she and her brother can find a cure.",
-	  	"series": "Demon Slayer",
-		  	"hp": 100,
-		   	"atk": 80,
+			]
+		},
+		{
+			"name": "Nezuko Kamado",
+			"class": 6,
+			"gender": "2",
+			"description": "A human girl turned into a flesh hungry demon, forced to be muzzled by bamboo to prevent rampage until she and her brother can find a cure.",
+			"series": "Demon Slayer",
+			"hp": 100,
+			"atk": 80,
 			"def": 50,
 			"matk": 30,
-		  	"mdef": 50,
+			"mdef": 50,
 			"spd": 90,
-		  "image": "https://i.imgur.com/wzm1ngb.png",
-		  "gimg": "https://i.imgur.com/xdcgSjS.gif",
-		  "abilities": [
-			{
-				"name": "Demon claw",
-				"Ap": 5,
-				"hits": 4,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 10,
-				"description": "Claws hard as steel slash at the oponnent.",
-				"type": 1
+			"image": "https://i.imgur.com/wzm1ngb.png",
+			"gimg": "https://i.imgur.com/xdcgSjS.gif",
+			"abilities": [
+				{
+					"name": "Demon claw",
+					"Ap": 5,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 10,
+					"description": "Claws hard as steel slash at the oponnent.",
+					"type": 1
 				},
-			{
-				"name": "Demon Pummeling",
-				"Ap": 10,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 25,
-				"miss_chance": 5,
-				"description": "With her Demonic strength, Nezuko lands a powerful hit!",
-				"type": 1
+				{
+					"name": "Demon Pummeling",
+					"Ap": 10,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 25,
+					"miss_chance": 5,
+					"description": "With her Demonic strength, Nezuko lands a powerful hit!",
+					"type": 1
 				},
-			{
-				"name": "Blood Demon Art; Exploading Blood",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 80,
-				"miss_chance": 0,
-				"description": "Nezuko unleashes her true Demon side, leveling the oponnent with searing blood flames.",
-				"type": 1,
-				"img": "https://i.imgur.com/0tjZUSS.gif"
+				{
+					"name": "Blood Demon Art; Exploading Blood",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 80,
+					"miss_chance": 0,
+					"description": "Nezuko unleashes her true Demon side, leveling the oponnent with searing blood flames.",
+					"type": 1,
+					"img": "https://i.imgur.com/0tjZUSS.gif"
 				}
-		  ]
-	},
+			]
+		},
 		{
-	  "name": "Albedo",
-		"class": 6,
-		"gender": "2",
-		"description": "NPC turned real when when the guild Ainz Ooal Gown was transported to a new world, she seeks to conquor the world in the name of her eternal love Ainz.",
-		"series": "Overlord",
+			"name": "Albedo",
+			"class": 6,
+			"gender": "2",
+			"description": "NPC turned real when when the guild Ainz Ooal Gown was transported to a new world, she seeks to conquor the world in the name of her eternal love Ainz.",
+			"series": "Overlord",
 			"hp": 100,
 			"atk": 75,
 			"def": 60,
 			"matk": 95,
 			"mdef": 50,
 			"spd": 65,
-		"image": "https://i.imgur.com/3rTfSR7.png",
-		"gimg": "https://i.imgur.com/IZxHAIX.gif",
-		"abilities": [
-			{
-				"name": "Miaden of lust",
-				"Ap": 10,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 80,
-				"miss_chance": 0,
-				"description": "",
-				"type": 2
+			"image": "https://i.imgur.com/3rTfSR7.png",
+			"gimg": "https://i.imgur.com/IZxHAIX.gif",
+			"abilities": [
+				{
+					"name": "Miaden of lust",
+					"Ap": 10,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 80,
+					"miss_chance": 0,
+					"description": "",
+					"type": 2
 				},
-			{
-				"name": "Loves apetite",
-				"Ap": 8,
-				"hits": 4,
-				"cd": 2,
-				"crit_chance": 30,
-				"miss_chance": 20,
-				"description": "",
-				"type": 2
+				{
+					"name": "Loves apetite",
+					"Ap": 8,
+					"hits": 4,
+					"cd": 2,
+					"crit_chance": 30,
+					"miss_chance": 20,
+					"description": "",
+					"type": 2
 				},
-			{
-				"name": "Warrior form!",
-				"Ap": 10,
-				"hits": 4,
-				"cd": 3,
-				"crit_chance": 100,
-				"miss_chance": 0,
-				"description": "Albedo uses her Warrior Form to deliver a massive string of blows",
-				"type": 1,
-				"img": "https://i.imgur.com/ALNYB5r.gif"
+				{
+					"name": "Warrior form!",
+					"Ap": 10,
+					"hits": 4,
+					"cd": 3,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"description": "Albedo uses her Warrior Form to deliver a massive string of blows",
+					"type": 1,
+					"img": "https://i.imgur.com/ALNYB5r.gif"
 				}
-		]
-	},
-	{
-	  "name": "Ainz Ooal Gown",
-		"class": 2,
-		"gender": "1",
-		"description": "Former leader of the guild whos name he assumed, his unimaginable magical power threatens to bring the world he finds himself under his heel.",
-		"series": "Overlord",
+			]
+		},
+		{
+			"name": "Ainz Ooal Gown",
+			"class": 2,
+			"gender": "1",
+			"description": "Former leader of the guild whos name he assumed, his unimaginable magical power threatens to bring the world he finds himself under his heel.",
+			"series": "Overlord",
 			"hp": 100,
 			"atk": 50,
 			"def": 50,
 			"matk": 100,
 			"mdef": 70,
 			"spd": 50,
-		"image": "https://i.imgur.com/R5fDPRm.png",
-		"gimg": "https://i.imgur.com/yrY98fE.gif",
-		"abilities": [
-			{
-				"name": "Grasp Heart",
-				"Ap": 10,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"description": "A powerful spell that crushes the heart of weaker beings, less affective against stronger oponnents.",
-				"type": 2
+			"image": "https://i.imgur.com/R5fDPRm.png",
+			"gimg": "https://i.imgur.com/yrY98fE.gif",
+			"abilities": [
+				{
+					"name": "Grasp Heart",
+					"Ap": 10,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"description": "A powerful spell that crushes the heart of weaker beings, less affective against stronger oponnents.",
+					"type": 2
 				},
-			{
-				"name": "Touch of Underneath",
-				"Ap": 15,
-				"hits": 3,
-				"cd": 2,
-				"crit_chance": 30,
-				"miss_chance": 30,
-				"description": "A single negative energy touch extended from the wizard kings sorceries.",
-				"type": 2
+				{
+					"name": "Touch of Underneath",
+					"Ap": 15,
+					"hits": 3,
+					"cd": 2,
+					"crit_chance": 30,
+					"miss_chance": 30,
+					"description": "A single negative energy touch extended from the wizard kings sorceries.",
+					"type": 2
 				},
-			{
-				"name": "Super Tier Magic, Fallen Down!",
-				"Ap": 15,
-				"hits": 4,
-				"cd": 4,
-				"crit_chance": 10,
-				"miss_chance": 0,
-				"description": "A massively powerful spell, leaving everything in its way wrought to ash.",
-				"type": 2,
-				"img": "https://i.imgur.com/0fsWJVx.gif"
+				{
+					"name": "Super Tier Magic, Fallen Down!",
+					"Ap": 15,
+					"hits": 4,
+					"cd": 4,
+					"crit_chance": 10,
+					"miss_chance": 0,
+					"description": "A massively powerful spell, leaving everything in its way wrought to ash.",
+					"type": 2,
+					"img": "https://i.imgur.com/0fsWJVx.gif"
 				}
-		]
-	},
-	{
-	  "name": "Milim Nava",
-		"class": 2,
-		"gender": "2",
-		"description": "The strongest of the demon lords, this dragon descended mage is playful at heart, out to have fun!",
-		"series": "That Time I Got Re-incarnated as a Slime",
+			]
+		},
+		{
+			"name": "Milim Nava",
+			"class": 2,
+			"gender": "2",
+			"description": "The strongest of the demon lords, this dragon descended mage is playful at heart, out to have fun!",
+			"series": "That Time I Got Re-incarnated as a Slime",
 			"hp": 100,
 			"atk": 80,
 			"def": 60,
 			"matk": 90,
 			"mdef": 60,
 			"spd": 50,
-		"image": "https://i.imgur.com/luzFrZu.png",
-		"gimg": "https://i.imgur.com/DJhamrg.gif",
-		"abilities": [
-			{
-				"name": "Draconic Beat-Down",
-				"Ap": 10,
-				"hits": 4,
-				"cd": 1,
-				"crit_chance": 0,
-				"miss_chance": 0,
-				"description": "A scaley smack down of epic proportions!",
-				"type": 1
+			"image": "https://i.imgur.com/luzFrZu.png",
+			"gimg": "https://i.imgur.com/DJhamrg.gif",
+			"abilities": [
+				{
+					"name": "Draconic Beat-Down",
+					"Ap": 10,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 0,
+					"miss_chance": 0,
+					"description": "A scaley smack down of epic proportions!",
+					"type": 1
 				},
-			{
-				"name": "Fist of fire",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 25,
-				"description": "Milim harnesses the power of her incredible magical aura to shred the oponnent!",
-				"type": 2
+				{
+					"name": "Fist of fire",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 25,
+					"description": "Milim harnesses the power of her incredible magical aura to shred the oponnent!",
+					"type": 2
 				},
-			{
-				"name": "Dragon Nova!",
-				"Ap": 10,
-				"hits": 6,
-				"cd": 4,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"description": "The ultimate form of the strike magic gravity collapse, this attack rains black holes like meteors on the oponnent.",
-				"type": 2
+				{
+					"name": "Dragon Nova!",
+					"Ap": 10,
+					"hits": 6,
+					"cd": 4,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"description": "The ultimate form of the strike magic gravity collapse, this attack rains black holes like meteors on the oponnent.",
+					"type": 2
 				}
-		]
-	},
-	{
-	  "name": "Mikasa Ackerman",
-		"class": 5,
-		"gender": "2",
-		"description": "A fierce member of the scout corps, flying through the air with deadly precision, speed, and scarf!",
-		"series": "Attack on Titan",
+			]
+		},
+		{
+			"name": "Mikasa Ackerman",
+			"class": 5,
+			"gender": "2",
+			"description": "A fierce member of the scout corps, flying through the air with deadly precision, speed, and scarf!",
+			"series": "Attack on Titan",
 			"hp": 100,
 			"atk": 85,
 			"def": 45,
 			"matk": 20,
 			"mdef": 45,
 			"spd": 100,
-		"image": "https://i.imgur.com/pyZZ75T.png",
-		"gimg": "https://i.imgur.com/8rmmBLQ.gif",
-		"abilities": [
-			{
-				"name": "Spinning ariel strike",
-				"Ap": 5,
-				"hits": 10,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 20,
-				"description": "A swift double bladed assault.",
-				"type": 1
+			"image": "https://i.imgur.com/pyZZ75T.png",
+			"gimg": "https://i.imgur.com/8rmmBLQ.gif",
+			"abilities": [
+				{
+					"name": "Spinning ariel strike",
+					"Ap": 5,
+					"hits": 10,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 20,
+					"description": "A swift double bladed assault.",
+					"type": 1
 				},
-			{
-				"name": "Recurring blade sweep",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 20,
-				"miss_chance": 20,
-				"description": "A rapid flurry of calculated slashes.",
-				"type": 1
+				{
+					"name": "Recurring blade sweep",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 20,
+					"miss_chance": 20,
+					"description": "A rapid flurry of calculated slashes.",
+					"type": 1
 				},
-			{
-				"name": "Finishing Neck Gash!",
-				"Ap": 20,
-				"hits": 5,
-				"cd": 4,
-				"crit_chance": 0,
-				"miss_chance": 0,
-				"description": "A finishing move if there ever was one, this slash takes out the weak spot of the enemy with frigthening precision.",
-				"img": "https://i.imgur.com/SXdCaxM.gif",
-				"type": 1
+				{
+					"name": "Finishing Neck Gash!",
+					"Ap": 20,
+					"hits": 5,
+					"cd": 4,
+					"crit_chance": 0,
+					"miss_chance": 0,
+					"description": "A finishing move if there ever was one, this slash takes out the weak spot of the enemy with frigthening precision.",
+					"img": "https://i.imgur.com/SXdCaxM.gif",
+					"type": 1
 				}
-		]
-	},
-	{
-	  "name": "Lupisregina Beta",
-		"class": 2,
-		"gender": "2",
-		"description": "One of the maids of the guild Ains Ooal Gown, known as the pleiades. Her physical strenth is top tier, and her sadistic personality makes her all the more deadly.",
-		"series": "Overlord",
+			]
+		},
+		{
+			"name": "Lupisregina Beta",
+			"class": 2,
+			"gender": "2",
+			"description": "One of the maids of the guild Ains Ooal Gown, known as the pleiades. Her physical strenth is top tier, and her sadistic personality makes her all the more deadly.",
+			"series": "Overlord",
 			"hp": 100,
 			"atk": 90,
 			"def": 50,
 			"matk": 60,
 			"mdef": 60,
 			"spd": 60,
-		"image": "https://i.imgur.com/2BOI8Ez.png",
-		"gimg": "https://i.imgur.com/GkAsi7P.gif",
-		"abilities": [
-			{
-				"name": "inhuman Strike",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 10,
-				"description": "A hit delievered with inhuman strength!",
-				"type": 1
+			"image": "https://i.imgur.com/2BOI8Ez.png",
+			"gimg": "https://i.imgur.com/GkAsi7P.gif",
+			"abilities": [
+				{
+					"name": "inhuman Strike",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 10,
+					"description": "A hit delievered with inhuman strength!",
+					"type": 1
 				},
-			{
-				"name": "Hell's Rain",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 40,
-				"miss_chance": 20,
-				"description": "Fire rains from a foreboding sky, searing its target to bits",
-				"type": 2
+				{
+					"name": "Hell's Rain",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 40,
+					"miss_chance": 20,
+					"description": "Fire rains from a foreboding sky, searing its target to bits",
+					"type": 2
 				},
-			{
-				"name": "Roar, Crosier!",
-				"Ap": 50,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"description": "Lupisregina's mighty scepter rears forth to cause untold devastation.",
-				"type": 1
+				{
+					"name": "Roar, Crosier!",
+					"Ap": 50,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"description": "Lupisregina's mighty scepter rears forth to cause untold devastation.",
+					"type": 1
 				}
-		]
-	},
-	{
-	  "name": "Gurren Lagann",
-		"class": 0,
-		"gender": "3",
-		"description": "A mech formed from a scavenged enemy combined with a surprising smaller robot! Together, their drill will pierce the heavens!",
-		"series": "Gurren Lagann",
+			]
+		},
+		{
+			"name": "Gurren Lagann",
+			"class": 0,
+			"gender": "3",
+			"description": "A mech formed from a scavenged enemy combined with a surprising smaller robot! Together, their drill will pierce the heavens!",
+			"series": "Gurren Lagann",
 			"hp": 100,
 			"atk": 85,
 			"def": 75,
 			"matk": 30,
 			"mdef": 60,
 			"spd": 50,
-		"image": "https://i.imgur.com/km2icoM.png",
-		"gimg": "https://i.imgur.com/9lBGoSv.gif",
-		"abilities": [
-			{
-				"name": "Piercing drill",
-				"Ap": 3,
-				"hits": 10,
-				"cd": 1,
-				"crit_chance": 90,
-				"miss_chance": 0,
-				"description": "A poweful drill hit!",
-				"type": 1
+			"image": "https://i.imgur.com/km2icoM.png",
+			"gimg": "https://i.imgur.com/9lBGoSv.gif",
+			"abilities": [
+				{
+					"name": "Piercing drill",
+					"Ap": 3,
+					"hits": 10,
+					"cd": 1,
+					"crit_chance": 90,
+					"miss_chance": 0,
+					"description": "A poweful drill hit!",
+					"type": 1
 				},
-			{
-				"name": "Visor Blade",
-				"Ap": 5,
-				"hits": 10,
-				"cd": 2,
-				"crit_chance": 40,
-				"miss_chance": 35,
-				"description": "A hearty double blow from Lagaan's Visor",
-				"type": 1
+				{
+					"name": "Visor Blade",
+					"Ap": 5,
+					"hits": 10,
+					"cd": 2,
+					"crit_chance": 40,
+					"miss_chance": 35,
+					"description": "A hearty double blow from Lagaan's Visor",
+					"type": 1
 				},
-			{
-				"name": "The Drill that will Pierce the Heavens!",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 90,
-				"miss_chance": 0,
-				"description": "Giga Drill, Breaker!!",
-				"img": "https://i.imgur.com/QVKl4mx.gif",
-				"type": 1
+				{
+					"name": "The Drill that will Pierce the Heavens!",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 90,
+					"miss_chance": 0,
+					"description": "Giga Drill, Breaker!!",
+					"img": "https://i.imgur.com/QVKl4mx.gif",
+					"type": 1
 				}
-		]
-	},
-	{
-	  "name": "Lelouch Lamperouge",
-		"class": 5,
-		"gender": "1",
-		"description": "A prince of the great Britanian empire, he controls geass, the power to compell anyone to obey his commands. The mark of a king.",
-		"series": "Code Geass",
+			]
+		},
+		{
+			"name": "Lelouch Lamperouge",
+			"class": 5,
+			"gender": "1",
+			"description": "A prince of the great Britanian empire, he controls geass, the power to compell anyone to obey his commands. The mark of a king.",
+			"series": "Code Geass",
 			"hp": 100,
 			"atk": 30,
 			"def": 50,
 			"matk": 75,
 			"mdef": 70,
 			"spd": 65,
-		"image": "https://i.imgur.com/3P1E3ZS.png",
-		"gimg": "https://i.imgur.com/TtQEFkC.gif",
-		"abilities": [
-			{
-				"name": "Gunshot",
-				"Ap":  30,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 75,
-				"miss_chance": 20,
-				"description": "A simple yet effective shot from a stolen gun",
-				"type": 1
-			},
-			{
-				"name": "Geass",
-				"Ap": 7,
-				"hits": 5,
-				"cd": 2,
-				"crit_chance": 60,
-				"miss_chance": 20,
-				"description": "Lelouch unleashes the power of kings on his oponnent, compelling them to his will!",
-				"type": 2
-			},
-			{
-				"name": "Fire, Gawain!",
-				"Ap": 40,
-				"hits": 2,
-				"cd": 3,
-				"crit_chance": 65,
-				"miss_chance": 1.00,
-				"description": "The stolen mech barrels negative energy cannons at the oponnent, dealing devastating dammage.",
-				"img": "https://i.imgur.com/IcyHgz1.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-	  "name": "Mai Sakurajima",
-		"class": 5,
-		"gender": "2",
-		"description": "A student with the ability to turn invisible to most people, She might seem polite but she has a serious side!",
-		"series": "Rascal Does Not Dream of Bunny Girl Senpai",
+			"image": "https://i.imgur.com/3P1E3ZS.png",
+			"gimg": "https://i.imgur.com/TtQEFkC.gif",
+			"abilities": [
+				{
+					"name": "Gunshot",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 75,
+					"miss_chance": 20,
+					"description": "A simple yet effective shot from a stolen gun",
+					"type": 1
+				},
+				{
+					"name": "Geass",
+					"Ap": 7,
+					"hits": 5,
+					"cd": 2,
+					"crit_chance": 60,
+					"miss_chance": 20,
+					"description": "Lelouch unleashes the power of kings on his oponnent, compelling them to his will!",
+					"type": 2
+				},
+				{
+					"name": "Fire, Gawain!",
+					"Ap": 40,
+					"hits": 2,
+					"cd": 3,
+					"crit_chance": 65,
+					"miss_chance": 1.00,
+					"description": "The stolen mech barrels negative energy cannons at the oponnent, dealing devastating dammage.",
+					"img": "https://i.imgur.com/IcyHgz1.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Mai Sakurajima",
+			"class": 5,
+			"gender": "2",
+			"description": "A student with the ability to turn invisible to most people, She might seem polite but she has a serious side!",
+			"series": "Rascal Does Not Dream of Bunny Girl Senpai",
 			"hp": 100,
 			"atk": 70,
 			"def": 40,
 			"matk": 30,
 			"mdef": 50,
 			"spd": 65,
-		"image": "https://i.imgur.com/o6SlcXb.png",
-		"gimg": "https://i.imgur.com/SwqGLzd.gif",
-		"abilities": [
-			
-			{
-				"name": "Rabid Bunny",
-				"Ap": 25,
-				"hits": 1,
-				"cd": 2,
-				"crit_chance": 90,
-				"miss_chance": 10,
-				"description": "A bunny girls rage!",
-				"type": 1
-			},
-			{
-				"name": "Sleeping Drug",
-				"Ap": 13,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 75,
-				"miss_chance": 10,
-				"description": "A simple yet effective drug to leave the enemy to your whims~",
-				"type": 2
-			},
-			{
-				"name": "Stiletto Stab",
-				"Ap": 50,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 10,
-				"miss_chance": 0,
-				"description": "A simple kick, surprisingly effective.",
-				"type": 1
-			}
-		]
-	},
-	{
-	  "name": "Homura Akemi",
-		"class": 1,
-		"gender": "2",
-		"description": "A cold, distant and strong magical girl. Her one wish is to be able to save the one she loves.",
-		"series": "Puella Magi Madoka Magica",
+			"image": "https://i.imgur.com/o6SlcXb.png",
+			"gimg": "https://i.imgur.com/SwqGLzd.gif",
+			"abilities": [
+				{
+					"name": "Rabid Bunny",
+					"Ap": 25,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 90,
+					"miss_chance": 10,
+					"description": "A bunny girls rage!",
+					"type": 1
+				},
+				{
+					"name": "Sleeping Drug",
+					"Ap": 13,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 75,
+					"miss_chance": 10,
+					"description": "A simple yet effective drug to leave the enemy to your whims~",
+					"type": 2
+				},
+				{
+					"name": "Stiletto Stab",
+					"Ap": 50,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 10,
+					"miss_chance": 0,
+					"description": "A simple kick, surprisingly effective.",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Homura Akemi",
+			"class": 1,
+			"gender": "2",
+			"description": "A cold, distant and strong magical girl. Her one wish is to be able to save the one she loves.",
+			"series": "Puella Magi Madoka Magica",
 			"hp": 100,
 			"atk": 75,
 			"def": 45,
 			"matk": 60,
 			"mdef": 60,
 			"spd": 70,
-		"image": "https://i.imgur.com/266QKEi.png",
-		"gimg": "https://i.imgur.com/Oij24X3.gif",
-		"abilities": [
-			{
-				"name": "Gun shots from days past",
-				"Ap": 25,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 5,
-				"description": "A stolen gun kept from time in her shield, shot at the oponnent.",
-				"type": 1
-			},
-			{
-				"name": "Time stop",
-				"Ap": 15,
-				"hits": 3,
-				"cd": 2,
-				"crit_chance": 30,
-				"miss_chance": 20,
-				"description": "Homura uses her shield to halt time and deal 2 devastating blows.",
-				"type": 2
-			},
-			{
-				"name": "Time reverse; One selfish wish",
-				"Ap": 15,
-				"hits": 4,
-				"cd": 3,
-				"crit_chance": 40,
-				"miss_chance": 0,
-				"description": "Homura reverses time, replaying the month leading up to this fight in a way that loses the oponnent massive amounts of hp!.",
-				"img": "https://i.imgur.com/wpuf6sy.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-	  "name": "Nanachi",
-		"class": 3,
-		"gender": "2",
-		"description": "Once human, nanachi was transformed into a narahate by the curse of the abyss. She now leaves deep in the depths of the abyss.",
-		"series": "Made in Abyss",
+			"image": "https://i.imgur.com/266QKEi.png",
+			"gimg": "https://i.imgur.com/Oij24X3.gif",
+			"abilities": [
+				{
+					"name": "Gun shots from days past",
+					"Ap": 25,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 5,
+					"description": "A stolen gun kept from time in her shield, shot at the oponnent.",
+					"type": 1
+				},
+				{
+					"name": "Time stop",
+					"Ap": 15,
+					"hits": 3,
+					"cd": 2,
+					"crit_chance": 30,
+					"miss_chance": 20,
+					"description": "Homura uses her shield to halt time and deal 2 devastating blows.",
+					"type": 2
+				},
+				{
+					"name": "Time reverse; One selfish wish",
+					"Ap": 15,
+					"hits": 4,
+					"cd": 3,
+					"crit_chance": 40,
+					"miss_chance": 0,
+					"description": "Homura reverses time, replaying the month leading up to this fight in a way that loses the oponnent massive amounts of hp!.",
+					"img": "https://i.imgur.com/wpuf6sy.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Nanachi",
+			"class": 3,
+			"gender": "2",
+			"description": "Once human, nanachi was transformed into a narahate by the curse of the abyss. She now leaves deep in the depths of the abyss.",
+			"series": "Made in Abyss",
 			"hp": 100,
 			"atk": 60,
 			"def": 70,
 			"matk": 55,
 			"mdef": 70,
 			"spd": 60,
-		"image": "https://i.imgur.com/HKSQBsE.png",
-		"gimg": "https://i.imgur.com/ZZYh4rI.gif",
-		"abilities": [
-			{
-				"name": "Poison spikes",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 70,
-				"miss_chance": 20,
-				"description": "Spikes harnessed from creatures of the abyss, used as weapons!",
-				"type": 1
-			},
-			{
-				"name": "Narehate whack!",
-				"Ap": 25,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 20,
-				"description": "Furry Whack!",
-				"type": 1
-			},
-			{
-				"name": "Curse of the Abyss",
-				"Ap": 55,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"description": "",
-				"type": 1,
-				"img": ""
-			}
-		]
-	},
-	{
-		"name": "Death the Kid",
-		"class": 1,
-		"gender": "1",
-		"description": "The son of death, a telented grimm reaper prodigy Kid hunts down witches while keeping a sylish symetry to everything he does.",
-		"series": "Soul Eater",
+			"image": "https://i.imgur.com/HKSQBsE.png",
+			"gimg": "https://i.imgur.com/ZZYh4rI.gif",
+			"abilities": [
+				{
+					"name": "Poison spikes",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 70,
+					"miss_chance": 20,
+					"description": "Spikes harnessed from creatures of the abyss, used as weapons!",
+					"type": 1
+				},
+				{
+					"name": "Narehate whack!",
+					"Ap": 25,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 20,
+					"description": "Furry Whack!",
+					"type": 1
+				},
+				{
+					"name": "Curse of the Abyss",
+					"Ap": 55,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"description": "",
+					"type": 1,
+					"img": ""
+				}
+			]
+		},
+		{
+			"name": "Death the Kid",
+			"class": 1,
+			"gender": "1",
+			"description": "The son of death, a telented grimm reaper prodigy Kid hunts down witches while keeping a sylish symetry to everything he does.",
+			"series": "Soul Eater",
 			"hp": 100,
 			"atk": 80,
 			"def": 50,
 			"matk": 80,
 			"mdef": 70,
 			"spd": 60,
-		"image": "https://i.imgur.com/xhjH6M9.png",
-		"gimg": "https://i.imgur.com/YjoH8pL.gif",
-		"abilities": [
-			{
-				"name": "Dual weild, gun kata!",
-				"Ap": 2,
-				"hits": 15,
-				"cd": 1,
-				"crit_chance": 80,
-				"miss_chance": 10,
-				"description": "Demonstrating true mastery, kid is able to use his guns in close range as both guns and blunt objects to, ofc, hit people with!",
-				"type": 1
-			},
-			{
-				"name": "Shadow of death",
-				"Ap": 12,
-				"hits": 3,
-				"cd": 2,
-				"crit_chance": 70,
-				"miss_chance": 7,
-				"description": "",
-				"type": 2
-			},
-			{
-				"name": "Soul Resonance; Sanzu Death Cannon!",
-				"Ap": 15,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 30,
-				"miss_chance": 0,
-				"description": "Kids ultimate attack, a double barrel blast of power capable of rendering the strongest of souls to nothing.",
-				"img": "https://i.imgur.com/EaOBj1X.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "Sayaka Miki",
-		"class": 0,
-		"gender": "2",
-		"description": "A magical girl sent out to fight witches until it ends her, doomed to drown in despair from the selfish true nature of her wish.",
-		"series": "Puella Magi Madoka Magica",
+			"image": "https://i.imgur.com/xhjH6M9.png",
+			"gimg": "https://i.imgur.com/YjoH8pL.gif",
+			"abilities": [
+				{
+					"name": "Dual weild, gun kata!",
+					"Ap": 2,
+					"hits": 15,
+					"cd": 1,
+					"crit_chance": 80,
+					"miss_chance": 10,
+					"description": "Demonstrating true mastery, kid is able to use his guns in close range as both guns and blunt objects to, ofc, hit people with!",
+					"type": 1
+				},
+				{
+					"name": "Shadow of death",
+					"Ap": 12,
+					"hits": 3,
+					"cd": 2,
+					"crit_chance": 70,
+					"miss_chance": 7,
+					"description": "",
+					"type": 2
+				},
+				{
+					"name": "Soul Resonance; Sanzu Death Cannon!",
+					"Ap": 15,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 30,
+					"miss_chance": 0,
+					"description": "Kids ultimate attack, a double barrel blast of power capable of rendering the strongest of souls to nothing.",
+					"img": "https://i.imgur.com/EaOBj1X.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Sayaka Miki",
+			"class": 0,
+			"gender": "2",
+			"description": "A magical girl sent out to fight witches until it ends her, doomed to drown in despair from the selfish true nature of her wish.",
+			"series": "Puella Magi Madoka Magica",
 			"hp": 100,
 			"atk": 85,
 			"def": 45,
 			"matk": 40,
 			"mdef": 50,
 			"spd": 65,
-		"image": "https://i.imgur.com/IKUPfK2.png",
-		"gimg": "https://i.imgur.com/EZdkorA.gif",
-		"abilities": [
-			{
-				"name": "Sword bash",
-				"Ap": 30,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 20,
-				"description": "Sayaka swings her sword down on the enemy!",
-				"type": 1
-			},
-			{
-				"name": "No pain, endless barrage",
-				"Ap": 5,
-				"hits": 9,
-				"cd": 2,
-				"crit_chance": 10,
-				"miss_chance": 5,
-				"description": "Without a sense of pain, sayaka attacks without restraint.",
-				"type": 1
-			},
-			{
-				"name": "Pleads from a Witches heart",
-				"Ap": 10,
-				"hits": 6,
-				"cd": 3,
-				"crit_chance": 45,
-				"miss_chance": 0,
-				"description": "",
-				"img": "https://i.imgur.com/dhSXZU6.gif",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Pumpkin Witch Blair",
-		"class": 2,
-		"gender": 2,
-		"description": "A mischievous cat who loves to play witch, Blair blows away her oponnents with Pum Pum Pumpkins!",
-		"series": "Soul Eater",
+			"image": "https://i.imgur.com/IKUPfK2.png",
+			"gimg": "https://i.imgur.com/EZdkorA.gif",
+			"abilities": [
+				{
+					"name": "Sword bash",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 20,
+					"description": "Sayaka swings her sword down on the enemy!",
+					"type": 1
+				},
+				{
+					"name": "No pain, endless barrage",
+					"Ap": 5,
+					"hits": 9,
+					"cd": 2,
+					"crit_chance": 10,
+					"miss_chance": 5,
+					"description": "Without a sense of pain, sayaka attacks without restraint.",
+					"type": 1
+				},
+				{
+					"name": "Pleads from a Witches heart",
+					"Ap": 10,
+					"hits": 6,
+					"cd": 3,
+					"crit_chance": 45,
+					"miss_chance": 0,
+					"description": "",
+					"img": "https://i.imgur.com/dhSXZU6.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Pumpkin Witch Blair",
+			"class": 2,
+			"gender": 2,
+			"description": "A mischievous cat who loves to play witch, Blair blows away her oponnents with Pum Pum Pumpkins!",
+			"series": "Soul Eater",
 			"hp": 100,
 			"atk": 50,
 			"matk": 100,
 			"def": 60,
 			"mdef": 80,
 			"spd": 100,
-		"image": "https://i.imgur.com/sIJvNc9.png",
-		"gimg": "https://i.imgur.com/jh0AZnl.gif",
-		"abilities": [
-			{
-				"name": "Pumpkin Dance",
-				"Ap": 15,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 25,
-				"description": "A spooky dance of flying pumpkins, careful not to touch!",
-				"type": 2
-			},
-			{
-				"name": "Kitty Scratch!",
-				"Ap": 10,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 0,
-				"description": "Nya nya~!",
-				"type": 1
-			},
-			{
-				"name": "Pumpum Pumpkin: Halloween Cannon!",
-				"Ap": 5,
-				"hits": 10,
-				"cd": 3,
-				"crit_chance": 100,
-				"miss_chance": 0,
-				"description": "A massive blast of pumpkin power!",
-				"img": "https://i.imgur.com/NWxP4mD.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "All for One",
-		"class": 5,
-		"gender": 1,
-		"description": "The massively powerful head of the criminal underworld, he seeks to bring villains to a new age of prosperity and domincance.",
-		"series": "My Hero Academia",
+			"image": "https://i.imgur.com/sIJvNc9.png",
+			"gimg": "https://i.imgur.com/jh0AZnl.gif",
+			"abilities": [
+				{
+					"name": "Pumpkin Dance",
+					"Ap": 15,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 25,
+					"description": "A spooky dance of flying pumpkins, careful not to touch!",
+					"type": 2
+				},
+				{
+					"name": "Kitty Scratch!",
+					"Ap": 10,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 0,
+					"description": "Nya nya~!",
+					"type": 1
+				},
+				{
+					"name": "Pumpum Pumpkin: Halloween Cannon!",
+					"Ap": 5,
+					"hits": 10,
+					"cd": 3,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"description": "A massive blast of pumpkin power!",
+					"img": "https://i.imgur.com/NWxP4mD.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "All for One",
+			"class": 5,
+			"gender": 1,
+			"description": "The massively powerful head of the criminal underworld, he seeks to bring villains to a new age of prosperity and domincance.",
+			"series": "My Hero Academia",
 			"hp": 100,
 			"atk": 100,
 			"matk": 100,
 			"def": 30,
 			"mdef": 30,
 			"spd": 70,
-		"image": "https://i.imgur.com/hISuCcj.png",
-		"gimg": "https://i.imgur.com/hpkDy7R.gif",
-		"abilities": [
-			{
-				"name": "Forced Quirk Activation",
-				"Ap": 25,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 80,
-				"miss_chance": 10,
-				"description": "All for One uses his power to forcefully trigger an enemy quirk, causing damage in the process.",
-				"type": 2
-			},
-			{
-				"name": "Air Cannon",
-				"Ap": 13,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 25,
-				"miss_chance": 10,
-				"description": "Using a powerful quirk combination All for One blasts the enemy back with a massive shot of air.",
-				"type": 2
-			},
-			{
-				"name": "The Ultimate Combination",
-				"Ap": 65,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 10,
-				"miss_chance": 0,
-				"description": "Air cannon, springlike limbs, kinetic booster x3, strength enhancer x4, airwalk, spearlike bones, impact nullification, and hypertrophy.",
-				"img": "https://i.imgur.com/AP1AzVn.gif",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Dio",
-		"class": 6,
-		"gender": 1,
-		"description": "A vampire who obtained the power of the ultimate stand, THE WORLD! Now looking to bring the world to their knees before him.",
-		"series": "Jojo's Bizzare Adventure",
+			"image": "https://i.imgur.com/hISuCcj.png",
+			"gimg": "https://i.imgur.com/hpkDy7R.gif",
+			"abilities": [
+				{
+					"name": "Forced Quirk Activation",
+					"Ap": 25,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 80,
+					"miss_chance": 10,
+					"description": "All for One uses his power to forcefully trigger an enemy quirk, causing damage in the process.",
+					"type": 2
+				},
+				{
+					"name": "Air Cannon",
+					"Ap": 13,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 25,
+					"miss_chance": 10,
+					"description": "Using a powerful quirk combination All for One blasts the enemy back with a massive shot of air.",
+					"type": 2
+				},
+				{
+					"name": "The Ultimate Combination",
+					"Ap": 65,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 10,
+					"miss_chance": 0,
+					"description": "Air cannon, springlike limbs, kinetic booster x3, strength enhancer x4, airwalk, spearlike bones, impact nullification, and hypertrophy.",
+					"img": "https://i.imgur.com/AP1AzVn.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Dio",
+			"class": 6,
+			"gender": 1,
+			"description": "A vampire who obtained the power of the ultimate stand, THE WORLD! Now looking to bring the world to their knees before him.",
+			"series": "Jojo's Bizzare Adventure",
 			"hp": 100,
 			"atk": 80,
 			"matk": 70,
 			"def": 60,
 			"mdef": 50,
 			"spd": 100,
-		"image": "https://i.imgur.com/qOqdhT5.png",
-		"gimg": "https://i.imgur.com/mdy2GPa.gif",
-		"abilities": [
-			{
-				"name": "Laser Eyes",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 30,
-				"description": "Dio uses his vampiric powers to shoot lasers from his eyes!",
-				"type": 2
-			},
-			{
-				"name": "THE WORLD! TIME STOP!",
-				"Ap": 5,
-				"hits": 6,
-				"cd": 1,
-				"crit_chance": 25,
-				"miss_chance": 20,
-				"description": "Using his stand dio stops time! Leaving his oponnent vulnerable.",
-				"type": 1
-			},
-			{
-				"name": "MUDA MUDA MUDA MUDA MUDA!",
-				"Ap": 15,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 40,
-				"miss_chance": 0,
-				"description": "Dio's stand, the world, unleashes a mighty barrage of hits with unmatched speed and power!!",
-				"img": "https://i.imgur.com/vOrGrLI.gif",
-				"type": 1
-			}
-		]
-
-	},
-	{
-		"name": "Jibril",
-		"class": 4,
-		"gender": 2,
-		"description": "An ancient creature, and one of the most powerful of the 13 races",
-		"series": "No Game No Life",
+			"image": "https://i.imgur.com/qOqdhT5.png",
+			"gimg": "https://i.imgur.com/mdy2GPa.gif",
+			"abilities": [
+				{
+					"name": "Laser Eyes",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 30,
+					"description": "Dio uses his vampiric powers to shoot lasers from his eyes!",
+					"type": 2
+				},
+				{
+					"name": "THE WORLD! TIME STOP!",
+					"Ap": 5,
+					"hits": 6,
+					"cd": 1,
+					"crit_chance": 25,
+					"miss_chance": 20,
+					"description": "Using his stand dio stops time! Leaving his oponnent vulnerable.",
+					"type": 1
+				},
+				{
+					"name": "MUDA MUDA MUDA MUDA MUDA!",
+					"Ap": 15,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 40,
+					"miss_chance": 0,
+					"description": "Dio's stand, the world, unleashes a mighty barrage of hits with unmatched speed and power!!",
+					"img": "https://i.imgur.com/vOrGrLI.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Jibril",
+			"class": 4,
+			"gender": 2,
+			"description": "An ancient creature, and one of the most powerful of the 13 races",
+			"series": "No Game No Life",
 			"hp": 100,
 			"atk": 70,
 			"matk": 100,
 			"def": 80,
 			"mdef": 40,
 			"spd": 80,
-		"image": "https://i.imgur.com/zyZ2qMw.png",
-		"gimg": "https://i.imgur.com/02SgfRq.gif",
-		"abilities": [
-			{
-				"name": "Magic Circuits: Flugel",
-				"Ap": 10,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"description": "",
-				"type": 2
-			},
-			{
-				"name": "Heavy Pummel",
-				"Ap": 25,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 2,
-				"description": "Descpite being an intellectual, Jibril is physically powerful and not afraid to use it!",
-				"type": 1
-			},
-			{
-				"name": "Heaven's Strike",
-				"Ap": 90,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 30,
-				"miss_chance": 1.00,
-				"description": "The Ultimate magical power from the flugel race, capable of wiping anything from the earth.",
-				"img": "https://i.imgur.com/Aqq47sV.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "Alucard",
-		"class": 6,
-		"gender": 1,
-		"description": "An acnient vampire of the most terrifying kind, alucard now roams the world hunting his own kind.",
-		"series": "Hellsing",
+			"image": "https://i.imgur.com/zyZ2qMw.png",
+			"gimg": "https://i.imgur.com/02SgfRq.gif",
+			"abilities": [
+				{
+					"name": "Magic Circuits: Flugel",
+					"Ap": 10,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"description": "",
+					"type": 2
+				},
+				{
+					"name": "Heavy Pummel",
+					"Ap": 25,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 2,
+					"description": "Descpite being an intellectual, Jibril is physically powerful and not afraid to use it!",
+					"type": 1
+				},
+				{
+					"name": "Heaven's Strike",
+					"Ap": 90,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 30,
+					"miss_chance": 1.00,
+					"description": "The Ultimate magical power from the flugel race, capable of wiping anything from the earth.",
+					"img": "https://i.imgur.com/Aqq47sV.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Alucard",
+			"class": 6,
+			"gender": 1,
+			"description": "An acnient vampire of the most terrifying kind, alucard now roams the world hunting his own kind.",
+			"series": "Hellsing",
 			"hp": 100,
 			"atk": 80,
 			"matk": 80,
 			"def": 60,
 			"mdef": 60,
 			"spd": 80,
-		"image": "https://i.imgur.com/cgaJN1h.png",
-		"gimg": "https://i.imgur.com/4iOtYz2.gif",
-		"abilities": [
-			{
-				"name": "Dual shot silver bullet",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 10,
-				"miss_chance": 10,
-				"description": "Bullets meant to kill vampires but equally deadly on people.",
-				"type": 1
-			},
-			{
-				"name": "Hounds of Shadow",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 2,
-				"description": "Dark, vicious hounds from alucards shadow.",
-				"type": 2
-			},
-			{
-				"name": "Alucard Level 0: Dracula",
-				"Ap": 5,
-				"hits": 13,
-				"cd": 3,
-				"crit_chance": 70,
-				"miss_chance": 0,
-				"description": "Alucard unleashes level 0, and reverts to his true form, allowing him to release all the souls he has consumed.",
-				"img": "https://i.imgur.com/xiuCjan.gif",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Meliodas",
-		"class": 6,
-		"gender": 1,
-		"description": "The deadly sin of wrath, meliodas leads the seven deadly sins, despite having led the 10 demon commandments before.",
-		"series": "The Seven Deadly Sins",
+			"image": "https://i.imgur.com/cgaJN1h.png",
+			"gimg": "https://i.imgur.com/4iOtYz2.gif",
+			"abilities": [
+				{
+					"name": "Dual shot silver bullet",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 10,
+					"miss_chance": 10,
+					"description": "Bullets meant to kill vampires but equally deadly on people.",
+					"type": 1
+				},
+				{
+					"name": "Hounds of Shadow",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 2,
+					"description": "Dark, vicious hounds from alucards shadow.",
+					"type": 2
+				},
+				{
+					"name": "Alucard Level 0: Dracula",
+					"Ap": 5,
+					"hits": 13,
+					"cd": 3,
+					"crit_chance": 70,
+					"miss_chance": 0,
+					"description": "Alucard unleashes level 0, and reverts to his true form, allowing him to release all the souls he has consumed.",
+					"img": "https://i.imgur.com/xiuCjan.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Meliodas",
+			"class": 6,
+			"gender": 1,
+			"description": "The deadly sin of wrath, meliodas leads the seven deadly sins, despite having led the 10 demon commandments before.",
+			"series": "The Seven Deadly Sins",
 			"hp": 100,
 			"atk": 100,
 			"matk": 50,
 			"def": 50,
 			"mdef": 80,
 			"spd": 100,
-		"image": "https://i.imgur.com/ZUK5i7r.png?1",
-		"gimg": "https://i.imgur.com/AlHONmk.gif",
-		"abilities": [
-			{
-				"name": "Hellblaze",
-				"Ap": 25,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 30,
-				"description": "Black flames that consume all they touch!",
-				"type": 2
-			},
-			{
-				"name": "Demon form Assault",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 10,
-				"miss_chance": 30,
-				"description": "",
-				"type": 1
-			},
-			{
-				"name": "Full Counter!",
-				"Ap": 70,
-				"hits": 1,
-				"cd": 4,
-				"crit_chance": 5,
-				"miss_chance": 0,
-				"description": "The Ultimate reflect of all incoming attacks, stored and released!",
-				"img": "https://i.imgur.com/07tgq5V.gif",
-				"type": 1
-
-			}
-		]
-	},
-	{
-		"name": "Asuna Yuuki",
-		"class": 0,
-		"gender": 2,
-		"description": "A fierce yet cheery player of sword art online, her speed is legendary throughout the game.",
-		"series": "Sword Art Online",
+			"image": "https://i.imgur.com/ZUK5i7r.png?1",
+			"gimg": "https://i.imgur.com/AlHONmk.gif",
+			"abilities": [
+				{
+					"name": "Hellblaze",
+					"Ap": 25,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 30,
+					"description": "Black flames that consume all they touch!",
+					"type": 2
+				},
+				{
+					"name": "Demon form Assault",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 10,
+					"miss_chance": 30,
+					"description": "",
+					"type": 1
+				},
+				{
+					"name": "Full Counter!",
+					"Ap": 70,
+					"hits": 1,
+					"cd": 4,
+					"crit_chance": 5,
+					"miss_chance": 0,
+					"description": "The Ultimate reflect of all incoming attacks, stored and released!",
+					"img": "https://i.imgur.com/07tgq5V.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Asuna Yuuki",
+			"class": 0,
+			"gender": 2,
+			"description": "A fierce yet cheery player of sword art online, her speed is legendary throughout the game.",
+			"series": "Sword Art Online",
 			"hp": 100,
 			"atk": 80,
 			"matk": 20,
 			"def": 70,
 			"mdef": 70,
 			"spd": 100,
-		"image": "https://i.imgur.com/v0rLYSz.png?1",
-		"gimg": "https://i.imgur.com/bt3vQVC.gif",
-		"abilities": [
-			{
-				"name": "Multiple sword: pierce!",
-				"Ap": 5,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 80,
-				"miss_chance": 3,
-				"description": "A flury of sword stabs.",
-				"type": 1
-			},
-			{
-				"name": "Geater sword: slash!",
-				"Ap": 25,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 13,
-				"description": "A quick and painless slash.",
-				"type": 1
-			},
-			{
-				"name": "Legacy of lightning: Barrage!",
-				"Ap": 10,
-				"hits": 6,
-				"cd": 3,
-				"crit_chance": 30,
-				"miss_chance": 0,
-				"description": "The reason behind the infamy, Asuna unleashes a devastating string of quick attacks.",
-				"img": "https://i.imgur.com/usWH23J.gif",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Lazengann",
-		"class": 0,
-		"gender": 1,
-		"description": "A mech that symbolizes the power of the spiral force, this mechanical monster takes no prisoners.",
-		"series": "Gurren Lagann",
+			"image": "https://i.imgur.com/v0rLYSz.png?1",
+			"gimg": "https://i.imgur.com/bt3vQVC.gif",
+			"abilities": [
+				{
+					"name": "Multiple sword: pierce!",
+					"Ap": 5,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 80,
+					"miss_chance": 3,
+					"description": "A flury of sword stabs.",
+					"type": 1
+				},
+				{
+					"name": "Geater sword: slash!",
+					"Ap": 25,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 13,
+					"description": "A quick and painless slash.",
+					"type": 1
+				},
+				{
+					"name": "Legacy of lightning: Barrage!",
+					"Ap": 10,
+					"hits": 6,
+					"cd": 3,
+					"crit_chance": 30,
+					"miss_chance": 0,
+					"description": "The reason behind the infamy, Asuna unleashes a devastating string of quick attacks.",
+					"img": "https://i.imgur.com/usWH23J.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Lazengann",
+			"class": 0,
+			"gender": 1,
+			"description": "A mech that symbolizes the power of the spiral force, this mechanical monster takes no prisoners.",
+			"series": "Gurren Lagann",
 			"hp": 100,
 			"atk": 90,
 			"matk": 80,
 			"def": 80,
 			"mdef": 70,
 			"spd": 80,
-		"image": "https://i.imgur.com/gkKcrt5.png",
-		"gimg": "https://i.imgur.com/vgP8UmY.gif",
-		"abilities": [
-			{
-				"name": "Unending break",
-				"Ap": 17,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 20,
-				"description": "A powerful, piercing fist stright into the enemy!",
-				"type": 1
-			},
-			{
-				"name": "Spiral Power",
-				"Ap": 35,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 25,
-				"type": 2
-			},
-			{
-				"name": "The cruel truth of this World",
-				"Ap": 4,
-				"hits": 15,
-				"cd": 3,
-				"crit_chance": 25,
-				"miss_chance": 0,
-				"description": "Lazengann uses its incredible power to demonstrate for all, the undying truth of this world.",
-				"img": "https://i.imgur.com/yPPWdqk.gif",
-				"type": 1
-			}
-		]
-
-	},
-	{
-		"name": "Altair Reborn",
-		"class": 0,
-		"gender": 2,
-		"description": "The combination of altair and sirius after a failed attempt to erase her from the world, Altair returns stronger than before.",
-		"series": "Re:Creators",
+			"image": "https://i.imgur.com/gkKcrt5.png",
+			"gimg": "https://i.imgur.com/vgP8UmY.gif",
+			"abilities": [
+				{
+					"name": "Unending break",
+					"Ap": 17,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 20,
+					"description": "A powerful, piercing fist stright into the enemy!",
+					"type": 1
+				},
+				{
+					"name": "Spiral Power",
+					"Ap": 35,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 25,
+					"type": 2
+				},
+				{
+					"name": "The cruel truth of this World",
+					"Ap": 4,
+					"hits": 15,
+					"cd": 3,
+					"crit_chance": 25,
+					"miss_chance": 0,
+					"description": "Lazengann uses its incredible power to demonstrate for all, the undying truth of this world.",
+					"img": "https://i.imgur.com/yPPWdqk.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Altair Reborn",
+			"class": 0,
+			"gender": 2,
+			"description": "The combination of altair and sirius after a failed attempt to erase her from the world, Altair returns stronger than before.",
+			"series": "Re:Creators",
 			"hp": 100,
 			"atk": 100,
 			"matk": 100,
 			"def": 50,
 			"mdef": 60,
 			"spd": 70,
-		"image": "https://i.imgur.com/68eRpnf.png",
-		"gimg": "https://i.imgur.com/LEovKga.gif",
-		"abilities": [
-			{
-				"name": "Sword Symphonia",
-				"Ap": 10,
-				"hits": 4,
-				"crit_chance": 20,
-				"miss_chance": 20,
-				"description": "A flying stream of razor sharp swords capable of chasing the target to its death.",
-				"type": 1
-			},
-			{
-				"name": "Gravity Wall",
-				"Ap": 35,
-				"hits": 1,
-				"crit_chance": 60,
-				"miss_chance": 10,
-				"description": "",
-				"type": 2
-			},
-			{
-				"name": "The Twenty-Third Movement of the Cosmos: Fate Reconstruction",
-				"Ap": 10,
-				"hits": 6,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"description": "A power able to make real whatever it is altair wishes, it can rebalance the tilting scales of reality, aswell as undo them.",
-				"img": "https://i.imgur.com/xoyPnfI.gif",
-				"cd": 3,
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "Ghetsis",
-        "class": 5,
-        "gender": "1",
-        "description": "The crazed leader of team plasma who wants to rule over Unova with an iron fist with the power of the legendary pokemon of Unova!",
-        "series": "Pokemon",
-            "hp": 100,
-            "atk": 100,
-            "def": 50,
-            "matk": 100,
-            "mdef": 50,
-            "spd": 30,
-		"image": "https://cdn.bulbagarden.net/upload/thumb/2/27/Black_2_White_2_Ghetsis.png/185px-Black_2_White_2_Ghetsis.png",
-		"gimg": "https://i.imgur.com/sivYly9.gif",
-        "abilities": [
-            {
-                "name": "Zekrom Zap",
-                "Ap": 5,
-                "hits": 4,
-                "cd": 1,
-                "crit_chance": 100,
-                "miss_chance": 10.00,
-				"description": "Using the powers of the legendary pokemon Zekrom, Ghetsis shocks his opponents into submission!",
-				"type": 1
-            },
-            {
-                "name": "Reshiram Riot",
-                "Ap": 30,
-                "hits": 1,
-                "cd": 2,
-                "crit_chance": 90,
-                "miss_chance": 10,
-				"description": "Using the powers of the legendary pokemon Reshiram, Ghetsis burns his opponents to a crisp!",
-				"type": 2
-            },
-            {
-                "name": "Kyurem Krush!",
-                "Ap": 50,
-                "hits": 1,
-                "cd": 3,
-                "crit_chance": 100,
-                "miss_chance": 0,
-				"description": "Using the powers of the legendary pokemon Kyurem along with the power of the DNA splicers, Ghetsis unleashes an attack so powerful his opponents crumble before him!",
-				"img": "https://cdn.discordapp.com/attachments/558703203861135371/645821833035251714/ezgif.com-optimize_6.gif",
-				"type": 1
-            }
-        ]
-	},
-	{
-		"name": "Joker",
-        "class": 1,
-        "gender": "1",
-        "description": "The leader of the Phantom Thieves! You'll never see him coming!",
-        "series": "Persona",
-            "hp": 100,
-            "atk": 80,
-            "def": 80,
-            "matk": 70,
-            "mdef": 70,
-            "spd": 100,
-		"image": "https://cdn.discordapp.com/attachments/616061789406494733/641304967705002045/1200px-Joker_SSBU.png",
-		"gimg": "https://i.imgur.com/ktnJqoN.gif",
-        "abilities": [
-            {
-                "name": "Eiha",
-                "Ap": 2,
-                "hits": 15,
-                "cd": 1,
-                "crit_chance": 75,
-                "miss_chance": 0,
-				"description": "Unleashes a bolt that explodes on impact, dealing a lot of damage to the opponent over time!",
-				"type": 2
-            },
-            {
-                "name": "Gun",
-                "Ap": 8,
-                "hits": 4,
-                "cd": 2,
-                "crit_chance": 25,
-                "miss_chance": 10,
-				"description": "Shoots his opponent... with a gun... I mean, what more could you ask for..?",
-				"type": 1
-            },
-            {
-                "name": "All Out Attack",
-                "Ap": 5,
-                "hits": 10,
-                "cd": 3,
-                "crit_chance": 80,
-                "miss_chance": 0,
-				"description": "It's time for some brutality!",
-				"img": "https://cdn.discordapp.com/attachments/558703203861135371/641306832614457362/AllOutAttack.gif",
-				"type": 1
-            }
-        ]
-	},
-	{
-	"name": "[ ]",
-        "class": 5,
-        "gender": "1",
-        "description": "Blank never loses.",
-        "series": "No Game No Life",
-            "hp": 100,
-            "atk": 95,
-            "def": 50,
-            "matk": 50,
-            "mdef": 50,
-            "spd": 95,
-		"image": "https://i.imgur.com/BLqtl1G.gif",
-		"gimg": "https://i.imgur.com/oofALiP.gif",
-        "abilities": [
-            {
-                "name": "Scum Reading",
-                "Ap": 5,
-                "hits": 1,
-                "cd": 1,
-                "crit_chance": 100,
-                "miss_chance": 0,
-				"description": "Blank is amazing at scum reading. They can tell a cheater from a mile away.",
-				"type": 1
-            },
-            {
-                "name": "Analysis",
-                "Ap": 10,
-                "hits": 1,
-                "cd": 2,
-                "crit_chance": 100,
-                "miss_chance": 0,
-				"description": "Blank analyzes the opponent and gets ready to demolish them.",
-				"type": 1
-            },
-            {
-                "name": "ASCHENTE!",
-                "Ap": 100,
-                "hits": 2,
-                "cd": 5,
-                "crit_chance": 70,
-                "miss_chance": 0,
-				"description": "Forces the opponent to oblige to the 10 sacred pledges. From there, Blank never loses.",
-				"type": 1,
-				"img": ""
-            }
-        ]
-	},
-	{
-		"name": "N",
-        "class": 5,
-        "gender": "1",
-        "description": "The son of ghetsis, and ex-king of Team Plasma. He heard Ghetsis was here and came to save us all!",
-        "series": "Pokemon",
-            "hp": 100,
-            "atk": 80,
-            "def": 70,
-            "matk": 80,
-            "mdef": 70,
-            "spd": 75,
-		"image": "https://i.imgur.com/LUBvbiu.png",
-		"gimg": "https://i.imgur.com/cbnTsd9.gif",
-        "abilities": [
-            {
-                "name": "Bolt Strike",
-                "Ap": 30,
-                "hits": 1,
-                "cd": 1,
-                "crit_chance": 50,
-                "miss_chance": 10,
-				"description": "N uses the power of Zekrom, the dragon of ideals, to unleash a devastating electrical attack to his opponent!",
-				"type": 2
-            },
-            {
-                "name": "Sucker Punch",
-                "Ap": 20,
-                "hits": 1,
-                "cd": 1,
-                "crit_chance": 90,
-                "miss_chance": 10,
-				"description": "N, using the power of his trustworthy Zoroark, uses the move sucker punch and catches his opponents offguard!",
-				"type": 1
-            },
-            {
-                "name": "Blue Flare",
-                "Ap": 5,
-                "hits": 15,
-                "cd": 4,
-                "crit_chance": 22,
-                "miss_chance": 0,
-				"description": "N uses the power of Reshiram, the dragon of Truth, to unleash a flaming hot attack to burn his opponents to a crisp!",
-				"type": 2,
-				"img": ""
-            }
-        ]
-	},
-	{
-		"name": "Kaneki Ken",
-		"description": "A human turned one eyed ghoul, consumed in part by a desire to devour human flesh.",
-		"class": 6,
-		"gender": "1",
-		"series": "Tokyo Ghoul",
+			"image": "https://i.imgur.com/68eRpnf.png",
+			"gimg": "https://i.imgur.com/LEovKga.gif",
+			"abilities": [
+				{
+					"name": "Sword Symphonia",
+					"Ap": 10,
+					"hits": 4,
+					"crit_chance": 20,
+					"miss_chance": 20,
+					"description": "A flying stream of razor sharp swords capable of chasing the target to its death.",
+					"type": 1
+				},
+				{
+					"name": "Gravity Wall",
+					"Ap": 35,
+					"hits": 1,
+					"crit_chance": 60,
+					"miss_chance": 10,
+					"description": "",
+					"type": 2
+				},
+				{
+					"name": "The Twenty-Third Movement of the Cosmos: Fate Reconstruction",
+					"Ap": 10,
+					"hits": 6,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"description": "A power able to make real whatever it is altair wishes, it can rebalance the tilting scales of reality, aswell as undo them.",
+					"img": "https://i.imgur.com/xoyPnfI.gif",
+					"cd": 3,
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Ghetsis",
+			"class": 5,
+			"gender": "1",
+			"description": "The crazed leader of team plasma who wants to rule over Unova with an iron fist with the power of the legendary pokemon of Unova!",
+			"series": "Pokemon",
+			"hp": 100,
+			"atk": 100,
+			"def": 50,
+			"matk": 100,
+			"mdef": 50,
+			"spd": 30,
+			"image": "https://cdn.bulbagarden.net/upload/thumb/2/27/Black_2_White_2_Ghetsis.png/185px-Black_2_White_2_Ghetsis.png",
+			"gimg": "https://i.imgur.com/sivYly9.gif",
+			"abilities": [
+				{
+					"name": "Zekrom Zap",
+					"Ap": 5,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 100,
+					"miss_chance": 10.00,
+					"description": "Using the powers of the legendary pokemon Zekrom, Ghetsis shocks his opponents into submission!",
+					"type": 1
+				},
+				{
+					"name": "Reshiram Riot",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 90,
+					"miss_chance": 10,
+					"description": "Using the powers of the legendary pokemon Reshiram, Ghetsis burns his opponents to a crisp!",
+					"type": 2
+				},
+				{
+					"name": "Kyurem Krush!",
+					"Ap": 50,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"description": "Using the powers of the legendary pokemon Kyurem along with the power of the DNA splicers, Ghetsis unleashes an attack so powerful his opponents crumble before him!",
+					"img": "https://cdn.discordapp.com/attachments/558703203861135371/645821833035251714/ezgif.com-optimize_6.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Joker",
+			"class": 1,
+			"gender": "1",
+			"description": "The leader of the Phantom Thieves! You'll never see him coming!",
+			"series": "Persona",
+			"hp": 100,
+			"atk": 80,
+			"def": 80,
+			"matk": 70,
+			"mdef": 70,
+			"spd": 100,
+			"image": "https://cdn.discordapp.com/attachments/616061789406494733/641304967705002045/1200px-Joker_SSBU.png",
+			"gimg": "https://i.imgur.com/ktnJqoN.gif",
+			"abilities": [
+				{
+					"name": "Eiha",
+					"Ap": 2,
+					"hits": 15,
+					"cd": 1,
+					"crit_chance": 75,
+					"miss_chance": 0,
+					"description": "Unleashes a bolt that explodes on impact, dealing a lot of damage to the opponent over time!",
+					"type": 2
+				},
+				{
+					"name": "Gun",
+					"Ap": 8,
+					"hits": 4,
+					"cd": 2,
+					"crit_chance": 25,
+					"miss_chance": 10,
+					"description": "Shoots his opponent... with a gun... I mean, what more could you ask for..?",
+					"type": 1
+				},
+				{
+					"name": "All Out Attack",
+					"Ap": 5,
+					"hits": 10,
+					"cd": 3,
+					"crit_chance": 80,
+					"miss_chance": 0,
+					"description": "It's time for some brutality!",
+					"img": "https://cdn.discordapp.com/attachments/558703203861135371/641306832614457362/AllOutAttack.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "[ ]",
+			"class": 5,
+			"gender": "1",
+			"description": "Blank never loses.",
+			"series": "No Game No Life",
+			"hp": 100,
+			"atk": 95,
+			"def": 50,
+			"matk": 50,
+			"mdef": 50,
+			"spd": 95,
+			"image": "https://i.imgur.com/BLqtl1G.gif",
+			"gimg": "https://i.imgur.com/oofALiP.gif",
+			"abilities": [
+				{
+					"name": "Scum Reading",
+					"Ap": 5,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"description": "Blank is amazing at scum reading. They can tell a cheater from a mile away.",
+					"type": 1
+				},
+				{
+					"name": "Analysis",
+					"Ap": 10,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"description": "Blank analyzes the opponent and gets ready to demolish them.",
+					"type": 1
+				},
+				{
+					"name": "ASCHENTE!",
+					"Ap": 100,
+					"hits": 2,
+					"cd": 5,
+					"crit_chance": 70,
+					"miss_chance": 0,
+					"description": "Forces the opponent to oblige to the 10 sacred pledges. From there, Blank never loses.",
+					"type": 1,
+					"img": ""
+				}
+			]
+		},
+		{
+			"name": "N",
+			"class": 5,
+			"gender": "1",
+			"description": "The son of ghetsis, and ex-king of Team Plasma. He heard Ghetsis was here and came to save us all!",
+			"series": "Pokemon",
+			"hp": 100,
+			"atk": 80,
+			"def": 70,
+			"matk": 80,
+			"mdef": 70,
+			"spd": 75,
+			"image": "https://i.imgur.com/LUBvbiu.png",
+			"gimg": "https://i.imgur.com/cbnTsd9.gif",
+			"abilities": [
+				{
+					"name": "Bolt Strike",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 10,
+					"description": "N uses the power of Zekrom, the dragon of ideals, to unleash a devastating electrical attack to his opponent!",
+					"type": 2
+				},
+				{
+					"name": "Sucker Punch",
+					"Ap": 20,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 90,
+					"miss_chance": 10,
+					"description": "N, using the power of his trustworthy Zoroark, uses the move sucker punch and catches his opponents offguard!",
+					"type": 1
+				},
+				{
+					"name": "Blue Flare",
+					"Ap": 5,
+					"hits": 15,
+					"cd": 4,
+					"crit_chance": 22,
+					"miss_chance": 0,
+					"description": "N uses the power of Reshiram, the dragon of Truth, to unleash a flaming hot attack to burn his opponents to a crisp!",
+					"type": 2,
+					"img": ""
+				}
+			]
+		},
+		{
+			"name": "Kaneki Ken",
+			"description": "A human turned one eyed ghoul, consumed in part by a desire to devour human flesh.",
+			"class": 6,
+			"gender": "1",
+			"series": "Tokyo Ghoul",
 			"hp": 100,
 			"atk": 100,
 			"matk": 50,
 			"def": 90,
 			"mdef": 60,
 			"spd": 70,
-		"image": "https://i.imgur.com/Bx6iIb0.png",
-		"gimg": "https://i.imgur.com/7CklUiF.gif",
-		"abilities": [
-			{
-				"name": "Savage Ripper",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 40,
-				"miss_chance": 20,
-				"description": "A breakneck speed attack to rip the opponent to shreds~",
-				"type": 1
-			},
-			{
-				"name": "Starved Bite",
-				"Ap": 30,
-				"hits": 1,
-				"cd": 2,
-				"crit_chance": 30,
-				"miss_chance": 10,
-				"description": "The bit of a rabid beast, writhing in a miserable hunger.",
-				"type": 1
-			},
-			{
-				"name": "Rinkaku Kagune",
-				"Ap": 25,
-				"hits": 3,
-				"cd": 3,
-				"crit_chance": 50,
-				"miss_chance": 0,
-				"description": "",
-				"img": "https://i.imgur.com/lxuWpnJ.gif",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "God Yato",
-		"description": "A god of calamity turned delivery god for a quick buck!",
-		"class": 4,
-		"gender": 1,
-		"series": "Noragami",
+			"image": "https://i.imgur.com/Bx6iIb0.png",
+			"gimg": "https://i.imgur.com/7CklUiF.gif",
+			"abilities": [
+				{
+					"name": "Savage Ripper",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 40,
+					"miss_chance": 20,
+					"description": "A breakneck speed attack to rip the opponent to shreds~",
+					"type": 1
+				},
+				{
+					"name": "Starved Bite",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 30,
+					"miss_chance": 10,
+					"description": "The bit of a rabid beast, writhing in a miserable hunger.",
+					"type": 1
+				},
+				{
+					"name": "Rinkaku Kagune",
+					"Ap": 25,
+					"hits": 3,
+					"cd": 3,
+					"crit_chance": 50,
+					"miss_chance": 0,
+					"description": "",
+					"img": "https://i.imgur.com/lxuWpnJ.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "God Yato",
+			"description": "A god of calamity turned delivery god for a quick buck!",
+			"class": 4,
+			"gender": 1,
+			"series": "Noragami",
 			"hp": 100,
 			"atk": 90,
 			"def": 70,
 			"matk": 80,
 			"mdef": 60,
 			"spd": 80,
-		"image": "https://i.imgur.com/VvPmRdn.png",
-		"gimg": "https://i.imgur.com/kgYUKYF.gif",
-		"abilities": [
-			{
-				"name": "Sunrise Slash",
-				"Ap": 30,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 70,
-				"miss_chance": 0,
-				"description": "A single, purifying slash through the oponnent.",
-				"type": 1
-			},
-			{
-				"name": "Border!",
-				"Ap": 5,
-				"hits": 5,
-				"cd": 1,
-				"crit_chance": 90,
-				"miss_chance": 0,
-				"description": "Magic meant to repell and protect.",
-				"type": 2
-			},
-			{
-				"name": "Regalia: Sekki!",
-				"Ap": 25,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 0,
-				"description": "This is the land of the rising sun, your desecration will not be allowed.",
-				"img": "https://i.imgur.com/ZY9LKv8.gif",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Shichika Yasuri",
-		"class": 5,
-		"gender": "1",
-		"description": "The seventh head of the Kyotōryū school of Japanese sword martial arts.",
-		"series": "Kartanagatari",
+			"image": "https://i.imgur.com/VvPmRdn.png",
+			"gimg": "https://i.imgur.com/kgYUKYF.gif",
+			"abilities": [
+				{
+					"name": "Sunrise Slash",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 70,
+					"miss_chance": 0,
+					"description": "A single, purifying slash through the oponnent.",
+					"type": 1
+				},
+				{
+					"name": "Border!",
+					"Ap": 5,
+					"hits": 5,
+					"cd": 1,
+					"crit_chance": 90,
+					"miss_chance": 0,
+					"description": "Magic meant to repell and protect.",
+					"type": 2
+				},
+				{
+					"name": "Regalia: Sekki!",
+					"Ap": 25,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 0,
+					"description": "This is the land of the rising sun, your desecration will not be allowed.",
+					"img": "https://i.imgur.com/ZY9LKv8.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Shichika Yasuri",
+			"class": 5,
+			"gender": "1",
+			"description": "The seventh head of the Kyotōryū school of Japanese sword martial arts.",
+			"series": "Kartanagatari",
 			"hp": 100,
 			"atk": 100,
 			"matk": 20,
@@ -1820,777 +1816,775 @@
 					"type": 1
 				}
 			]
-	},
-	{
-		"name": "Issei Hyoudou",
-		"class": 6,
-		"gender": 1,
-		"description": "A devil and owner of the red dragon sacred gear!",
-		"series": "Highschool DxD",
+		},
+		{
+			"name": "Issei Hyoudou",
+			"class": 6,
+			"gender": 1,
+			"description": "A devil and owner of the red dragon sacred gear!",
+			"series": "Highschool DxD",
 			"hp": 100,
 			"atk": 70,
 			"matk": 80,
 			"def": 80,
 			"mdef": 70,
 			"spd": 100,
-		"image": "https://i.imgur.com/qDf26Kg.png",
-		"gimg": "https://i.imgur.com/vsrvSwP.gif",
-		"abilities": [
-			{
-				"name": "Boost!",
-				"Ap": 10,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 100,
-				"miss_chance": 0,
-				"description": "Sacred gear, double critical!",
-				"type": 2
-			},
-			{
-				"name": "Boost x4!",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 30,
-				"description": "Sacred gear, Dragon Boost!",
-				"type": 1
-			},
-			{
-				"name": "Longinus Smasher",
-				"Ap": 70,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"description": "",
-				"img": "https://i.imgur.com/fdle7dR.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "Rias Gremory",
-		"gender": 2,
-		"class": 6,
-		"series": "Highschool DxD",
-		"description": "The next head of the legendary house of demons: Gremory.",
+			"image": "https://i.imgur.com/qDf26Kg.png",
+			"gimg": "https://i.imgur.com/vsrvSwP.gif",
+			"abilities": [
+				{
+					"name": "Boost!",
+					"Ap": 10,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"description": "Sacred gear, double critical!",
+					"type": 2
+				},
+				{
+					"name": "Boost x4!",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 30,
+					"description": "Sacred gear, Dragon Boost!",
+					"type": 1
+				},
+				{
+					"name": "Longinus Smasher",
+					"Ap": 70,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"description": "",
+					"img": "https://i.imgur.com/fdle7dR.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Rias Gremory",
+			"gender": 2,
+			"class": 6,
+			"series": "Highschool DxD",
+			"description": "The next head of the legendary house of demons: Gremory.",
 			"hp": 100,
 			"atk": 90,
 			"matk": 100,
 			"def": 50,
 			"mdef": 50,
 			"spd": 65,
-		"image": "https://i.imgur.com/sAh7igk.png",
-		"gimg": "https://i.imgur.com/1P5tTXG.gif",
-		"abilities": [
-			{
-				"name": "Grasp of Darkness",
-				"Ap": 5,
-				"hits": 5,
-				"cd": 1,
-				"crit_chance": 75,
-				"miss_chance": 5,
-				"description": "Rias' Demonic Power.",
-				"type": 2
-			},
-			{
-				"name": "Power of Desctruction",
-				"Ap": 14,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 2,
-				"description": "A unique demonic energy capable of dissintegrating anything it touches.",
-				"type": 2
-			},
-			{
-				"name": "Extinguished Star",
-				"Ap": 60,
-				"hits": 1,
-				"cd": 4,
-				"crit_chance": 80,
-				"miss_chance": 0,
-				"description": "Rias' Ultimate 1 hit k-o ability, capable of unleashing demonic power on an unimaginable scale.",
-				"img": "https://i.imgur.com/6XPbIEG.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "Saitama",
-		"description": "Just a hero for fun.",
-		"gender": 1,
-		"class": 5,
-		"series": "One-Punch Man",
+			"image": "https://i.imgur.com/sAh7igk.png",
+			"gimg": "https://i.imgur.com/1P5tTXG.gif",
+			"abilities": [
+				{
+					"name": "Grasp of Darkness",
+					"Ap": 5,
+					"hits": 5,
+					"cd": 1,
+					"crit_chance": 75,
+					"miss_chance": 5,
+					"description": "Rias' Demonic Power.",
+					"type": 2
+				},
+				{
+					"name": "Power of Desctruction",
+					"Ap": 14,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 2,
+					"description": "A unique demonic energy capable of dissintegrating anything it touches.",
+					"type": 2
+				},
+				{
+					"name": "Extinguished Star",
+					"Ap": 60,
+					"hits": 1,
+					"cd": 4,
+					"crit_chance": 80,
+					"miss_chance": 0,
+					"description": "Rias' Ultimate 1 hit k-o ability, capable of unleashing demonic power on an unimaginable scale.",
+					"img": "https://i.imgur.com/6XPbIEG.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Saitama",
+			"description": "Just a hero for fun.",
+			"gender": 1,
+			"class": 5,
+			"series": "One-Punch Man",
 			"hp": 100,
 			"atk": 100,
 			"matk": 30,
 			"def": 70,
 			"mdef": 70,
 			"spd": 100,
-		"image": "https://i.imgur.com/6lezZrI.png",
-		"gimg": "https://i.imgur.com/8dLehPm.gif",
-		"abilities": [
-			{
-				"name": "Punch",
-				"Ap": 30,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 22,
-				"miss_chance": 0,
-				"description": "Just a punch.",
-				"type": 1
-			},
-			{
-				"name": "Serious Series: Serious Sidesteps",
-				"Ap": 5,
-				"hits": 5,
-				"cd": 2,
-				"crit_chance": 35,
-				"miss_chance": 5,
-				"description": "A serious sidestep",
-				"type": 1
-			},
-			{
-				"name": "Serious Series: Serious Punch",
-				"Ap": 75,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 30,
-				"miss_chance": 0,
-				"img": "https://i.imgur.com/hBNWn0I.gif",
-				"description": "Killer move: Serious Punch",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Goku Black",
-		"description": "The result of Zamasu stealing goku's body in the multiverse, goku black is a merciless force.",
-		"gender": 1,
-		"class": 4,
-		"series": "Dragon Ball Super",
+			"image": "https://i.imgur.com/6lezZrI.png",
+			"gimg": "https://i.imgur.com/8dLehPm.gif",
+			"abilities": [
+				{
+					"name": "Punch",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 22,
+					"miss_chance": 0,
+					"description": "Just a punch.",
+					"type": 1
+				},
+				{
+					"name": "Serious Series: Serious Sidesteps",
+					"Ap": 5,
+					"hits": 5,
+					"cd": 2,
+					"crit_chance": 35,
+					"miss_chance": 5,
+					"description": "A serious sidestep",
+					"type": 1
+				},
+				{
+					"name": "Serious Series: Serious Punch",
+					"Ap": 75,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 30,
+					"miss_chance": 0,
+					"img": "https://i.imgur.com/hBNWn0I.gif",
+					"description": "Killer move: Serious Punch",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Goku Black",
+			"description": "The result of Zamasu stealing goku's body in the multiverse, goku black is a merciless force.",
+			"gender": 1,
+			"class": 4,
+			"series": "Dragon Ball Super",
 			"hp": "100",
 			"atk": 100,
 			"matk": 100,
 			"def": 40,
 			"mdef": 40,
 			"spd": 100,
-		"image": "https://i.imgur.com/YPawzx2.png",
-		"gimg": "https://i.imgur.com/zMEfMmb.gif",
-		"abilities": [
-			{
-				"name": "Ki Blast",
-				"Ap": 35,
-				"hits": 1,
-				"cd": 1,
-				"miss_chance": 10,
-				"crit_chance": 0,
-				"type": 2,
-				"description": "A powerful yet basic energy attack."
-			},
-			{
-				"name": "God Slicer",
-				"Ap": 5,
-				"hits": 7,
-				"cd": 2,
-				"miss_chance": 30,
-				"crit_chance": 40,
-				"type": 1,
-				"description": "A powerful, moldable blade of pure key used to impale and slice enemies."
-			},
-			{
-				"name": "Super Black Kamehameha",
-				"Ap": 10,
-				"hits": 6,
-				"cd": 4,
-				"miss_chance": 50,
-				"crit_chance": 0,
-				"type": 2,
-				"description": "A black and rose kamehameha which ahnialates anything in its way.",
-				"img": "https://i.imgur.com/Bakd99R.gif"
-			}
-		]
-	},
-	{
-		"name": "Astolfo",
-		"description": "One of the great Heroes of charlemagne, astolfo now exists as a servant to the Holy Grail wars.",
-		"gender": 1,
-		"class": 5,
-		"series": "Fate/",
+			"image": "https://i.imgur.com/YPawzx2.png",
+			"gimg": "https://i.imgur.com/zMEfMmb.gif",
+			"abilities": [
+				{
+					"name": "Ki Blast",
+					"Ap": 35,
+					"hits": 1,
+					"cd": 1,
+					"miss_chance": 10,
+					"crit_chance": 0,
+					"type": 2,
+					"description": "A powerful yet basic energy attack."
+				},
+				{
+					"name": "God Slicer",
+					"Ap": 5,
+					"hits": 7,
+					"cd": 2,
+					"miss_chance": 30,
+					"crit_chance": 40,
+					"type": 1,
+					"description": "A powerful, moldable blade of pure key used to impale and slice enemies."
+				},
+				{
+					"name": "Super Black Kamehameha",
+					"Ap": 10,
+					"hits": 6,
+					"cd": 4,
+					"miss_chance": 50,
+					"crit_chance": 0,
+					"type": 2,
+					"description": "A black and rose kamehameha which ahnialates anything in its way.",
+					"img": "https://i.imgur.com/Bakd99R.gif"
+				}
+			]
+		},
+		{
+			"name": "Astolfo",
+			"description": "One of the great Heroes of charlemagne, astolfo now exists as a servant to the Holy Grail wars.",
+			"gender": 1,
+			"class": 5,
+			"series": "Fate/",
 			"hp": 100,
 			"atk": 90,
 			"matk": 70,
 			"def": 70,
 			"mdef": 90,
 			"spd": 90,
-		"image": "https://i.imgur.com/QNUrRrU.png",
-		"gimg": "https://i.imgur.com/27BY4o5.gif",
-		"abilities": [
-			{
-				"name": "Evaporation of Sanity",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 1,
-				"miss_chance": 20,
-				"crit_chance": 15,
-				"type": 2,
-				"description": ""
-			},
-			{
-				"name": "Successive Pierce",
-				"Ap": 4,
-				"hits": 8,
-				"cd": 2,
-				"miss_chance": 40,
-				"crit_chance": 20,
-				"type": 1,
-				"description": ""
-			},
-			{
-				"name": "La Black Luna",
-				"description": "A callback to the legend of astolfo, the black flute that brings madness in its wake.",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 3,
-				"miss_chance": 70,
-				"crit_chance": 0,
-				"type": 2,
-				"img": "https://i.imgur.com/w7LmX8I.gif"
-			}
-		]
-	},
-	{
-		"name": "Padoru",
-		"description": "Padoru Padoru!!",
-		"gender": 2,
-		"class": 5,
-		"series": "Fate/",
+			"image": "https://i.imgur.com/QNUrRrU.png",
+			"gimg": "https://i.imgur.com/27BY4o5.gif",
+			"abilities": [
+				{
+					"name": "Evaporation of Sanity",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 1,
+					"miss_chance": 20,
+					"crit_chance": 15,
+					"type": 2,
+					"description": ""
+				},
+				{
+					"name": "Successive Pierce",
+					"Ap": 4,
+					"hits": 8,
+					"cd": 2,
+					"miss_chance": 40,
+					"crit_chance": 20,
+					"type": 1,
+					"description": ""
+				},
+				{
+					"name": "La Black Luna",
+					"description": "A callback to the legend of astolfo, the black flute that brings madness in its wake.",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 3,
+					"miss_chance": 70,
+					"crit_chance": 0,
+					"type": 2,
+					"img": "https://i.imgur.com/w7LmX8I.gif"
+				}
+			]
+		},
+		{
+			"name": "Padoru",
+			"description": "Padoru Padoru!!",
+			"gender": 2,
+			"class": 5,
+			"series": "Fate/",
 			"hp": 100,
 			"atk": 80,
 			"matk": 80,
 			"def": 80,
 			"mdef": 80,
 			"spd": 80,
-		"image": "https://i.imgur.com/VakUNQ5.gif",
-		"gimg": "https://i.imgur.com/5LxYhZi.gif",
-		"abilities": [
-			{
-				"name": "CandyCane Stab!",
-				"description": "Padoru's going to poke you full of ho-ho-holes!",
-				"Ap": 30,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 10,
-				"type": 1
-			},
-			{
-				"name": "Very Merry Bash!",
-				"description": "Theres new christmas colors, black and blue!",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 20,
-				"miss_chance": 10,
-				"type": 2
-			},
-			{
-				"name": "PADORU PADORU!!",
-				"description": "... Read.",
-				"Ap": 50,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 30,
-				"miss_chance": 0,
-				"img": "",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Christmas Idol: Nico",
-		"description": "A wintertime idol if there ever was, nico nico ni~!",
-		"class": 5,
-		"gender": 2,
-		"series": "Love-Live",
+			"image": "https://i.imgur.com/VakUNQ5.gif",
+			"gimg": "https://i.imgur.com/5LxYhZi.gif",
+			"abilities": [
+				{
+					"name": "CandyCane Stab!",
+					"description": "Padoru's going to poke you full of ho-ho-holes!",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 10,
+					"type": 1
+				},
+				{
+					"name": "Very Merry Bash!",
+					"description": "Theres new christmas colors, black and blue!",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 20,
+					"miss_chance": 10,
+					"type": 2
+				},
+				{
+					"name": "PADORU PADORU!!",
+					"description": "... Read.",
+					"Ap": 50,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 30,
+					"miss_chance": 0,
+					"img": "",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Christmas Idol: Nico",
+			"description": "A wintertime idol if there ever was, nico nico ni~!",
+			"class": 5,
+			"gender": 2,
+			"series": "Love-Live",
 			"hp": 100,
 			"atk": 50,
 			"matk": 70,
 			"def": 90,
 			"mdef": 90,
 			"spd": 65,
-		"image": "https://i.imgur.com/cDjoCv7.png",
-		"gimg": "https://i.imgur.com/BbjKmEH.gif",
-		"abilities": [
-			{
-				"name": "Everlescent lights",
-				"description": "",
-				"Ap": 2,
-				"hits": 15,
-				"cd": 1,
-				"crit_chance": 40,
-				"miss_chance": 20,
-				"type": 1
-			},
-			{
-				"name": "Merry Songs and Wishes",
-				"description": "Music of the season~",
-				"Ap": 5,
-				"hits": 5,
-				"cd": 2,
-				"crit_chance": 70,
-				"miss_chance": 20,
-				"type": 2
-			},
-			{
-				"name": "Yuletide Symphonia!",
-				"description": "",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 40,
-				"miss_chance": 0,
-				"type": 2,
-				"img": ""
-			}
-		]
-	},
-	{
-		"name": "Himiko Toga",
-		"description": "A villain with the power to become whoever's blood shes consumed!",
-		"class": 0,
-		"gender": 2,
-		"series": "My Hero Academia",
+			"image": "https://i.imgur.com/cDjoCv7.png",
+			"gimg": "https://i.imgur.com/BbjKmEH.gif",
+			"abilities": [
+				{
+					"name": "Everlescent lights",
+					"description": "",
+					"Ap": 2,
+					"hits": 15,
+					"cd": 1,
+					"crit_chance": 40,
+					"miss_chance": 20,
+					"type": 1
+				},
+				{
+					"name": "Merry Songs and Wishes",
+					"description": "Music of the season~",
+					"Ap": 5,
+					"hits": 5,
+					"cd": 2,
+					"crit_chance": 70,
+					"miss_chance": 20,
+					"type": 2
+				},
+				{
+					"name": "Yuletide Symphonia!",
+					"description": "",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 40,
+					"miss_chance": 0,
+					"type": 2,
+					"img": ""
+				}
+			]
+		},
+		{
+			"name": "Himiko Toga",
+			"description": "A villain with the power to become whoever's blood shes consumed!",
+			"class": 0,
+			"gender": 2,
+			"series": "My Hero Academia",
 			"hp": 100,
 			"atk": 100,
 			"matk": 30,
 			"def": 60,
 			"mdef": 50,
 			"spd": 100,
-		"image": "https://cdn.discordapp.com/attachments/640957584689332234/671140554146578432/Himiko.png",
-		"gimg": "https://i.imgur.com/ydcYK2o.gif",
-		"abilities": [
-			{
-				"name": "Take-Down!",
-				"description": "Simple martial arts combined with upward momentum and plenty of opportunities to cut~",
-				"Ap": 30,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 0,
-				"type": 1
-			},
-			{
-				"name": "Dual Syringe",
-				"description": "A pair of syringes weilded with the aim to drain blood from the victim.",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 70,
-				"miss_chance": 30,
-				"type": 1
-			},
-			{
-				"name": "Piercing: Blade",
-				"description": "A razor sharp knife, meant to pierce and leave some blood~",
-				"Ap": 50,
-				"hits": 1,
-				"cd": 2,
-				"crit_chance": 40,
-				"miss_chance": 0,
-				"img": "https://i.imgur.com/5P2i34Q.gif",
-				"type": 1
-
-			}
-		]
-
-	},
-	{
-		"name": "Naruto Uzumaki",
-		"description": "Embued with the power of the nine-tailed fox and trained in ninja arts, naruto is out to be hokage!",
-		"image": "https://i.imgur.com/or5CDyN.png?1",
-		"gimg": "https://i.imgur.com/kt5PCtS.gif",
-		"class": 6,
-		"gender": 1,
-		"series": "Naruto",
+			"image": "https://cdn.discordapp.com/attachments/640957584689332234/671140554146578432/Himiko.png",
+			"gimg": "https://i.imgur.com/ydcYK2o.gif",
+			"abilities": [
+				{
+					"name": "Take-Down!",
+					"description": "Simple martial arts combined with upward momentum and plenty of opportunities to cut~",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 0,
+					"type": 1
+				},
+				{
+					"name": "Dual Syringe",
+					"description": "A pair of syringes weilded with the aim to drain blood from the victim.",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 70,
+					"miss_chance": 30,
+					"type": 1
+				},
+				{
+					"name": "Piercing: Blade",
+					"description": "A razor sharp knife, meant to pierce and leave some blood~",
+					"Ap": 50,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 40,
+					"miss_chance": 0,
+					"img": "https://i.imgur.com/5P2i34Q.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Naruto Uzumaki",
+			"description": "Embued with the power of the nine-tailed fox and trained in ninja arts, naruto is out to be hokage!",
+			"image": "https://i.imgur.com/or5CDyN.png?1",
+			"gimg": "https://i.imgur.com/kt5PCtS.gif",
+			"class": 6,
+			"gender": 1,
+			"series": "Naruto",
 			"hp": 100,
 			"atk": 90,
 			"matk": 90,
 			"def": 70,
 			"mdef": 65,
 			"spd": 90,
-		"abilities": [
-			{
-				"name": "Shadow Clone Jutsu!",
-				"description": "Multiple clones of naruto, who can be used to attack the enemy simultaneously.",
-				"Ap": 10,
-				"hits": 3,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 15,
-				"type": 1
-			},
-			{
-				"name": "Rasengan",
-				"description": "A ball of chakra, molded to form and unleashed on the oponnent.",
-				"Ap": 30,
-				"hits": 1,
-				"cd": 2,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"type": 2
-			},
-			{
-				"name": "Nine-Tailed Beast: Black Rasengan",
-				"description": "",
-				"Ap": 60,
-				"hits": 1,
-				"cd": 4,
-				"crit_chance": 70,
-				"miss_chance": 0,
-				"img": "https://i.imgur.com/kezI5Oc.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "Maple",
-		"description": "A prideful neko with skills for baking sweets!",
-		"image": "https://i.imgur.com/aTRKx94.png",
-		"gimg": "https://i.imgur.com/XXw3TJN.gif",
-		"gender": 2,
-		"class": 5,
-		"series": "Nekopara",
+			"abilities": [
+				{
+					"name": "Shadow Clone Jutsu!",
+					"description": "Multiple clones of naruto, who can be used to attack the enemy simultaneously.",
+					"Ap": 10,
+					"hits": 3,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 15,
+					"type": 1
+				},
+				{
+					"name": "Rasengan",
+					"description": "A ball of chakra, molded to form and unleashed on the oponnent.",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"type": 2
+				},
+				{
+					"name": "Nine-Tailed Beast: Black Rasengan",
+					"description": "",
+					"Ap": 60,
+					"hits": 1,
+					"cd": 4,
+					"crit_chance": 70,
+					"miss_chance": 0,
+					"img": "https://i.imgur.com/kezI5Oc.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Maple",
+			"description": "A prideful neko with skills for baking sweets!",
+			"image": "https://i.imgur.com/aTRKx94.png",
+			"gimg": "https://i.imgur.com/XXw3TJN.gif",
+			"gender": 2,
+			"class": 5,
+			"series": "Nekopara",
 			"hp": 100,
 			"atk": 80,
 			"matk": 50,
 			"def": 50,
 			"mdef": 100,
 			"spd": 50,
-		"abilities": [
-			{
-				"name": "Purr-fect scratch",
-				"description": "Cats have claws for a reason!",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 10,
-				"type": 1
-			},
-			{
-				"name": "True sweet",
-				"description": "Delicious candies sure to make any enemy swoon!",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 30,
-				"miss_chance": 5,
-				"type": 2
-			},
-			{
-				"name": "Valentines Cake-Fever!",
-				"description": "An amazing valentines day cake surprise, just for you~!",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 69,
-				"miss_chance": 0,
-				"img": "",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Chris Yukine",
-		"description": "Chris is hot blooded and very aggressive in combat and will stop at nothing to demolish her enemies.",
-		"image": "https://i.imgur.com/QW4jvE4.png",
-		"gimg": "https://i.imgur.com/y1YlrXL.gif",
-		"gender": 2,
-		"class": 0,
-		"series": "Senki Zesshou Symphogear",
+			"abilities": [
+				{
+					"name": "Purr-fect scratch",
+					"description": "Cats have claws for a reason!",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 10,
+					"type": 1
+				},
+				{
+					"name": "True sweet",
+					"description": "Delicious candies sure to make any enemy swoon!",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 30,
+					"miss_chance": 5,
+					"type": 2
+				},
+				{
+					"name": "Valentines Cake-Fever!",
+					"description": "An amazing valentines day cake surprise, just for you~!",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 69,
+					"miss_chance": 0,
+					"img": "",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Chris Yukine",
+			"description": "Chris is hot blooded and very aggressive in combat and will stop at nothing to demolish her enemies.",
+			"image": "https://i.imgur.com/QW4jvE4.png",
+			"gimg": "https://i.imgur.com/y1YlrXL.gif",
+			"gender": 2,
+			"class": 0,
+			"series": "Senki Zesshou Symphogear",
 			"hp": 100,
 			"atk": 90,
 			"matk": 80,
 			"def": 60,
 			"mdef": 70,
 			"spd": 100,
-		"abilities": [
-			{
-				"name": "Megadeth Party",
-				"description": "Chris unleashes a huge barrage of twenty-four missiles from the missile launchers that open up at her hip sides.",
-				"Ap": 5,
-				"hits": 6,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 12,
-				"type": 1
-			},
-			{
-				"name": "Billion Maiden",
-				"description": "She transforms her crossbows into a pair of double triple-barrel gatling guns that fit over each of her arms, trading the homing properties of her crossbows for raw firepower.",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"type": 2
-			},
-			{
-				"name": "Queen's Inferno",
-				"description": "Chris Yukine shoots a barrage of bolts down on her enemy.",
-				"Ap": 10,
-				"hits": 6,
-				"cd": 3,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"img": "https://cdn.discordapp.com/attachments/400575318500442123/677676058954170391/36d48e80bb0175f3b42a856b76e13755.gif",
-				"type": 2
-			}
-		]
-	}, 
-	{
-		"name": "Satsuki Kiryuin",
-		"description": "The daughter of the maniacal Ragyo, Satsuki believes in absolute resolve and strength of will!",
-		"image": "https://i.imgur.com/qKpAuRk.png?1",
-		"gimg": "https://i.imgur.com/0ymPVr7.gif",
-		"gender": 2,
-		"class": 0,
-		"series": "Kill la Kill",
+			"abilities": [
+				{
+					"name": "Megadeth Party",
+					"description": "Chris unleashes a huge barrage of twenty-four missiles from the missile launchers that open up at her hip sides.",
+					"Ap": 5,
+					"hits": 6,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 12,
+					"type": 1
+				},
+				{
+					"name": "Billion Maiden",
+					"description": "She transforms her crossbows into a pair of double triple-barrel gatling guns that fit over each of her arms, trading the homing properties of her crossbows for raw firepower.",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"type": 2
+				},
+				{
+					"name": "Queen's Inferno",
+					"description": "Chris Yukine shoots a barrage of bolts down on her enemy.",
+					"Ap": 10,
+					"hits": 6,
+					"cd": 3,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"img": "https://cdn.discordapp.com/attachments/400575318500442123/677676058954170391/36d48e80bb0175f3b42a856b76e13755.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "Satsuki Kiryuin",
+			"description": "The daughter of the maniacal Ragyo, Satsuki believes in absolute resolve and strength of will!",
+			"image": "https://i.imgur.com/qKpAuRk.png?1",
+			"gimg": "https://i.imgur.com/0ymPVr7.gif",
+			"gender": 2,
+			"class": 0,
+			"series": "Kill la Kill",
 			"hp": 100,
 			"atk": 100,
 			"matk": 10,
 			"def": 70,
 			"mdef": 70,
 			"spd": 90,
-		"abilities": [
-			{
-				"name": "Bakuzan",
-				"description": "A killer sword capable of cutting the most sturdy of fibers, only made deadlier in the hands of the highly skilled satsuki.",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"type": 1
-			},
-			{
-				"name": "Piercing Nail",
-				"description": "Even without her blade, Satsuki is rarely ever unarmed, ever her toe-nails are fake, sharp, and ready to pierce through the opponent.",
-				"Ap": 10,
-				"hits": 4,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 40,
-				"type": 1
-			},
-			{
-				"name": "Life Fiber Overide: Junektsu",
-				"description": "A powerful Kamui made from life fibers, by allowing her body to draw strength from it Satsuki increases her speed and power tenfold!",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"type": 1,
-				"img": "https://i.imgur.com/QqWWcdW.gif"
-			}
-		]
-	},
-	{
-		"name": "Tanya Degurechaff",
-		"description": "A rutheless executive, punished by god for his cynicism by becoming a young girl in a european war.. but with mages!",
-		"image": "https://i.imgur.com/p07zqan.png?1",
-		"gimg": "https://i.imgur.com/HdTa3Wa.gif",
-		"gender": 2,
-		"class": 2,
-		"series": "Saga of Tanya the Evil",
+			"abilities": [
+				{
+					"name": "Bakuzan",
+					"description": "A killer sword capable of cutting the most sturdy of fibers, only made deadlier in the hands of the highly skilled satsuki.",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"type": 1
+				},
+				{
+					"name": "Piercing Nail",
+					"description": "Even without her blade, Satsuki is rarely ever unarmed, ever her toe-nails are fake, sharp, and ready to pierce through the opponent.",
+					"Ap": 10,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 40,
+					"type": 1
+				},
+				{
+					"name": "Life Fiber Overide: Junektsu",
+					"description": "A powerful Kamui made from life fibers, by allowing her body to draw strength from it Satsuki increases her speed and power tenfold!",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"type": 1,
+					"img": "https://i.imgur.com/QqWWcdW.gif"
+				}
+			]
+		},
+		{
+			"name": "Tanya Degurechaff",
+			"description": "A rutheless executive, punished by god for his cynicism by becoming a young girl in a european war.. but with mages!",
+			"image": "https://i.imgur.com/p07zqan.png?1",
+			"gimg": "https://i.imgur.com/HdTa3Wa.gif",
+			"gender": 2,
+			"class": 2,
+			"series": "Saga of Tanya the Evil",
 			"hp": 100,
 			"atk": 10,
 			"matk": 100,
 			"def": 60,
 			"mdef": 80,
 			"spd": 80,
-		"abilities": [
-			{
-				"name": "Artilary Strike",
-				"description": "As a ranking squad commander in the military Tanya has access to a vast array of military weapons.",
-				"Ap": 10,
-				"hits": 4,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 0,
-				"type": 2
-			},
-			{
-				"name": "Holy Targetting- Type 95",
-				"description": "Channeling the world of the god she so despises, tanya can immediately lock on to any enemy.",
-				"Ap": 4,
-				"hits": 10,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 50,
-				"type": 2
-			},
-			{
-				"name": "Gospel Holy Bullet",
-				"description": "A corrupting power to smite the any enemy when the word of god is invoked.",
-				"Ap": 60,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 25,
-				"miss_chance": 0,
-				"type": 2,
-				"img": "https://i.imgur.com/Fe2qEDQ.gif"
-			}
-		]
-	},
-	{
-		"name": "Ichigo Kurosaki",
-		"description": "A soul reaper with a dangerous power hiding beneath the surface, ichigo is the best of both worlds!",
-		"image": "https://i.imgur.com/3hOAKe7.png",
-		"gimg": "https://i.imgur.com/kr0PG7z.gif",
-		"gender": "1",
-		"class": 0,
-		"series": "Bleach",
+			"abilities": [
+				{
+					"name": "Artilary Strike",
+					"description": "As a ranking squad commander in the military Tanya has access to a vast array of military weapons.",
+					"Ap": 10,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 0,
+					"type": 2
+				},
+				{
+					"name": "Holy Targetting- Type 95",
+					"description": "Channeling the world of the god she so despises, tanya can immediately lock on to any enemy.",
+					"Ap": 4,
+					"hits": 10,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 50,
+					"type": 2
+				},
+				{
+					"name": "Gospel Holy Bullet",
+					"description": "A corrupting power to smite the any enemy when the word of god is invoked.",
+					"Ap": 60,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 25,
+					"miss_chance": 0,
+					"type": 2,
+					"img": "https://i.imgur.com/Fe2qEDQ.gif"
+				}
+			]
+		},
+		{
+			"name": "Ichigo Kurosaki",
+			"description": "A soul reaper with a dangerous power hiding beneath the surface, ichigo is the best of both worlds!",
+			"image": "https://i.imgur.com/3hOAKe7.png",
+			"gimg": "https://i.imgur.com/kr0PG7z.gif",
+			"gender": "1",
+			"class": 0,
+			"series": "Bleach",
 			"hp": 100,
 			"atk": 100,
 			"matk": 80,
 			"def": 100,
 			"mdef": 50,
 			"spd": 80,
-		"abilities": [
-			{
-				"name": "Flash Step",
-				"description": "The ability of a soul reaper to quickly teleport ahead, catching the enemy off-guard.",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 25,
-				"miss_chance": 10,
-				"type": 2
-			},
-			{
-				"name": "Falling sword: Zangetsu",
-				"description": "Ichigo and Zangetsu share a unique bond, which they wont hesitate to exploit for some serious damage.",
-				"Ap": 35,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 35,
-				"miss_chance": 0,
-				"type": 1
-			},
-			{
-				"name": "Black Getsuga Tenshou",
-				"description": "A powerful move capable of slicing steel and bone as if it were nothing, the Black Getsuga draws power from ichigo's hollowed form.",
-				"Ap": 20,
-				"hits": 2,
-				"cd": 2,
-				"crit_chance": 75,
-				"miss_chance": 0,
-				"type": 1,
-				"img": "https://i.imgur.com/9mELitH.gif"
-			}
-		]
-	},
-	{
-		"name": "Rukia Kuchiki",
-		"description": "An honors soul reaper and adoptive sister to the esteemed Byakuya, Rukia weilds a powerful zanpakuto and kido.",
-		"image": "https://i.imgur.com/3XqeFck.png",
-		"gimg": "https://i.imgur.com/HHru8e1.gif",
-		"gender": "2",
-		"class": 2,
-		"series": "Bleach",
+			"abilities": [
+				{
+					"name": "Flash Step",
+					"description": "The ability of a soul reaper to quickly teleport ahead, catching the enemy off-guard.",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 25,
+					"miss_chance": 10,
+					"type": 2
+				},
+				{
+					"name": "Falling sword: Zangetsu",
+					"description": "Ichigo and Zangetsu share a unique bond, which they wont hesitate to exploit for some serious damage.",
+					"Ap": 35,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 35,
+					"miss_chance": 0,
+					"type": 1
+				},
+				{
+					"name": "Black Getsuga Tenshou",
+					"description": "A powerful move capable of slicing steel and bone as if it were nothing, the Black Getsuga draws power from ichigo's hollowed form.",
+					"Ap": 20,
+					"hits": 2,
+					"cd": 2,
+					"crit_chance": 75,
+					"miss_chance": 0,
+					"type": 1,
+					"img": "https://i.imgur.com/9mELitH.gif"
+				}
+			]
+		},
+		{
+			"name": "Rukia Kuchiki",
+			"description": "An honors soul reaper and adoptive sister to the esteemed Byakuya, Rukia weilds a powerful zanpakuto and kido.",
+			"image": "https://i.imgur.com/3XqeFck.png",
+			"gimg": "https://i.imgur.com/HHru8e1.gif",
+			"gender": "2",
+			"class": 2,
+			"series": "Bleach",
 			"hp": 100,
 			"atk": 90,
 			"matk": 90,
 			"def": 50,
 			"mdef": 70,
 			"spd": 100,
-		"abilities": [
-			{
-				"name": "Hado 33: Sokatsui",
-				"description": "A powerful hado technique, capable of launching forward a massive surge of blue spiritual fire.",
-				"Ap": 15,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 0,
-				"type": 1
-			},
-			{
-				"name": "Hado 73: Soren Sokatsui",
-				"description": "An advanced form of its namesake, it is said the kuchiki clan specialize in this form of hado.",
-				"Ap": 20,
-				"hits": 2,
-				"crit_chance": 35,
-				"miss_chance": 10,
-				"type": 2
-			},
-			{
-				"name": "Mae~ Sode no Shirayuki",
-				"description": "An ice-type shikai, shirayuki can flash freeze any enemy in its way with an elegant form.",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"type": 2,
-				"img": "https://i.imgur.com/9UwCseq.gif"
-			}
-		]
-	},
-	{
-		"name": "Guts",
-		"description": "The Black Swordsman",
-		"image": "https://i.imgur.com/i8LJD3i.png",
-		"gimg": "https://i.imgur.com/YSx0ifP.gif",
-		"gender": "1",
-		"class": 0,
-		"series": "Berserk",
-		"hp": 100,
-		"atk": 100,
-		"matk": 20,
-		"def": 70,
-		"mdef": 65,
-		"spd": 30,
-		"abilities": [
-			{
-				"name": "Dragon-Slayer Sweep",
-				"description": "Gut's massive sword allows for large area sweeps, and packs one hell of a punch.",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 40,
-				"type": 1
-			},
-			{
-				"name": "Cannon Arm",
-				"description": "Gut's Mechanical arm comes equipped with a rickets cannon, helpful in closing the distance.",
-				"Ap": 10,
-				"hits": 4,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 0,
-				"type": 2
-			},
-			{
-				"name": "Berserk",
-				"description": "Gut's Armor is his last resort, it grants incredible boost to power and savagery, however it can bring its user past the brink of death.",
-				"Ap": 6,
-				"hits": 10,
-				"cd": 3,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"type": 1,
-				"img": ""
-			}
-		]
-	},
-	{
+			"abilities": [
+				{
+					"name": "Hado 33: Sokatsui",
+					"description": "A powerful hado technique, capable of launching forward a massive surge of blue spiritual fire.",
+					"Ap": 15,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 0,
+					"type": 1
+				},
+				{
+					"name": "Hado 73: Soren Sokatsui",
+					"description": "An advanced form of its namesake, it is said the kuchiki clan specialize in this form of hado.",
+					"Ap": 20,
+					"hits": 2,
+					"crit_chance": 35,
+					"miss_chance": 10,
+					"type": 2
+				},
+				{
+					"name": "Mae~ Sode no Shirayuki",
+					"description": "An ice-type shikai, shirayuki can flash freeze any enemy in its way with an elegant form.",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"type": 2,
+					"img": "https://i.imgur.com/9UwCseq.gif"
+				}
+			]
+		},
+		{
+			"name": "Guts",
+			"description": "The Black Swordsman",
+			"image": "https://i.imgur.com/i8LJD3i.png",
+			"gimg": "https://i.imgur.com/YSx0ifP.gif",
+			"gender": "1",
+			"class": 0,
+			"series": "Berserk",
+			"hp": 100,
+			"atk": 100,
+			"matk": 20,
+			"def": 70,
+			"mdef": 65,
+			"spd": 30,
+			"abilities": [
+				{
+					"name": "Dragon-Slayer Sweep",
+					"description": "Gut's massive sword allows for large area sweeps, and packs one hell of a punch.",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 40,
+					"type": 1
+				},
+				{
+					"name": "Cannon Arm",
+					"description": "Gut's Mechanical arm comes equipped with a rickets cannon, helpful in closing the distance.",
+					"Ap": 10,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"type": 2
+				},
+				{
+					"name": "Berserk",
+					"description": "Gut's Armor is his last resort, it grants incredible boost to power and savagery, however it can bring its user past the brink of death.",
+					"Ap": 6,
+					"hits": 10,
+					"cd": 3,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"type": 1,
+					"img": ""
+				}
+			]
+		},
+		{
 			"name": "Zeref Dragneel",
 			"description": "Said to be the most powerful evil mage in history, Zeref now seeks a life of calm and rest.",
 			"image": "https://i.imgur.com/ydxpQ9o.png",
@@ -2598,12 +2592,12 @@
 			"gender": "1",
 			"class": 2,
 			"series": "Fairy Tail",
-				"hp": 100,
-				"atk": 20,
-				"matk": 100,
-				"def": 50,
-				"mdef": 70,
-				"spd": 50,
+			"hp": 100,
+			"atk": 20,
+			"matk": 100,
+			"def": 50,
+			"mdef": 70,
+			"spd": 50,
 			"abilities": [
 				{
 					"name": "Dark Blast Inferno",
@@ -2637,441 +2631,436 @@
 					"img": "https://i.imgur.com/tPfGy0F.gif"
 				}
 			]
-	},
-	{
-		"name": "Naofumi Iwatani",
-		"description": "Summoned as the Shield Hero to a foreign world, he uses his unbreakable defense to protect those he cares about.",
-		"image": "https://i.imgur.com/tENvmrf.png",
-		"gimg": "https://i.imgur.com/dTfdQm0.gif",
-		"gender": "1",
-		"series": "Rising of the Shield Hero",
-		"class": 3,
-		"hp": 100,
-		"matk": 50,
-		"atk": 50,
-		"def": 50,
-		"mdef": 100,
-		"spd": 50,
-		"abilities": [
-			{
-				"name": "Air Strike Shield",
-				"description": "A large form to the legendary shield that can be thrown at enemies.",
-				"Ap": 10,
-				"hits": 3,
-				"cd": 0,
-				"crit_chance": 100,
-				"miss_chance": 0,
-				"type": 1
-			},
-			{
-				"name": "Shield Prison",
-				"description": "The legendary shield is able to absorb and trap enemies, rendering them useless.",
-				"Ap": 45,
-				"hits": 1,
-				"cd": 0,
-				"crit_chance": 25,
-				"miss_chance": 10,
-				"type": 1
-			},
-			{
-				"name": "Legendary Shield: Wrath",
-				"description": "A shield born from the anger and hatred of its user, it grants incredible offensive power but corrupts the weilder's mind in the process.",
-				"Ap": 25,
-				"hits": 2,
-				"cd": 3,
-				"crit_chance": 70,
-				"miss_chance": 0,
-				"type": 2,
-				"img": "https://i.imgur.com/dhCOjE0.gif"
-			}
-		]
-	},
-	{
-		"name": "Kaede Honjou",
-		"description": "A young MMO enthusiast who, scared of taking any damage, stack all her stats into defense!",
-		"image": "https://i.imgur.com/iI6uewG.png",
-		"gimg": "https://i.imgur.com/EImn8Oe.gif",
-		"gender": "2",
-		"class": 3,
-		"series": "BOFURI: I Dont Want to Get Hurt so ill Max Out My Defense!",
-		"hp": 100,
-		"atk": 20,
-		"matk": 20,
-		"def": 150,
-		"mdef": 20,
-		"spd": 20,
-		"abilities": [
-			{
-                "name": "Shield Bash",
-                "Ap": 30,
-                "hits": 1,
-                "cd": 1,
-                "crit_chance": 75,
-                "miss_chance": 0,
-				"description": "Maple bashes her opponent with her shield!",
-				"type": 1
-            },
-            {
-                "name": "Great Eruption",
-                "Ap": 4,
-                "hits": 10,
-                "cd": 1,
-                "crit_chance": 45,
-                "miss_chance": 5,
-				"description": "Maple erupts the ground near the opponent!",
-				"type": 2
-            },
-            {
-                "name": "Vaporizing Shield",
-                "Ap": 45,
-                "hits": 1,
-                "cd": 2,
-                "crit_chance": 20,
-                "miss_chance": 0,
-				"description": "Maple buffs her shield to the point where it instantly dissipates anyone and anything who attacks!",
-				"img": "https://gph.is/g/aKAXoM3",
-				"type": 1
-            }
-		]
-	},
-	{
-		"name": "Kurumi Tokisaki",
-		"gender": "2",
-		"class": 6,
-		"description": "Thought to be most powerful spirit, wielding power over time itself Kurumi is blamed with the deaths of thousands and has no plans of stopping.",
-		"image": "https://i.imgur.com/1TYEffT.png",
-		"gimg": "https://i.imgur.com/CpiL5DM.gif",
-		"series": "Date A Live",
-		"hp": 100,
-		"atk": 100,
-		"matk": 100,
-		"def": 60,
-		"mdef": 70,
-		"spd": 100,
-		"abilities": [
-			{
-				"name": "First Bullet: Aleph",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 0,
-				"description": "Accelerates time for the target, fired from the handy pistol Kurumi keeps with her.",
-				"type": 2
-			},
-			{
-				"name": "Twelfth Bullet: Yud Bet",
-				"Ap": 25,
-				"hits": 2,
-				"cd": 1,
-				"crit_chance": 70,
-				"miss_chance": 20,
-				"description": "Sends the target hit thrown through time into the past.",
-				"type": 1
-			},
-			{
-				"name": "Time Emporer: Zafkiel",
-				"Ap": 15,
-				"hits": 5,
-				"cd": 3,
-				"crit_chance": 40,
-				"miss_chance": 0,
-				"description": "The Angel of time, Kurumi is able to freely toy with the very frabric of linearity.",
-				"img": "https://i.imgur.com/rNaxtRn.gif",
-				"type": 2
-			}
-		]
-	},
-	{
-		"name": "C: Strelitzia",
-		"description": "A powerful mech formed from the union of 2 pilots to help tame the wild savagery that lay beneath its shining exterior.",
-		"gender": "3",
-		"class": 0,
-		"image": "https://i.imgur.com/K9NpoYS.png?1",
-		"gimg": "https://i.imgur.com/BUCd1Uc.gif",
-		"series": "Darling In The FranXX",
-		"hp": 100,
-		"atk": 100,
-		"matk": 20,
-		"def": 80,
-		"mdef": 80,
-		"spd": 100,
-		"abilities": [
-			{
-				"name": "Power Spear Thurst",
-				"Ap": 5,
-				"hits": 5,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 50,
-				"description": "The rocket-powered spear end that The Strelitzia holds launches it forward!",
-				"type": 1
-			},
-			{
-				"name": "Stampede Form",
-				"Ap": 10,
-				"hits": 4,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 10,
-				"description": "Without a Stamen to hold back its savagery, The Strelitzia reverts to a primal, unstable form.",
-				"type": 1
-			},
-			{
-				"name": "Strelitzia XX: Drill Tunneling",
-				"Ap": 5,
-				"hits": 11,
-				"cd": 3,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"description": "Reunited with Hiro as the Stamen, The Strelitzia gains a sudden burst of power.",
-				"img": "https://i.imgur.com/ySnvam1.gif",
-				"type": 1
-			}
-		]
-	},
-	{
-		"name": "Lion Sin Escanor",
-		"description": "The one who stands at the pinnacle of all races, escanor's sunshine allows him to grow in power as the sun rises.",
-		"gender": 1,
-		"class": 4,
-		"series": "The Seven Deadly Sins",
-		"image": "https://i.imgur.com/0wJIBB9.png",
-		"gimg": "https://i.imgur.com/I9AhGsu.gifv",
-		"hp": 100,
-		"atk": 100,
-		"matk": 100,
-		"def": 80,
-		"mdef": 70,
-		"spd": 50,
-		"abilities": [
-			{
-				"name": "Divine Axe Rhitta",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 10,
-				"description": "A holy Axe named after a maiden loved by the sun, capable of storing the blistering heat that surrounds escanor.",
-				"type": 1
-			},
-			{
-				"name": "Cruel Sun",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 20,
-				"description": "Escanor's heat given form of a sun, capable of vaporizing anything in its path.",
-				"type": 2
-			},
-			{
-				"name": "Sacred Treasure: Release",
-				"Ap": 70,
-				"hits": 1,
-				"cd": 3,
-				"crit_chance": 100,
-				"miss_chance": 0,
-				"description": "Game.. over",
-				"type": 1,
-				"img": "https://i.imgur.com/6Sgy2hV.gif"
-			}
-		]
-	},
-	{
-		"name": "Trevor Belmont",
-		"gender": 1,
-		"class": 0,
-		"description": "The last in a long line of Belmonts, chasing the vampires for generations.",
-		"image": "https://i.imgur.com/wRuw38b.png",
-		"gimg": "https://i.imgur.com/EbjGAI7.gif",
-		"series": "Castlevania",
-		"hp": 100,
-		"atk": 100,
-		"matk": 50,
-		"def": 60,
-		"mdef": 70,
-		"spd": 100,
-		"abilities": [
-			{
-				"name": "4 point punch",
-				"description": "A master of martial arts, Trevor carries on maneuvers to disable the enemy cleanly and quickly, even when drunk.",
-				"Ap": 9,
-				"hits": 4,
-				"cd": 1,
-				"crit_chance": 30,
-				"miss_chance": 20,
-				"type": 1
-			},
-			{
-				"name": "Jaguar Sweep",
-				"desription": "A simple yet effective technique to leave an opponent writhing on the floor.",
-				"Ap": 35,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 20,
-				"type": 1
-			},
-			{
-				"name": "Tri-whip Morningstar",
-				"description": "A powerful chain to smite the unholy, and undead.",
-				"Ap": 25,
-				"hits": 3,
-				"cd": 3,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"type": 1,
-				"img": "https://cdn.discordapp.com/attachments/400575318500442123/708912694354247710/tumblr_phq1wiE81l1v6w3juo1_500.gif"
-			}
-		]
-	},
-	{
-		"name": "Megumin",
-		"description": "A descendant of a long line of crimson mages, all specializing in Explosion magic!",
-		"gender": 2,
-		"class": 2,
-		"series": "KonoSuba: God's Blessing on this Wonderful World!",
-		"image": "https://i.imgur.com/rhdlPEh.png",
-		"gimg": "https://i.imgur.com/PyF5Jft.gif",
-		"hp": 100,
-		"atk": 20,
-		"matk": 100,
-		"def": 50,
-		"mdef": 100,
-		"spd": 50,
-		"abilities": [
-			{
-				"name": "Explosion",
-				"description": "Boom!",
-				"Ap": 40,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 20,
-				"type": 2
-			},
-			{
-				"name": "Explosion!!",
-				"description": "More boom!",
-				"Ap": 50,
-				"hits": 1,
-				"cd": 1,
-				"crit_chance": 20,
-				"miss_chance": 10,
-				"type": 2
-			},
-			{
-				"name": "EXPLOSION!!",
-				"description": "The ancient art of the crimson mages, the ultimate destructive magic!",
-				"Ap": 80,
-				"hits": 1,
-				"cd": 4,
-				"crit_chance": 100,
-				"miss_chance": 0,
-				"type": 2,
-				"img": "https://i.imgur.com/qujgGZN.gif"
-			}
-		]
-	},
-	{
-		"name": "Yuichiro Hyakuya",
-		"description": "An orphaned child left raised by vampires and recruited into the demon moon company, Yuu wont stop until all vampires are wiped from the earth.",
-		"gender": 1,
-		"class": 4,
-		"series": "Seraph of the End",
-		"image": "https://i.imgur.com/v7vvcJG.png",
-		"gimg": "https://i.imgur.com/eihki0M.gif",
-		"hp": 100,
-		"atk": 90,
-		"matk": 90,
-		"def": 70,
-		"mdef": 70,
-		"spd": 80,
-		"abilities": [
-			{
-				"name": "Demon Sword Asamaru",
-				"description": "A living sword made from an ancient demon, Asamaru is capable of piercing even the flesh of vampires.",
-				"Ap": 8,
-				"hits": 5,
-				"cd": 1,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"type": 1  
-			},
-			{
-				"name": "Moon Company Ressonance Pills",
-				"description": "All of the demon moon company come equipped with pills which temporarily boost their power, in exchange for lowering life.",
-				"Ap": 10,
-				"hits": 5,
-				"cd": 1,
-				"crit_chance": 50,
-				"miss_chance": 10,
-				"type": 1
-			},
-			{
-				"name": "Seraph: King of Salt",
-				"description": "Yuichiro adopts the power of the angel's horn within his heart, allowing for a powerful seraph known as the king of salt to emerge.",
-				"Ap": 9,
-				"hits": 6,
-				"cd": 2,
-				"crit_chance": 50,
-				"miss_chance": 0,
-				"type": 2,
-				"img": "https://i.imgur.com/QvrlEKY.gif"
-			}
-		]
-	},
-	{
-		"name": "Mikaela Hyakuya",
-		"description": "An orphan of the hyakuya sect that was unable to escape the vampire's clutches, where he became one himself.",
-		"series": "Seraph of the End",
-		"gender": 1,
-		"class": 6,
-		"image": "https://i.imgur.com/Nc0clne.png",
-		"gimg": "https://i.imgur.com/upLgqBX.gif",
-		"hp": 100,
-		"atk": 100,
-		"matk": 100,
-		"def": 60,
-		"mdef": 60,
-		"spd": 100,
-		"abilities": [
-			{
-				"name": "Vampiric Pummel",
-				"description": "As a vampire turned via a high ranking progenitor Mika possesses strength to match noble born vampires.",
-				"Ap": 30,
-				"hits": 2,
-				"crit_chance": 10,
-				"miss_chance": 50,
-				"type": 1
-			},
-			{
-				"name": "Sword Stance: Blood reign",
-				"description": "Like noble vampires, mika weilds a sword capable of drinking his blood to gain power.",
-				"Ap": 35,
-				"hits": 1,
-				"crit_chance": 60,
-				"miss_chance": 0,
-				"type": 2
-			},
-			{
-				"name": "Crimson blade sweep",
-				"description": "The fully charged sword is able to sweep out blades of blood.",
-				"Ap": 50,
-				"hits": 1,
-				"crit_chance": 80,
-				"miss_chance": 0,
-				"type": 2,
-				"cd": 3,
-				"img": "https://i.imgur.com/gkfC3gu.gif"
-			}
-		]
-	}
+		},
+		{
+			"name": "Naofumi Iwatani",
+			"description": "Summoned as the Shield Hero to a foreign world, he uses his unbreakable defense to protect those he cares about.",
+			"image": "https://i.imgur.com/tENvmrf.png",
+			"gimg": "https://i.imgur.com/dTfdQm0.gif",
+			"gender": "1",
+			"series": "Rising of the Shield Hero",
+			"class": 3,
+			"hp": 100,
+			"matk": 50,
+			"atk": 50,
+			"def": 50,
+			"mdef": 100,
+			"spd": 50,
+			"abilities": [
+				{
+					"name": "Air Strike Shield",
+					"description": "A large form to the legendary shield that can be thrown at enemies.",
+					"Ap": 10,
+					"hits": 3,
+					"cd": 0,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"type": 1
+				},
+				{
+					"name": "Shield Prison",
+					"description": "The legendary shield is able to absorb and trap enemies, rendering them useless.",
+					"Ap": 45,
+					"hits": 1,
+					"cd": 0,
+					"crit_chance": 25,
+					"miss_chance": 10,
+					"type": 1
+				},
+				{
+					"name": "Legendary Shield: Wrath",
+					"description": "A shield born from the anger and hatred of its user, it grants incredible offensive power but corrupts the weilder's mind in the process.",
+					"Ap": 25,
+					"hits": 2,
+					"cd": 3,
+					"crit_chance": 70,
+					"miss_chance": 0,
+					"type": 2,
+					"img": "https://i.imgur.com/dhCOjE0.gif"
+				}
+			]
+		},
+		{
+			"name": "Kaede Honjou",
+			"description": "A young MMO enthusiast who, scared of taking any damage, stack all her stats into defense!",
+			"image": "https://i.imgur.com/iI6uewG.png",
+			"gimg": "https://i.imgur.com/EImn8Oe.gif",
+			"gender": "2",
+			"class": 3,
+			"series": "BOFURI: I Dont Want to Get Hurt so ill Max Out My Defense!",
+			"hp": 100,
+			"atk": 20,
+			"matk": 20,
+			"def": 150,
+			"mdef": 20,
+			"spd": 20,
+			"abilities": [
+				{
+					"name": "Shield Bash",
+					"Ap": 30,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 75,
+					"miss_chance": 0,
+					"description": "Maple bashes her opponent with her shield!",
+					"type": 1
+				},
+				{
+					"name": "Great Eruption",
+					"Ap": 4,
+					"hits": 10,
+					"cd": 1,
+					"crit_chance": 45,
+					"miss_chance": 5,
+					"description": "Maple erupts the ground near the opponent!",
+					"type": 2
+				},
+				{
+					"name": "Vaporizing Shield",
+					"Ap": 45,
+					"hits": 1,
+					"cd": 2,
+					"crit_chance": 20,
+					"miss_chance": 0,
+					"description": "Maple buffs her shield to the point where it instantly dissipates anyone and anything who attacks!",
+					"img": "https://gph.is/g/aKAXoM3",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Kurumi Tokisaki",
+			"gender": "2",
+			"class": 6,
+			"description": "Thought to be most powerful spirit, wielding power over time itself Kurumi is blamed with the deaths of thousands and has no plans of stopping.",
+			"image": "https://i.imgur.com/1TYEffT.png",
+			"gimg": "https://i.imgur.com/CpiL5DM.gif",
+			"series": "Date A Live",
+			"hp": 100,
+			"atk": 100,
+			"matk": 100,
+			"def": 60,
+			"mdef": 70,
+			"spd": 100,
+			"abilities": [
+				{
+					"name": "First Bullet: Aleph",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 0,
+					"description": "Accelerates time for the target, fired from the handy pistol Kurumi keeps with her.",
+					"type": 2
+				},
+				{
+					"name": "Twelfth Bullet: Yud Bet",
+					"Ap": 25,
+					"hits": 2,
+					"cd": 1,
+					"crit_chance": 70,
+					"miss_chance": 20,
+					"description": "Sends the target hit thrown through time into the past.",
+					"type": 1
+				},
+				{
+					"name": "Time Emporer: Zafkiel",
+					"Ap": 15,
+					"hits": 5,
+					"cd": 3,
+					"crit_chance": 40,
+					"miss_chance": 0,
+					"description": "The Angel of time, Kurumi is able to freely toy with the very frabric of linearity.",
+					"img": "https://i.imgur.com/rNaxtRn.gif",
+					"type": 2
+				}
+			]
+		},
+		{
+			"name": "C: Strelitzia",
+			"description": "A powerful mech formed from the union of 2 pilots to help tame the wild savagery that lay beneath its shining exterior.",
+			"gender": "3",
+			"class": 0,
+			"image": "https://i.imgur.com/K9NpoYS.png?1",
+			"gimg": "https://i.imgur.com/BUCd1Uc.gif",
+			"series": "Darling In The FranXX",
+			"hp": 100,
+			"atk": 100,
+			"matk": 20,
+			"def": 80,
+			"mdef": 80,
+			"spd": 100,
+			"abilities": [
+				{
+					"name": "Power Spear Thurst",
+					"Ap": 5,
+					"hits": 5,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 50,
+					"description": "The rocket-powered spear end that The Strelitzia holds launches it forward!",
+					"type": 1
+				},
+				{
+					"name": "Stampede Form",
+					"Ap": 10,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 10,
+					"description": "Without a Stamen to hold back its savagery, The Strelitzia reverts to a primal, unstable form.",
+					"type": 1
+				},
+				{
+					"name": "Strelitzia XX: Drill Tunneling",
+					"Ap": 5,
+					"hits": 11,
+					"cd": 3,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"description": "Reunited with Hiro as the Stamen, The Strelitzia gains a sudden burst of power.",
+					"img": "https://i.imgur.com/ySnvam1.gif",
+					"type": 1
+				}
+			]
+		},
+		{
+			"name": "Lion Sin Escanor",
+			"description": "The one who stands at the pinnacle of all races, escanor's sunshine allows him to grow in power as the sun rises.",
+			"gender": 1,
+			"class": 4,
+			"series": "The Seven Deadly Sins",
+			"image": "https://i.imgur.com/0wJIBB9.png",
+			"gimg": "https://i.imgur.com/I9AhGsu.gifv",
+			"hp": 100,
+			"atk": 100,
+			"matk": 100,
+			"def": 80,
+			"mdef": 70,
+			"spd": 50,
+			"abilities": [
+				{
+					"name": "Divine Axe Rhitta",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 10,
+					"description": "A holy Axe named after a maiden loved by the sun, capable of storing the blistering heat that surrounds escanor.",
+					"type": 1
+				},
+				{
+					"name": "Cruel Sun",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 20,
+					"description": "Escanor's heat given form of a sun, capable of vaporizing anything in its path.",
+					"type": 2
+				},
+				{
+					"name": "Sacred Treasure: Release",
+					"Ap": 70,
+					"hits": 1,
+					"cd": 3,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"description": "Game.. over",
+					"type": 1,
+					"img": "https://i.imgur.com/6Sgy2hV.gif"
+				}
+			]
+		},
+		{
+			"name": "Trevor Belmont",
+			"gender": 1,
+			"class": 0,
+			"description": "The last in a long line of Belmonts, chasing the vampires for generations.",
+			"image": "https://i.imgur.com/wRuw38b.png",
+			"gimg": "https://i.imgur.com/EbjGAI7.gif",
+			"series": "Castlevania",
+			"hp": 100,
+			"atk": 100,
+			"matk": 50,
+			"def": 60,
+			"mdef": 70,
+			"spd": 100,
+			"abilities": [
+				{
+					"name": "4 point punch",
+					"description": "A master of martial arts, Trevor carries on maneuvers to disable the enemy cleanly and quickly, even when drunk.",
+					"Ap": 9,
+					"hits": 4,
+					"cd": 1,
+					"crit_chance": 30,
+					"miss_chance": 20,
+					"type": 1
+				},
+				{
+					"name": "Jaguar Sweep",
+					"desription": "A simple yet effective technique to leave an opponent writhing on the floor.",
+					"Ap": 35,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 20,
+					"type": 1
+				},
+				{
+					"name": "Tri-whip Morningstar",
+					"description": "A powerful chain to smite the unholy, and undead.",
+					"Ap": 25,
+					"hits": 3,
+					"cd": 3,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"type": 1,
+					"img": "https://cdn.discordapp.com/attachments/400575318500442123/708912694354247710/tumblr_phq1wiE81l1v6w3juo1_500.gif"
+				}
+			]
+		},
+		{
+			"name": "Megumin",
+			"description": "A descendant of a long line of crimson mages, all specializing in Explosion magic!",
+			"gender": 2,
+			"class": 2,
+			"series": "KonoSuba: God's Blessing on this Wonderful World!",
+			"image": "https://i.imgur.com/rhdlPEh.png",
+			"gimg": "https://i.imgur.com/PyF5Jft.gif",
+			"hp": 100,
+			"atk": 20,
+			"matk": 100,
+			"def": 50,
+			"mdef": 100,
+			"spd": 50,
+			"abilities": [
+				{
+					"name": "Explosion",
+					"description": "Boom!",
+					"Ap": 40,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 20,
+					"type": 2
+				},
+				{
+					"name": "Explosion!!",
+					"description": "More boom!",
+					"Ap": 50,
+					"hits": 1,
+					"cd": 1,
+					"crit_chance": 20,
+					"miss_chance": 10,
+					"type": 2
+				},
+				{
+					"name": "EXPLOSION!!",
+					"description": "The ancient art of the crimson mages, the ultimate destructive magic!",
+					"Ap": 80,
+					"hits": 1,
+					"cd": 4,
+					"crit_chance": 100,
+					"miss_chance": 0,
+					"type": 2,
+					"img": "https://i.imgur.com/qujgGZN.gif"
+				}
+			]
+		},
+		{
+			"name": "Yuichiro Hyakuya",
+			"description": "An orphaned child left raised by vampires and recruited into the demon moon company, Yuu wont stop until all vampires are wiped from the earth.",
+			"gender": 1,
+			"class": 4,
+			"series": "Seraph of the End",
+			"image": "https://i.imgur.com/v7vvcJG.png",
+			"gimg": "https://i.imgur.com/eihki0M.gif",
+			"hp": 100,
+			"atk": 90,
+			"matk": 90,
+			"def": 70,
+			"mdef": 70,
+			"spd": 80,
+			"abilities": [
+				{
+					"name": "Demon Sword Asamaru",
+					"description": "A living sword made from an ancient demon, Asamaru is capable of piercing even the flesh of vampires.",
+					"Ap": 8,
+					"hits": 5,
+					"cd": 1,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"type": 1
+				},
+				{
+					"name": "Moon Company Ressonance Pills",
+					"description": "All of the demon moon company come equipped with pills which temporarily boost their power, in exchange for lowering life.",
+					"Ap": 10,
+					"hits": 5,
+					"cd": 1,
+					"crit_chance": 50,
+					"miss_chance": 10,
+					"type": 1
+				},
+				{
+					"name": "Seraph: King of Salt",
+					"description": "Yuichiro adopts the power of the angel's horn within his heart, allowing for a powerful seraph known as the king of salt to emerge.",
+					"Ap": 9,
+					"hits": 6,
+					"cd": 2,
+					"crit_chance": 50,
+					"miss_chance": 0,
+					"type": 2,
+					"img": "https://i.imgur.com/QvrlEKY.gif"
+				}
+			]
+		},
+		{
+			"name": "Mikaela Hyakuya",
+			"description": "An orphan of the hyakuya sect that was unable to escape the vampire's clutches, where he became one himself.",
+			"series": "Seraph of the End",
+			"gender": 1,
+			"class": 6,
+			"image": "https://i.imgur.com/Nc0clne.png",
+			"gimg": "https://i.imgur.com/upLgqBX.gif",
+			"hp": 100,
+			"atk": 100,
+			"matk": 100,
+			"def": 60,
+			"mdef": 60,
+			"spd": 100,
+			"abilities": [
+				{
+					"name": "Vampiric Pummel",
+					"description": "As a vampire turned via a high ranking progenitor Mika possesses strength to match noble born vampires.",
+					"Ap": 30,
+					"hits": 2,
+					"crit_chance": 10,
+					"miss_chance": 50,
+					"type": 1
+				},
+				{
+					"name": "Sword Stance: Blood reign",
+					"description": "Like noble vampires, mika weilds a sword capable of drinking his blood to gain power.",
+					"Ap": 35,
+					"hits": 1,
+					"crit_chance": 60,
+					"miss_chance": 0,
+					"type": 2
+				},
+				{
+					"name": "Crimson blade sweep",
+					"description": "The fully charged sword is able to sweep out blades of blood.",
+					"Ap": 50,
+					"hits": 1,
+					"crit_chance": 80,
+					"miss_chance": 0,
+					"type": 2,
+					"cd": 3,
+					"img": "https://i.imgur.com/gkfC3gu.gif"
+				}
+			]
+		}
 	]
-}   
-
-  
-    
-    
-  
+}

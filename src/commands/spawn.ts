@@ -58,5 +58,4 @@ export default class Spawn implements Command {
 
         await msg.channel.send(message);
     }
-    
 }

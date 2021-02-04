@@ -230,6 +230,7 @@ export let duplicateSpawn = async (bot: Bot, author: User, profile: ProfileInsta
 
     let chance: number = Math.round(Math.random() * 100);
     let unit_id: number = chosenCharacter.unit_id;
+    // if unit_id is one of the event spawns then 1/10 chance of spawning it
     unit_id = [58, 57].includes(unit_id) ? (Math.round(Math.random() * 10) == 5 ? unit_id : Math.round(Math.random() * 22)) : unit_id;
     let rng: number = 0;
 
