@@ -4,12 +4,12 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface BookInstance extends Model {
-    id: number,
+    book_id: number,
     profile_id: string    
 }
 
 export default sequelize.define<BookInstance>("Books", {
-    id: {
+    book_id: {
         type: DataTypes.INTEGER,
         primaryKey: true
     },

@@ -1,5 +1,6 @@
 import { TextChannel, User, MessageEmbed } from "discord.js";
 import { mobs } from '../data/mobs.json';
+import Mob from '../models/mobs';
 import { classes } from '../data/classes.json';
 
 export default async (author: User, channel: TextChannel, prefix: string): Promise<void> => {
@@ -26,6 +27,16 @@ export default async (author: User, channel: TextChannel, prefix: string): Promi
             .setFooter(`To fight it use the ${prefix}attack command!`)
             .setTimestamp();
 
+        await Mob.create({ 
+            id: channel.id,
+            health: mob.hp,
+            meleeAttack: mob.atk,
+            magicAttack: mob.matk,
+            meleeDefense: mob.def,
+            magicDefense: mob.mdef,
+            speed: mob.spd,
+            unit_id: mob.id
+        });
         await channel.send(`${author} has spawned a ${mob.name}!`);
         await channel.send(spawnEmbed);
     }

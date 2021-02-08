@@ -4,7 +4,7 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface ProfileInstance extends Model {
-    id: string;
+    profile_id: string;
     shards: number;
     gold: number;
     glimmer: number;
@@ -14,7 +14,7 @@ export interface ProfileInstance extends Model {
 }
 
 export default sequelize.define<ProfileInstance>("Profiles", {
-    id: {
+    profile_id: {
         primaryKey: true,
         type: new DataTypes.STRING(128)
     },

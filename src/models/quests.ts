@@ -4,18 +4,23 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface QuestInstance extends Model {
-    id: number;
+    quest_id: number;
     profile_id: string;
+    active: boolean;
     current: boolean;
 }
 
 export default sequelize.define<QuestInstance>("Quests", {
-    id: {
+    quest_id: {
         type: DataTypes.INTEGER,
         primaryKey: true
     },
     profile_id: {
         type: new DataTypes.STRING(128)
+    },
+    active: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: false
     },
     current: {
         type: DataTypes.BOOLEAN,

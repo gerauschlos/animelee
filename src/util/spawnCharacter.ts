@@ -222,7 +222,7 @@ export let duplicateSpawn = async (bot: Bot, author: User, profile: ProfileInsta
         await profile.save();
     }
 
-    let chosenCharacter: CharacterInstance | null = await Characters.findOne({ where: { profile_id: profile.id, isChosen: true } });
+    let chosenCharacter: CharacterInstance | null = await Characters.findOne({ where: { profile_id: profile.profile_id, isChosen: true } });
 
     if (!chosenCharacter) {
         return "You have to be chose a character before doing a duplicate spawn.";

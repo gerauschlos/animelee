@@ -12,7 +12,7 @@ export default class Start implements Command {
     run = async (bot: Bot, msg: Message): Promise<void>  => {
         try {
             await Profile.create({
-                id: msg.author.id
+                profile_id: msg.author.id
             });
         } catch (e) {
             if (e instanceof UniqueConstraintError) {
@@ -24,8 +24,8 @@ export default class Start implements Command {
             return;
         }
 
-        await Quest.create({ id: 0, profile_id: msg.author.id });
-        await Book.create({ id: 1, profile_id: msg.author.id });
+        await Quest.create({ quest_id: 0, profile_id: msg.author.id });
+        await Book.create({ book_id: 1, profile_id: msg.author.id });
 
         let prefix = getPrefix(msg.guild!.id);
         

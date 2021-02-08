@@ -4,14 +4,14 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface ColosseumInstance extends Model {
-    id: string,
+    channel_id: string,
     player_one: string,
     player_two: string,
     whoseTurn: string
 }
 
 export default sequelize.define<ColosseumInstance>("Colosseums", {
-    id: {
+    channel_id: {
         type: DataTypes.STRING(128),
         primaryKey: true
     },

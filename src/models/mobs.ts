@@ -15,7 +15,7 @@ export interface MobInstance extends Model {
 }
 
 export default sequelize.define<MobInstance>("Mobs", {
-    id: {
+    channel_id: {
         type: DataTypes.INTEGER,
         primaryKey: true
     },
