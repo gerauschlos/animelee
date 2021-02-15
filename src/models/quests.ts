@@ -16,7 +16,8 @@ export default sequelize.define<QuestInstance>("Quests", {
         primaryKey: true
     },
     profile_id: {
-        type: new DataTypes.STRING(128)
+        type: DataTypes.STRING,
+        primaryKey: true
     },
     active: {
         type: DataTypes.BOOLEAN,

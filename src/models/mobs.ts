@@ -4,7 +4,7 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface MobInstance extends Model {
-    id: number;
+    channel_id: string;
     health: number;
     meleeAttack: number;
     magicAttack: number;
@@ -16,7 +16,7 @@ export interface MobInstance extends Model {
 
 export default sequelize.define<MobInstance>("Mobs", {
     channel_id: {
-        type: DataTypes.INTEGER,
+        type: DataTypes.STRING,
         primaryKey: true
     },
     health: {

@@ -16,7 +16,7 @@ export interface ProfileInstance extends Model {
 export default sequelize.define<ProfileInstance>("Profiles", {
     profile_id: {
         primaryKey: true,
-        type: new DataTypes.STRING(128)
+        type: DataTypes.STRING
     },
     rank: {
         type: DataTypes.INTEGER,
@@ -34,7 +34,10 @@ export default sequelize.define<ProfileInstance>("Profiles", {
         type: DataTypes.INTEGER,
         defaultValue: 0
     },
-    donated: new DataTypes.INTEGER(),
+    donated: {
+        type: DataTypes.INTEGER,
+        defaultValue: 0
+    },
     timesCompleted: {
         type: DataTypes.INTEGER,
         defaultValue: 0

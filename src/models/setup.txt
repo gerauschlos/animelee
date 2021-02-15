@@ -1,0 +1,109 @@
+CREATE TABLE profiles (
+    profile_id VARCHAR(20) PRIMARY KEY,
+    rank INT,
+    shards INT,
+    gold INT,
+    glimmer INT,
+    donated INT,
+    timesCompleted INT
+);
+
+CREATE TABLE characters (
+    character_id VARCHAR(20) PRIMARY KEY,
+    profile_id VARCHAR(20),
+    image_url VARCHAR(50),
+    description TINYTEXT,
+    series VARCHAR(100),
+    class INT,
+    health INT,
+    meleeAttack INT,
+    magicAttack INT,
+    meleeDefense INT,
+    magicDefense INT,
+    speed INT,
+    unit_id INT,
+    level INT,
+    exp INT,
+    reinforced INT,
+    rarity INT, 
+    isChosen BOOLEAN,
+    FOREIGN KEY (profile_id) REFERENCES profiles(profile_id)
+);
+
+CREATE TABLE colosseums (
+    channel_id VARCHAR(20) PRIMARY KEY,
+    player_one VARCHAR(20),
+    player_two VARCHAR(20),
+    whose_turn VARCHAR(20),
+    FOREIGN KEY (player_one) REFERENCES profiles(profile_id),
+    FOREIGN KEY (player_two) REFERENCES profiles(profile_id),
+    FOREIGN KEY (whose_turn) REFERENCES profiles(profile_id)
+);
+
+CREATE TABLE mobs (
+    channel_id VARCHAR(20) PRIMARY KEY,
+    health INT,
+    meleeAttack INT,
+    magicAttack INT,
+    meleeDefense INT,
+    magicDefense INT,
+    speed INT,
+    unit_id INT
+);
+
+CREATE TABLE servers (
+    server_id VARCHAR(20) PRIMARY KEY,
+    prefix VARCHAR(10),
+    tradeLog VARCHAR(20),
+    toggleAuto BOOLEAN
+);
+
+CREATE TABLE quests (
+    quest_id INT,
+    profile_id VARCHAR(20),
+    active BOOLEAN,
+    current BOOLEAN,
+    PRIMARY KEY (quest_id, profile_id),
+    FOREIGN KEY (profile_id) REFERENCES profiles(profile_id)    
+);
+
+CREATE TABLE books (
+    book_id INT,
+    profile_id VARCHAR(20),
+    PRIMARY KEY (book_id, profile_id),
+    FOREIGN KEY (profile_id) REFERENCES profiles(profile_id)   
+);
+
+CREATE TABLE guilds (
+    leader VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(20) UNIQUE,
+    gold INT,
+    wins INT,
+    losses INT,
+    description TINYTEXT,
+    points INT
+);
+
+CREATE TABLE pets (
+    pet_id VARCHAR(20) PRIMARY KEY,
+    name VARCHAR(50),
+    health INT,
+    description TINYTEXT,
+    meleeAttack INT,
+    magicAttack INT,
+    speed INT,
+    library_id INT,
+    level INT, 
+    exp INT
+);
+
+CREATE TABLE leaderboard (
+    profile_id VARCHAR(20) PRIMARY KEY,
+    wins INT,
+    losses INT,
+    glory INT, 
+    streak INT
+);
+
+
+

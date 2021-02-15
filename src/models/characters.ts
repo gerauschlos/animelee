@@ -4,11 +4,11 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface CharacterInstance extends Model {
-    id: string;
+    character_id: string;
     profile_id: string;
     name: string;
     image_url: string;
-    desc: string;
+    description: string;
     series: string;
     class: number;
     health: number;
@@ -26,27 +26,27 @@ export interface CharacterInstance extends Model {
 }
 
 export default sequelize.define<CharacterInstance>("Characters", {
-    id: {
+    character_id: {
         type: DataTypes.UUIDV4,
         primaryKey: true,
         defaultValue: Sequelize.literal('uuid_generate_v4()')
     },
-    profile_id: new DataTypes.STRING(128),
-    name: new DataTypes.STRING(),
-    image_url: new DataTypes.STRING(),
-    desc: new DataTypes.STRING(),
-    series: new DataTypes.STRING(),
-    class: new DataTypes.INTEGER(),
-    health: new DataTypes.INTEGER(),
-    meleeAttack: new DataTypes.INTEGER(),
-    magicAttack: new DataTypes.INTEGER(),
-    meleeDefense: new DataTypes.INTEGER(),
-    magicDefense: new DataTypes.INTEGER(),
-    speed: new DataTypes.INTEGER(),
-    unit_id: new DataTypes.INTEGER(),
-    level: new DataTypes.INTEGER(),
-    exp: new DataTypes.INTEGER(),
-    reinforced: new DataTypes.INTEGER(),
-    rarity: new DataTypes.INTEGER(),
+    profile_id: DataTypes.STRING,
+    name: DataTypes.STRING,
+    image_url: DataTypes.STRING,
+    description: DataTypes.TEXT,
+    series: DataTypes.STRING,
+    class: DataTypes.INTEGER,
+    health: DataTypes.INTEGER,
+    meleeAttack: DataTypes.INTEGER,
+    magicAttack: DataTypes.INTEGER,
+    meleeDefense: DataTypes.INTEGER,
+    magicDefense: DataTypes.INTEGER,
+    speed: DataTypes.INTEGER,
+    unit_id: DataTypes.INTEGER,
+    level: DataTypes.INTEGER,
+    exp: DataTypes.INTEGER,
+    reinforced: DataTypes.INTEGER,
+    rarity: DataTypes.INTEGER,
     isChosen: DataTypes.BOOLEAN
 });

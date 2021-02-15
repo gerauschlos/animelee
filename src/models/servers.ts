@@ -4,22 +4,22 @@ import config from '../data/config.json';
 const sequelize = new Sequelize(config.database);
 
 export interface ServerInstance extends Model {
-    id: string;
+    server_id: string;
     prefix?: string;
     tradeLog?: string;
     toggleAuto?: boolean;   
 }
 
 export default sequelize.define<ServerInstance>("Servers", {
-    id: {
+    server_id: {
         primaryKey: true,
-        type: DataTypes.STRING(128)
+        type: DataTypes.STRING
     },
     prefix: {
-        type: DataTypes.STRING(10)
+        type: DataTypes.STRING
     },
     tradeLog: {
-        type: DataTypes.STRING(128)
+        type: DataTypes.STRING
     },
     toggleAuto: {
         type: DataTypes.BOOLEAN,
